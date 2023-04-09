@@ -1,0 +1,71 @@
+2023-04-09 12:35:47,745 INFO     > Lancement de l'application ! 
+2023-04-09 12:35:47,745 INFO     > Création de la base de donnée
+2023-04-09 12:35:47,746 INFO     > Démarrage du serveur flask
+2023-04-09 12:37:20,649 DEBUG    > Requête index.html
+2023-04-09 12:41:35,842 DEBUG    > Requête signup.html
+2023-04-09 12:53:23,735 INFO     > Lancement de l'application ! 
+2023-04-09 12:53:23,735 INFO     > Création de la base de donnée
+2023-04-09 12:53:23,740 INFO     > Démarrage du serveur flask
+2023-04-09 12:54:25,302 DEBUG    > Requête signup.html
+2023-04-09 12:55:40,314 DEBUG    > Requête signup.html
+2023-04-09 12:56:40,350 INFO     > Lancement de l'application ! 
+2023-04-09 12:56:40,351 INFO     > Création de la base de donnée
+2023-04-09 12:56:40,352 INFO     > Démarrage du serveur flask
+2023-04-09 12:56:42,401 DEBUG    > Requête signup.html
+2023-04-09 12:58:37,185 DEBUG    > Requête signup.html
+2023-04-09 12:58:46,902 DEBUG    > Requête api_signup
+2023-04-09 12:58:46,902 DEBUG    > Email déja existant
+2023-04-09 12:59:05,361 INFO     > Lancement de l'application ! 
+2023-04-09 12:59:05,361 INFO     > Création de la base de donnée
+2023-04-09 12:59:05,367 INFO     > Démarrage du serveur flask
+2023-04-09 12:59:05,712 DEBUG    > Requête signup.html
+2023-04-09 12:59:07,080 DEBUG    > Requête signup.html
+2023-04-09 12:59:14,219 DEBUG    > Requête api_signup
+2023-04-09 12:59:14,220 DEBUG    > Email déja existant
+2023-04-09 13:02:44,388 INFO     > Lancement de l'application ! 
+2023-04-09 13:02:44,389 INFO     > Création de la base de donnée
+2023-04-09 13:02:44,389 INFO     > Démarrage du serveur flask
+2023-04-09 13:02:46,426 DEBUG    > Requête signup.html
+2023-04-09 13:02:57,220 DEBUG    > Requête api_signup
+2023-04-09 13:02:57,221 ERROR    > Erreur inconnue dans la fonction signup
+2023-04-09 13:02:57,222 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\lib\sign.py", line 11, in signup
+    res,err = mydb.read_row("users",f"user = '{payload['user']}'")
+KeyError: 'user'
+
+2023-04-09 13:04:02,662 INFO     > Lancement de l'application ! 
+2023-04-09 13:04:02,662 INFO     > Création de la base de donnée
+2023-04-09 13:04:02,663 INFO     > Démarrage du serveur flask
+2023-04-09 13:04:04,754 DEBUG    > Requête signup.html
+2023-04-09 13:04:12,619 DEBUG    > Requête api_signup
+2023-04-09 13:04:12,624 INFO     > Compte créé : Noan
+2023-04-09 13:04:15,087 DEBUG    > Requête signin.html
+2023-04-09 13:17:19,503 INFO     > Lancement de l'application ! 
+2023-04-09 13:17:19,503 INFO     > Création de la base de donnée
+2023-04-09 13:17:19,508 INFO     > Démarrage du serveur flask
+2023-04-09 13:17:19,789 DEBUG    > Requête signin.html
+2023-04-09 13:17:22,101 DEBUG    > Requête signup.html
+2023-04-09 13:17:32,583 DEBUG    > Requête api_signup
+2023-04-09 13:17:32,589 INFO     > Compte créé : Noan
+2023-04-09 13:17:34,442 DEBUG    > Requête signin.html
+2023-04-09 13:18:42,156 DEBUG    > Requête signin.html
+2023-04-09 13:19:50,929 INFO     > Lancement de l'application ! 
+2023-04-09 13:19:50,930 INFO     > Création de la base de donnée
+2023-04-09 13:19:50,930 INFO     > Démarrage du serveur flask
+2023-04-09 13:19:53,157 DEBUG    > Requête signin.html
+2023-04-09 13:19:58,450 DEBUG    > Requête api_signin
+2023-04-09 13:19:58,450 ERROR    > Erreur inconnue dans api_signin
+2023-04-09 13:19:58,451 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 117, in api_signin
+    result,session = sign.signin(logger=logger,mydb=mydb,payload=request.json,debug=debug,session=session)
+UnboundLocalError: local variable 'session' referenced before assignment
+
+2023-04-09 13:55:59,734 INFO     > Lancement de l'application ! 
+2023-04-09 13:55:59,734 INFO     > Création de la base de donnée
+2023-04-09 13:55:59,735 INFO     > Démarrage du serveur flask
+2023-04-09 13:56:03,410 DEBUG    > Requête signin.html
+2023-04-09 13:56:08,833 DEBUG    > Requête api_signin
+2023-04-09 13:56:08,834 DEBUG    > Mot de passe incorect
+2023-04-09 13:56:19,561 DEBUG    > Requête api_signin
+2023-04-09 13:56:19,562 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-04-09 13:56:21,528 DEBUG    > Requête index.html

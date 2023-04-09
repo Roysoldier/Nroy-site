@@ -3,8 +3,39 @@ function sign_up() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var passwordv = document.getElementById("passwordv").value;
-
-    if (passwordv == password) {
+    if (pseudo.lengt > 12){
+        document.getElementById('errormessage').innerHTML = 'Maximum 12 caractère'
+        
+    }
+    else{
+        document.getElementById('errormessage').innerHTML = ''
+    }
+    if (pseudo.length < 4){
+        document.getElementById('errormessage').innerHTML = 'Minimum 4 caractères'
+    }
+    else if (pseudo.length <= 12){
+        document.getElementById('errormessage').innerHTML = ''
+    }
+    if (!email.match(/^\w.+@[a-zA-Z_-]+?\.[a-zA-Z]{2,3}$/)){
+        document.getElementById('errormessage1').innerHTML = "L'email est invalide"
+    }
+    else{
+        document.getElementById('errormessage1').innerHTML = ''
+    }
+    if (password.length < 6){
+        document.getElementById('errormessage2').innerHTML = 'Minimum 6 caractères'
+    }
+    else{
+        document.getElementById('errormessage2').innerHTML = ''
+    }
+    if (passwordv != password){
+        document.getElementById('errormessage3').innerHTML = 'Les mots de passe ne correspondent pas !'
+    }
+    else{
+        document.getElementById('errormessage3').innerHTML = ''
+    }
+        
+    if (passwordv == password && pseudo.length <= 12 && pseudo.length >= 4 && email.match(/^\w.+@[a-zA-Z_-]+?\.[a-zA-Z]{2,3}$/) && password.length > 6) {
         var sendrequest = {
             "pseudo": pseudo,
             "email": email,
@@ -26,7 +57,19 @@ function sign_up() {
                         window.location = "signin.html";
                     }
                     else {
-                        alert(result.msg);
+                        if (result.msg == 'email already exists'){
+                            document.getElementById('errormessage1').innerHTML = 'Email déja existant !'
+                        }
+                        else{
+                            document.getElementById('errormessage1').innerHTML = ''
+                        }
+                        if (result.msg == 'user already exists'){
+                            document.getElementById('errormessage').innerHTML = 'Pseudo déja existant !'
+                        }
+                        else{
+                            document.getElementById('errormessage').innerHTML = ''
+                        }
+                        //alert(result.msg);
     
                     }
                 },
@@ -39,7 +82,7 @@ function sign_up() {
     }
 
     else {
-        alert("password non identique")
+        //alert("password non identique")
     }
 
 }

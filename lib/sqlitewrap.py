@@ -74,8 +74,20 @@ class SqliteWrap:
                 return [], None
             return result,None
         except Exception as e:
+            print("read :", e)
             return [],e
     
+    def update_row(self,tableName="",condition="",change=""):
+        try:
+            myCmd = f"UPDATE {tableName} SET {change} WHERE {condition}"
+            self.cursor.execute(myCmd)
+            self.conn.commit()
+            return 1,None
+        except Exception as e:
+            print("Update : ",e)
+            return 0,e
+
+
     # création d'une fonction pour reser la table en ne prenant en compte que le nom de la table
     def reset_table(self,tableName=""):
         try:

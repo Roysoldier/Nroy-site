@@ -46,10 +46,27 @@
                     </div>
                 </li>
                 </ul>
-                <ul class="nav bs">
+                {% if not render['login']%}
+                <ul class="nav bs"  >
                     <li class="nav-item "><a href="signin.html" class="nav-link link-dark px-2 bs">Login</a></li>
                     <li class="nav-item"><a href="signup.html" class="nav-link link-dark px-2 bs">Sign up</a></li>
                   </ul>
+                  {% else%}
+                  <div class="nav-item dropdown  bss" >
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="static/img/circle-person.png" alt="mdo" width="50" height="50" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu   text-small">
+                      <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">New project...</a></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                      <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                  </div>
+                  {%endif%}
             </div>
             </nav>
         
@@ -81,13 +98,13 @@
                   <hr>
                   <h2 id="txt-underline"> Me contacter</h2>
                   <input type="text" id="name" class="form-control name" placeholder="First name">
-                  <p id="errormessage" class="err"></p>
+                  <p id="errormessage" class="erre"></p>
                   <input type="text" id="surname" class="form-control name ps" placeholder="Last name">
-                  <p id="errormessage1" class="err"></p>
+                  <p id="errormessage1" class="erre"></p>
                   <input type="email" id="email" class="form-control name ps" placeholder="Email">
-                  <p id="errormessage2" class="err"></p>
+                  <p id="errormessage2" class="erre"></p>
                   <textarea id="txt" class="form-control  area" placeholder="Required example textarea" required></textarea>
-                  <p id="errormessage3" class="err"></p>
+                  <p id="errormessage3" class="erre"></p>
                   <button type="button" class="btn btn-dark request" onclick="submit_contact()">Envoyer</button>
                     
                 

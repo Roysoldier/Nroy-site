@@ -1,5 +1,6 @@
 import traceback
 import hashlib
+import time
 
 def signup(logger=None,mydb=None,payload=None,debug=False):
     try:
@@ -20,7 +21,7 @@ def signup(logger=None,mydb=None,payload=None,debug=False):
                     id = res[0][0] + 1
                     binarykey = bytes(payload['password'], "utf-8")
                     hashkey = hashlib.sha256(binarykey).hexdigest()
-                    res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey)])
+                    res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey),("lastlog",0),("connected",0)])
                     if res == 1 and not err:
 
                         logger.log(f"Compte créé : {payload['pseudo']}","INFO")
@@ -38,28 +39,49 @@ def signup(logger=None,mydb=None,payload=None,debug=False):
         return {"status":"nok","msg":'error'}
 
 
-def signin(logger=None,mydb=None,payload=None,debug=False,session=None):
+def signin(logger=None,mydb=None,email="", pwd="",debug=False):
     try:
-        res,err = mydb.read_row("users",f"email = '{payload['email']}'")
+        res,err = mydb.read_row("users",f"email = '{email}'")
         if not err and len(res) != 0:
             #comparaison des mdp
-            binarykey = bytes(payload['password'], "utf-8")
+            binarykey = bytes(pwd, "utf-8")
             hashkey = hashlib.sha256(binarykey).hexdigest()
             if hashkey == res[0][3]:
-                session['logged_in'] = True
-                logger.log(f"Autentification validé pour : {payload['email']}","INFO")
-                return {"status":"ok","msg":'ok'},session
+                logger.log(f"Autentification validé pour : {email}","INFO")
+                t = int(time.time())
+                mydb.update_row("users",f"email = '{email}'",f"lastlog = {t}, connected = 1")
+                return {"status":"ok","msg":'ok'},{'user': res[0][1], 'auth': True}
             else:
-                session['logged_in'] = False
                 if debug:
                     logger.log("Mot de passe incorect","DEBUG")
-                return {"status":"nok","msg":'mdp incorrect'},session
+                return {"status":"nok","msg":'mdp incorrect'},{'user': "", 'auth': False}
         else:
-            session['logged_in'] = False
             logger.log("Erreur inconnue dans la fonction signin","ERROR")
-            return {"status":"nok","msg":'error'}, session
+            return {"status":"nok","msg":'error'}, {'user': "", 'auth': False}
     except:
         logger.log("Erreur inconnue dans la fonction signin","ERROR")
         if debug:
             logger.log(str(traceback.format_exc()),"DEBUG") 
-        return {"status":"nok","msg":'error'}, session
+        return {"status":"nok","msg":'error'}, {'user': "", 'auth': False}
+    
+
+def is_connected(logger=None,mydb=None,pseudo="",maxtime=86400,debug=False):
+    try:
+        res,err = mydb.read_row("users",f"user = '{pseudo}'")
+        print(res)
+        if not err and len(res) != 0:
+            if res[0][5]:
+                if (int(time.time())  - res[0][4]) < maxtime:
+                    logger.log(f"{pseudo} est connecté","INFO")
+                    return True
+                else:
+                    return False
+            else:
+                return False
+        else:
+            return False
+    except:
+        logger.log("Erreur inconnue dans la fonction is_connected","ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG") 
+        return False

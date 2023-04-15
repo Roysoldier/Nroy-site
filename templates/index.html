@@ -165,18 +165,34 @@
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>
 
-
+        {% if render['proj']|length == 3 %}
         <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="4000">
-            <img src="static/img/proj.png" alt="Carrousel slide 1" class="d-block w-100">
+          <div class="carousel-item active" data-interval="1000">
+            <div style="position: relative;">
+              <img src="static/data/{{render['proj'][0][1]}}" alt="Carrousel slide 1" width="1280" height="620" class="d-block w-100">
+              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <h1 style="font-family: monospace;border: solid black 1px; background-color: rgba(0, 0, 0, 0.5);border-radius: 10px;font-size: 55px;">{{render['proj'][0][0]}}</h1>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="static/img/proj.png" alt="Carrousel slide 2" class="d-block w-100">
+          <div class="carousel-item " data-interval="1000">
+            <div style="position: relative;">
+              <img src="static/data/{{render['proj'][1][1]}}" alt="Carrousel slide 1" width="1280" height="620" class="d-block w-100">
+              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <h1 style="font-family: monospace;border: solid black 1px; background-color: rgba(0, 0, 0, 0.5);border-radius: 10px;font-size: 55px;">{{render['proj'][1][0]}}</h1>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item" data-interval="1000">
-            <img src="static/img/proj.png" alt="Carrousel slide 3" class="d-block w-100">
+          <div class="carousel-item " data-interval="1000">
+            <div style="position: relative;">
+              <img src="static/data/{{render['proj'][2][1]}}" alt="Carrousel slide 1" width="1280" height="620" class="d-block w-100">
+              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                <h1 style="font-family: monospace;border: solid black 1px; background-color: rgba(0, 0, 0, 0.5);border-radius: 10px;font-size: 55px;">{{render['proj'][2][0]}}</h1>
+              </div>
+            </div>
           </div>
         </div>
+        {% endif %}
 
         <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import datetime
 from PIL import Image
 from werkzeug.utils import secure_filename
+from random import randint
 
 ROOT_PATH = path.dirname(path.abspath(__file__)).strip() + "/"
 
@@ -45,15 +46,17 @@ APP_FLASK.secret_key = urandom(12)
 @APP_FLASK.route('/index.html', methods=['GET'])
 def index():
     try:
+        listproj = recup_project(3)
+        print(listproj)       
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         res,err = mydb.read_row("users",f"user = '{cook}'")
         #print("login : ",isConnect)
         if isConnect:
-            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}"}
+            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","proj":listproj}
         else:
-            render = {"login":isConnect}
+            render = {"login":isConnect,"proj":listproj}
         #print("render : ",render)
         if debug:
             logger.log("Requête index.html", "DEBUG")
@@ -133,7 +136,8 @@ def projet():
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         res,err = mydb.read_row("users",f"user = '{cook}'")
-        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link"])
+        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
+        print(projres)
         #print(projres)
         #print("login : ",isConnect)
         render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":projres}
@@ -396,6 +400,30 @@ def api_signout():
             logger.log(str(traceback.format_exc()),"DEBUG")
         return jsonify({"status":"nok","msg":'error'})
 
+###############################################
+# Fonctions
+###############################################
+def recup_project(nbrproj):
+
+    try:
+        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link"])
+        listproj = []
+        if len(projres) < nbrproj:
+            nbrproj = len(projres)
+        while len(listproj) < nbrproj:
+            nbr = randint(0,len(projres) - 1)
+            if  projres[nbr] not in listproj:
+                listproj.append(projres[nbr])
+        for v in range(len(listproj)):
+            listproj.append([listproj[0][2],listproj[0][6]])
+            listproj.pop(0)
+        return listproj
+
+    except:
+        logger.log("Erreur inconnue dans la fonction recup_projet", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+   
 
 ###############################################
 # Main 

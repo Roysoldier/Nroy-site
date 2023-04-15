@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -71,6 +71,12 @@
             </nav>
           <div class="container-form"> 
 
+    
+
+            
+            
+
+
             {% for my_project in render["projet"] %}
           <form  class="center-block-form " name="loader_{{my_project[2]}}" action="/chearchfile" method="POST" enctype="multipart/form-data"> 
               <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 center-page ">
@@ -87,6 +93,7 @@
                               <img src="static/data/{{my_project[6]}}" onclick="submit(); " name="{{my_project[2]}}" width="470px" height="300px" class="proj-img">
                           </a>
                           <p class="hour"> {{my_project[5]}}</p>
+                          <p class="likeproj"> <i class="fa fa-heart-o"></i> {{my_project[8]}}</p>
                       </div>
                   </div>
               </div>

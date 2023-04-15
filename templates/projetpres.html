@@ -79,18 +79,17 @@
             <h2 id ='pres-title-project' class="pres-title-project">{{render['project'][2]}}</h2>
             <h2 class="owner-project">Crée par : {{render['project'][1]}}</h2>
             <img class="pres-img" src="./static/data/{{render['project'][6]}}"/>
+            <div class="like">
+              <i class="fa fa-heart-o"></i>
+              <i class="fa fa-heart"></i>
+            </div>
             <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]}}</h3>
             <p class="txt-title-project">{{render['project'][4]}}</p>
             <a target="_blank" class="btn btn-primary center-button" href="{{render['project'][7]}}" role="button">Link</a>
             
 
-            <div class="like">
-                <i class="fa fa-heart-o"></i>
-                <i class="fa fa-heart"></i>
-              </div>
-              <div class="txt-title-project">
-              {{render['nbrlike']}}
-            </div>
+           
+              
               
               <script>
                 var render = {{ render|tojson }};

@@ -54,16 +54,16 @@
                   {% else%}
                   <div class="nav-item dropdown  bss" >
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <img src="static/img/circle-person.png" alt="mdo" width="50" height="50" class="rounded-circle">
+                      <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu   text-small">
                       <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">New project...</a></li>
+                      <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
                       <li><a class="dropdown-item" href="#">Settings</a></li>
                       <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Sign out</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
                     </ul>
                   </div>
                   {%endif%}
@@ -144,7 +144,7 @@
 
         <div class="main"></div>
         
-        
+        <script src="static/js/connect.js"></script>
         <script src="static/js/contact.js"></script>
         <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

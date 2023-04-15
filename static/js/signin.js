@@ -1,7 +1,8 @@
 function sign_in() {
+    
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-
+    
     if (email == "") {
         document.getElementById('errormessage').innerHTML = "Adresse email invalide"
     }
@@ -14,14 +15,15 @@ function sign_in() {
     else {
         document.getElementById('errormessage1').innerHTML = ""
     }
+    
     if (password != "" && email != "") {
         var sendrequest = {
             "email": email,
             "password": password
         }
-    
+        
         $(function () {
-    
+            
             $.ajax({
                 type: 'POST',
                 url: "api/signin",
@@ -34,6 +36,7 @@ function sign_in() {
                         //alert(result.msg);
                         //var cookie = window.Cookies.get();
                         //alert(JSON.stringify(cookie))
+                        
                         window.location = "index.html";
                     }
                     else {

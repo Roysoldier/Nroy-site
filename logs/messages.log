@@ -12154,3 +12154,134 @@ jinja2.exceptions.UndefinedError: 'len' is undefined
 2023-04-15 12:39:13,710 DEBUG    > Utilisateur connecter pour liker
 2023-04-15 12:39:14,809 INFO     > Noan est connecté
 2023-04-15 12:39:14,811 DEBUG    > Requête projet.html
+2023-04-15 14:06:05,134 INFO     > Lancement de l'application ! 
+2023-04-15 14:06:05,134 INFO     > Création de la base de donnée
+2023-04-15 14:06:05,141 INFO     > Démarrage du serveur flask
+2023-04-15 14:06:12,289 DEBUG    > Requête index.html
+2023-04-15 14:06:14,280 ERROR    > Erreur inconnue dans projet.html
+2023-04-15 14:06:14,282 DEBUG    > Traceback (most recent call last):
+  File "C:\Users\Administrateur\Desktop\nroy\server.py", line 141, in projet
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":projres}
+IndexError: list index out of range
+
+2023-04-15 14:11:46,615 INFO     > Lancement de l'application ! 
+2023-04-15 14:11:46,615 INFO     > Création de la base de donnée
+2023-04-15 14:11:46,624 INFO     > Démarrage du serveur flask
+2023-04-15 14:11:58,659 DEBUG    > Requête index.html
+2023-04-15 14:12:01,211 ERROR    > Erreur inconnue dans projet.html
+2023-04-15 14:12:01,218 DEBUG    > Traceback (most recent call last):
+  File "C:\Users\Administrateur\Desktop\nroy\server.py", line 142, in projet
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":projres}
+IndexError: list index out of range
+
+2023-04-15 14:12:19,181 DEBUG    > Requête signin.html
+2023-04-15 14:12:26,889 INFO     > Lancement de l'application ! 
+2023-04-15 14:12:26,889 INFO     > Création de la base de donnée
+2023-04-15 14:12:26,906 INFO     > Démarrage du serveur flask
+2023-04-15 14:12:32,460 DEBUG    > Requête signin.html
+2023-04-15 14:12:55,024 DEBUG    > Requête api_signin
+2023-04-15 14:12:55,033 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-04-15 14:12:55,132 INFO     > Noan est connecté
+2023-04-15 14:12:55,137 DEBUG    > Requête index.html
+2023-04-15 14:13:11,013 INFO     > Noan est connecté
+2023-04-15 14:13:11,021 DEBUG    > Requête projet.html
+2023-04-15 14:13:12,731 INFO     > Noan est connecté
+2023-04-15 14:13:12,738 DEBUG    > Requête index.html
+2023-04-15 14:13:14,165 INFO     > Noan est connecté
+2023-04-15 14:13:14,176 DEBUG    > Requête projet.html
+2023-04-15 14:13:40,814 INFO     > Fichier chearchfile
+2023-04-15 14:13:40,819 INFO     > Noan est connecté
+2023-04-15 14:13:40,824 DEBUG    > Requête projetpres.html
+2023-04-15 14:13:48,126 DEBUG    > Requête api_like
+2023-04-15 14:13:48,135 INFO     > Noan est connecté
+2023-04-15 14:13:48,138 DEBUG    > Utilisateur connecter pour liker
+2023-04-15 14:13:48,805 DEBUG    > Requête api_like
+2023-04-15 14:13:48,808 INFO     > Noan est connecté
+2023-04-15 14:13:48,809 DEBUG    > Utilisateur connecter pour liker
+2023-04-15 14:13:59,177 INFO     > Noan est connecté
+2023-04-15 14:13:59,177 DEBUG    > Requête profil.html
+2023-04-15 14:14:04,626 INFO     > Noan est connecté
+2023-04-15 14:14:04,626 DEBUG    > Requête newproject.html
+2023-04-15 14:14:19,915 INFO     > Noan est connecté
+2023-04-15 14:14:19,919 DEBUG    > Requête profil.html
+2023-04-15 14:14:21,570 INFO     > Noan est connecté
+2023-04-15 14:14:21,573 DEBUG    > Requête index.html
+2023-04-15 14:14:52,615 INFO     > Noan est connecté
+2023-04-15 14:14:52,615 DEBUG    > Requête perso.html
+2023-04-15 14:15:02,623 INFO     > Noan est connecté
+2023-04-15 14:15:02,623 DEBUG    > Requête index.html
+2023-04-15 14:21:50,666 INFO     > Noan est connecté
+2023-04-15 14:21:50,677 DEBUG    > Requête projet.html
+2023-04-15 14:21:52,702 INFO     > Fichier chearchfile
+2023-04-15 14:21:52,705 INFO     > Noan est connecté
+2023-04-15 14:21:52,707 DEBUG    > Requête projetpres.html
+2023-04-15 14:22:02,586 INFO     > Noan est connecté
+2023-04-15 14:22:02,594 DEBUG    > Requête projet.html
+2023-04-15 14:22:14,829 INFO     > Fichier chearchfile
+2023-04-15 14:22:14,836 INFO     > Noan est connecté
+2023-04-15 14:22:14,840 DEBUG    > Requête projetpres.html
+2023-04-15 14:22:19,247 DEBUG    > Requête api_like
+2023-04-15 14:22:19,247 INFO     > Noan est connecté
+2023-04-15 14:22:19,254 DEBUG    > Utilisateur connecter pour liker
+2023-04-15 14:22:24,527 INFO     > Fichier chearchfile
+2023-04-15 14:22:24,527 INFO     > Noan est connecté
+2023-04-15 14:22:24,540 DEBUG    > Requête projetpres.html
+2023-04-15 14:22:33,022 INFO     > Noan est connecté
+2023-04-15 14:22:33,022 DEBUG    > Requête projet.html
+2023-04-15 14:22:38,830 INFO     > Noan est connecté
+2023-04-15 14:22:38,836 DEBUG    > Requête projet.html
+2023-04-15 14:22:46,036 INFO     > Fichier chearchfile
+2023-04-15 14:22:46,040 INFO     > Noan est connecté
+2023-04-15 14:22:46,040 DEBUG    > Requête projetpres.html
+2023-04-15 14:22:49,608 DEBUG    > Requête api_like
+2023-04-15 14:22:49,612 INFO     > Noan est connecté
+2023-04-15 14:22:49,613 DEBUG    > Utilisateur connecter pour liker
+2023-04-15 14:23:00,961 INFO     > Noan est connecté
+2023-04-15 14:23:00,973 DEBUG    > Requête projet.html
+2023-04-15 14:24:31,656 INFO     > Noan est connecté
+2023-04-15 14:24:31,657 DEBUG    > Requête index.html
+2023-04-15 14:26:15,332 INFO     > Noan est connecté
+2023-04-15 14:26:15,335 DEBUG    > Requête index.html
+2023-04-15 14:27:39,767 INFO     > Lancement de l'application ! 
+2023-04-15 14:27:39,769 INFO     > Création de la base de donnée
+2023-04-15 14:27:39,769 INFO     > Démarrage du serveur flask
+2023-04-15 14:27:44,406 INFO     > Noan est connecté
+2023-04-15 14:27:44,406 DEBUG    > Requête index.html
+2023-04-15 14:28:14,356 INFO     > Noan est connecté
+2023-04-15 14:28:14,364 DEBUG    > Requête index.html
+2023-04-15 14:31:03,685 INFO     > Lancement de l'application ! 
+2023-04-15 14:31:03,685 INFO     > Création de la base de donnée
+2023-04-15 14:31:03,689 INFO     > Démarrage du serveur flask
+2023-04-15 14:31:08,139 INFO     > Noan est connecté
+2023-04-15 14:31:08,140 DEBUG    > Requête index.html
+2023-04-15 14:31:37,690 INFO     > Noan est connecté
+2023-04-15 14:31:37,691 DEBUG    > Requête index.html
+2023-04-15 14:31:50,921 INFO     > Noan est connecté
+2023-04-15 14:31:50,921 DEBUG    > Requête index.html
+2023-04-15 14:32:39,373 INFO     > Lancement de l'application ! 
+2023-04-15 14:32:39,373 INFO     > Création de la base de donnée
+2023-04-15 14:32:39,390 INFO     > Démarrage du serveur flask
+2023-04-15 14:32:48,290 DEBUG    > Requête index.html
+2023-04-15 14:32:52,812 DEBUG    > Requête signin.html
+2023-04-15 14:33:11,690 DEBUG    > Requête api_signin
+2023-04-15 14:33:11,698 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-04-15 14:33:11,795 INFO     > Noan est connecté
+2023-04-15 14:33:11,795 DEBUG    > Requête index.html
+2023-04-15 14:33:14,722 INFO     > Noan est connecté
+2023-04-15 14:33:14,728 DEBUG    > Requête projet.html
+2023-04-15 14:33:18,803 INFO     > Noan est connecté
+2023-04-15 14:33:18,811 DEBUG    > Requête index.html
+2023-04-15 14:33:41,337 INFO     > Noan est connecté
+2023-04-15 14:33:41,338 DEBUG    > Requête index.html
+2023-04-15 18:42:21,009 INFO     > Noan est connecté
+2023-04-15 18:42:21,009 DEBUG    > Requête index.html
+2023-04-15 18:42:30,629 INFO     > Noan est connecté
+2023-04-15 18:42:30,638 DEBUG    > Requête projet.html
+2023-04-15 18:42:32,528 INFO     > Fichier chearchfile
+2023-04-15 18:42:32,528 INFO     > Noan est connecté
+2023-04-15 18:42:32,534 DEBUG    > Requête projetpres.html
+2023-04-15 19:08:44,618 INFO     > Noan est connecté
+2023-04-15 19:08:44,626 DEBUG    > Requête projet.html
+2023-04-15 19:08:47,415 INFO     > Fichier chearchfile
+2023-04-15 19:08:47,415 INFO     > Noan est connecté
+2023-04-15 19:08:47,421 DEBUG    > Requête projetpres.html

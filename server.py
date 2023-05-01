@@ -4,9 +4,7 @@ import smtplib,ssl
 from lib import sqlitewrap, myLogger,sign
 import traceback
 import re
-from bs4 import BeautifulSoup
 import datetime
-from PIL import Image
 from werkzeug.utils import secure_filename
 from random import randint
 
@@ -471,7 +469,7 @@ def api_signout():
 def recup_project(nbrproj):
 
     try:
-        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link"])
+        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
         listproj = []
         if len(projres) < nbrproj:
             nbrproj = len(projres)
@@ -480,7 +478,7 @@ def recup_project(nbrproj):
             if  projres[nbr] not in listproj:
                 listproj.append(projres[nbr])
         for v in range(len(listproj)):
-            listproj.append([listproj[0][2],listproj[0][6]])
+            listproj.append([listproj[0][2],listproj[0][6],listproj[0][1],listproj[0][8]])
             listproj.pop(0)
         return listproj
 
@@ -499,7 +497,7 @@ def recup_pp(proj):
 
 ###############################################
 # Main 
-###############################################
+##############################################0
 if __name__ == '__main__':
     logger.log("Lancement de l'application ! ", "INFO")
 #Lancement de serveur WEB flask sur l'adresse IP locale et le port 8080

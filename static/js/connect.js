@@ -2,7 +2,6 @@ function sign_out() {
     var sendrequest = {
         "message": "Compte déconnecter"
     }
-    alert("oui")
     $(function () {
         $.ajax({
             type: 'POST',

@@ -53,7 +53,6 @@ function sign_up() {
                 success: function (result) {
 
                     if (result.status == "ok") {
-                        alert(result.msg);
                         window.location = "signin.html";
                     }
                     else {

@@ -1,9 +1,14 @@
 import traceback
 import hashlib
 import time
+import json
 
-def signup(logger=None,mydb=None,payload=None,debug=False):
+
+def signup(logger=None,mydb=None,payload=None,debug=False,bypass=False,verif=False,lock=None,path=None):
     try:
+        if not verif:
+            logger.log("Vérification des comptes désactivé","WARN")
+
         res,err = mydb.read_row("users",f"email = '{payload['email']}'")
         if len(res) != 0:
             if debug:
@@ -19,17 +24,31 @@ def signup(logger=None,mydb=None,payload=None,debug=False):
                 res,err = mydb.max_index("users","id")
                 if len(res) != 0:
                     id = res[0][0] + 1
-                    binarykey = bytes(payload['password'], "utf-8")
-                    hashkey = hashlib.sha256(binarykey).hexdigest()
-                    res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey),("lastlog",0),("connected",0)])
-                    res,err = mydb.add_row("userinfo",[("name",payload["pseudo"]),("email",payload["email"]),('bio',""),("img","circle-person.png")])
-                    if res == 1 and not err:
-
-                        logger.log(f"Compte créé : {payload['pseudo']}","INFO")
-                        return {"status":"ok","msg":'Account created'}
+                    if bypass:
+                        hashkey = payload['password']
                     else:
-                        logger.log(f"Erreur de création du compte : {payload['pseudo']}","ERROR")
-                        return {"status":"nok","msg":'failed to created account'}
+                        binarykey = bytes(payload['password'], "utf-8")
+                        hashkey = hashlib.sha256(binarykey).hexdigest()
+                    if verif:
+                        with lock:
+                            with open(path +  "account_verif.json","r") as f:
+                                tmp_account = json.load(f)
+                            payload['password'] = hashkey
+                            payload['verif'] = False
+                            tmp_account.append(payload)
+                            with open(path +  "account_verif.json","w") as f:
+                                f.write(json.dumps(tmp_account, indent=4))
+                            return {"status":"ok","msg":'Account will be verified'}
+                    else:
+                        res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey),("lastlog",0),("connected",0)])
+                        res,err = mydb.add_row("userinfo",[("name",payload["pseudo"]),("email",payload["email"]),('bio',""),("img","circle-person.png")])
+                        if res == 1 and not err:
+
+                            logger.log(f"Compte créé : {payload['pseudo']}","INFO")
+                            return {"status":"ok","msg":'Account created'}
+                        else:
+                            logger.log(f"Erreur de création du compte : {payload['pseudo']}","ERROR")
+                            return {"status":"nok","msg":'failed to created account'}
                 else:
                     logger.log("Erreur inconnue dans la fonction signup","ERROR")
                     return {"status":"nok","msg":'error'}
@@ -69,7 +88,6 @@ def signin(logger=None,mydb=None,email="", pwd="",debug=False):
 def is_connected(logger=None,mydb=None,pseudo="",maxtime=86400,debug=False):
     try:
         res,err = mydb.read_row("users",f"user = '{pseudo}'")
-        print(res)
         if not err and len(res) != 0:
             if res[0][5]:
                 if (int(time.time())  - res[0][4]) < maxtime:

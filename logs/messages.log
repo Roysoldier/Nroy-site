@@ -16582,3 +16582,639 @@ IndexError: list index out of range
 2023-04-15 19:08:47,415 INFO     > Noan est connecté
 2023-04-15 19:08:47,421 DEBUG    > Requête projetpres.html
 >>>>>>> e96b2700e9031c456cf80f08502a346c4cc22406
+2023-05-01 11:50:59,114 INFO     > Lancement de l'application ! 
+2023-05-01 11:50:59,114 INFO     > Création de la base de donnée
+2023-05-01 11:50:59,114 INFO     > Démarrage du serveur flask
+2023-05-01 11:51:18,090 DEBUG    > Requête index.html
+2023-05-01 11:51:21,075 DEBUG    > Requête projet.html
+2023-05-01 11:51:22,367 DEBUG    > Requête index.html
+2023-05-01 11:51:23,033 DEBUG    > Requête projet.html
+2023-05-01 11:51:23,790 INFO     > Fichier chearchfile
+2023-05-01 11:51:23,796 ERROR    > Erreur inconnue dans projetpres.html
+2023-05-01 11:51:23,797 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 253, in projetpres
+    render = {"login":isConnect,"pseudo":cook,"email":ires[0][2],"bio": ires[0][1].replace('"',"'"),"img": f"./static/data/{ires[0][3]}","project":pres[0],"like":liker,"nbrlike":pres[0][8],"commentaire":commentaire,"responce":responce}
+IndexError: list index out of range
+
+2023-05-01 11:51:25,209 DEBUG    > Requête projet.html
+2023-05-01 11:51:26,450 DEBUG    > Requête index.html
+2023-05-01 11:51:27,846 DEBUG    > Requête perso.html
+2023-05-01 11:51:29,372 DEBUG    > Requête index.html
+2023-05-01 11:51:42,829 ERROR    > Erreur inconnue dans myproj.html
+2023-05-01 11:51:42,830 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 176, in myproj
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+IndexError: list index out of range
+
+2023-05-01 11:52:06,093 ERROR    > Erreur inconnue dans myproj.html
+2023-05-01 11:52:06,093 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 176, in myproj
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+IndexError: list index out of range
+
+2023-05-01 11:52:09,404 DEBUG    > Requête index.html
+2023-05-01 11:52:10,823 DEBUG    > Requête signin.html
+2023-05-01 11:52:17,426 DEBUG    > Requête api_signin
+2023-05-01 11:52:17,427 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-01 11:52:17,465 INFO     > Noan est connecté
+2023-05-01 11:52:17,466 DEBUG    > Requête index.html
+2023-05-01 11:52:20,201 INFO     > Noan est connecté
+2023-05-01 11:52:20,205 ERROR    > Erreur inconnue dans myproj.html
+2023-05-01 11:52:20,206 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 176, in myproj
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+IndexError: tuple index out of range
+
+2023-05-01 11:52:24,030 INFO     > Noan est connecté
+2023-05-01 11:52:24,030 DEBUG    > Requête index.html
+2023-05-01 11:52:57,755 INFO     > Lancement de l'application ! 
+2023-05-01 11:52:57,755 INFO     > Création de la base de donnée
+2023-05-01 11:52:57,756 INFO     > Démarrage du serveur flask
+2023-05-01 11:53:04,474 INFO     > Noan est connecté
+2023-05-01 11:53:04,478 INFO     > Compte déconnecter
+2023-05-01 11:53:04,508 DEBUG    > Requête index.html
+2023-05-01 11:53:12,077 DEBUG    > Requête profil.html
+2023-05-01 11:53:12,079 DEBUG    > Requête index.html
+2023-05-01 11:53:16,854 DEBUG    > Requête profil.html
+2023-05-01 11:53:16,856 DEBUG    > Requête index.html
+2023-05-01 11:53:19,760 DEBUG    > Requête projet.html
+2023-05-01 11:53:20,709 DEBUG    > Requête index.html
+2023-05-01 11:53:26,753 DEBUG    > Requête profil.html
+2023-05-01 11:53:26,754 DEBUG    > Requête index.html
+2023-05-01 11:53:31,558 DEBUG    > Requête signin.html
+2023-05-01 11:53:33,225 DEBUG    > Requête profil.html
+2023-05-01 11:53:33,227 DEBUG    > Requête index.html
+2023-05-01 12:00:28,674 INFO     > Lancement de l'application ! 
+2023-05-01 12:00:28,674 INFO     > Création de la base de donnée
+2023-05-01 12:00:28,674 INFO     > Démarrage du serveur flask
+2023-05-01 12:00:34,344 DEBUG    > Requête profil.html
+2023-05-01 12:00:34,345 DEBUG    > Requête index.html
+2023-05-01 12:00:36,361 DEBUG    > Requête signin.html
+2023-05-01 12:00:41,111 DEBUG    > Requête index.html
+2023-05-01 12:00:43,016 DEBUG    > Requête projet.html
+2023-05-01 12:00:43,948 INFO     > Fichier chearchfile
+2023-05-01 12:00:43,954 DEBUG    > Requête projetpres.html
+2023-05-01 12:00:46,428 DEBUG    > Requête api_like
+2023-05-01 12:00:46,428 ERROR    > Utilisateur non connecter
+2023-05-01 12:00:48,857 DEBUG    > Requête api_like
+2023-05-01 12:00:48,858 ERROR    > Utilisateur non connecter
+2023-05-01 12:00:54,198 DEBUG    > Requête api_like
+2023-05-01 12:00:54,199 ERROR    > Utilisateur non connecter
+2023-05-01 12:00:56,417 DEBUG    > Requête api_like
+2023-05-01 12:00:56,417 ERROR    > Utilisateur non connecter
+2023-05-01 12:01:00,284 DEBUG    > Requête projet.html
+2023-05-01 12:01:01,835 INFO     > Fichier chearchfile
+2023-05-01 12:01:01,838 DEBUG    > Requête projetpres.html
+2023-05-01 12:01:04,727 DEBUG    > Requête api_like
+2023-05-01 12:01:04,727 ERROR    > Utilisateur non connecter
+2023-05-01 12:01:06,716 DEBUG    > Requête api_like
+2023-05-01 12:01:06,717 ERROR    > Utilisateur non connecter
+2023-05-01 12:01:52,761 INFO     > Fichier chearchfile
+2023-05-01 12:01:52,763 DEBUG    > Requête projetpres.html
+2023-05-01 12:01:53,721 DEBUG    > Requête api_like
+2023-05-01 12:01:53,722 ERROR    > Utilisateur non connecter
+2023-05-01 12:02:26,730 INFO     > Fichier chearchfile
+2023-05-01 12:02:26,731 DEBUG    > Requête projetpres.html
+2023-05-01 12:02:27,914 DEBUG    > Requête api_like
+2023-05-01 12:02:27,914 ERROR    > Utilisateur non connecter
+2023-05-01 12:02:30,111 DEBUG    > Requête signin.html
+2023-05-01 12:02:34,700 DEBUG    > Requête api_signin
+2023-05-01 12:02:34,702 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-01 12:02:34,731 INFO     > Noan est connecté
+2023-05-01 12:02:34,731 DEBUG    > Requête index.html
+2023-05-01 12:02:36,836 INFO     > Noan est connecté
+2023-05-01 12:02:36,836 DEBUG    > Requête projet.html
+2023-05-01 12:02:38,008 INFO     > Fichier chearchfile
+2023-05-01 12:02:38,010 INFO     > Noan est connecté
+2023-05-01 12:02:38,015 DEBUG    > Requête projetpres.html
+2023-05-01 12:02:39,832 DEBUG    > Requête api_like
+2023-05-01 12:02:39,832 INFO     > Noan est connecté
+2023-05-01 12:02:39,833 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:40,922 DEBUG    > Requête api_like
+2023-05-01 12:02:40,922 INFO     > Noan est connecté
+2023-05-01 12:02:40,923 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:41,977 DEBUG    > Requête api_like
+2023-05-01 12:02:41,978 INFO     > Noan est connecté
+2023-05-01 12:02:41,979 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:42,156 DEBUG    > Requête api_like
+2023-05-01 12:02:42,156 INFO     > Noan est connecté
+2023-05-01 12:02:42,157 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:43,875 DEBUG    > Requête api_like
+2023-05-01 12:02:43,875 INFO     > Noan est connecté
+2023-05-01 12:02:43,877 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:44,366 DEBUG    > Requête api_like
+2023-05-01 12:02:44,367 INFO     > Noan est connecté
+2023-05-01 12:02:44,369 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:02:44,868 DEBUG    > Requête api_like
+2023-05-01 12:02:44,869 INFO     > Noan est connecté
+2023-05-01 12:02:44,869 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:03:34,429 INFO     > Fichier chearchfile
+2023-05-01 12:03:34,430 INFO     > Noan est connecté
+2023-05-01 12:03:34,436 DEBUG    > Requête projetpres.html
+2023-05-01 12:03:38,047 DEBUG    > Requête api_like
+2023-05-01 12:03:38,047 INFO     > Noan est connecté
+2023-05-01 12:03:38,048 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:03:40,500 DEBUG    > Requête api_like
+2023-05-01 12:03:40,501 INFO     > Noan est connecté
+2023-05-01 12:03:40,502 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:03:42,125 DEBUG    > Requête api_like
+2023-05-01 12:03:42,126 INFO     > Noan est connecté
+2023-05-01 12:03:42,127 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:03:45,129 INFO     > Fichier chearchfile
+2023-05-01 12:03:45,131 INFO     > Noan est connecté
+2023-05-01 12:03:45,135 DEBUG    > Requête projetpres.html
+2023-05-01 12:03:46,430 DEBUG    > Requête api_like
+2023-05-01 12:03:46,430 INFO     > Noan est connecté
+2023-05-01 12:03:46,431 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:03:50,241 INFO     > Fichier chearchfile
+2023-05-01 12:03:50,242 INFO     > Noan est connecté
+2023-05-01 12:03:50,248 DEBUG    > Requête projetpres.html
+2023-05-01 12:04:19,809 INFO     > Fichier chearchfile
+2023-05-01 12:04:19,810 INFO     > Noan est connecté
+2023-05-01 12:04:19,816 DEBUG    > Requête projetpres.html
+2023-05-01 12:04:20,938 DEBUG    > Requête api_like
+2023-05-01 12:04:20,938 INFO     > Noan est connecté
+2023-05-01 12:04:20,938 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:04:23,154 DEBUG    > Requête api_like
+2023-05-01 12:04:23,155 INFO     > Noan est connecté
+2023-05-01 12:04:23,155 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:04:25,117 DEBUG    > Requête api_like
+2023-05-01 12:04:25,119 INFO     > Noan est connecté
+2023-05-01 12:04:25,119 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:05:17,140 INFO     > Fichier chearchfile
+2023-05-01 12:05:17,141 INFO     > Noan est connecté
+2023-05-01 12:05:17,147 DEBUG    > Requête projetpres.html
+2023-05-01 12:05:18,740 DEBUG    > Requête api_like
+2023-05-01 12:05:18,740 INFO     > Noan est connecté
+2023-05-01 12:05:18,740 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:05:20,703 DEBUG    > Requête api_like
+2023-05-01 12:05:20,704 INFO     > Noan est connecté
+2023-05-01 12:05:20,706 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:05:22,574 DEBUG    > Requête api_like
+2023-05-01 12:05:22,574 INFO     > Noan est connecté
+2023-05-01 12:05:22,575 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:05:26,044 DEBUG    > Requête api_like
+2023-05-01 12:05:26,045 INFO     > Noan est connecté
+2023-05-01 12:05:26,045 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:05:34,222 INFO     > Noan est connecté
+2023-05-01 12:05:34,232 INFO     > Compte déconnecter
+2023-05-01 12:05:34,264 DEBUG    > Requête index.html
+2023-05-01 12:05:35,663 DEBUG    > Requête signin.html
+2023-05-01 12:05:38,041 DEBUG    > Requête index.html
+2023-05-01 12:05:38,983 DEBUG    > Requête projet.html
+2023-05-01 12:05:40,164 INFO     > Fichier chearchfile
+2023-05-01 12:05:40,170 DEBUG    > Requête projetpres.html
+2023-05-01 12:05:44,670 DEBUG    > Requête api_like
+2023-05-01 12:05:44,671 ERROR    > Utilisateur non connecter
+2023-05-01 12:05:48,818 INFO     > Fichier chearchfile
+2023-05-01 12:05:48,824 DEBUG    > Requête projetpres.html
+2023-05-01 12:06:20,987 INFO     > Lancement de l'application ! 
+2023-05-01 12:06:20,988 INFO     > Création de la base de donnée
+2023-05-01 12:06:20,989 INFO     > Démarrage du serveur flask
+2023-05-01 12:06:26,399 INFO     > Fichier chearchfile
+2023-05-01 12:06:26,405 DEBUG    > Requête projetpres.html
+2023-05-01 12:06:28,057 DEBUG    > Requête api_like
+2023-05-01 12:06:28,057 ERROR    > Utilisateur non connecter
+2023-05-01 12:06:31,090 DEBUG    > Requête signin.html
+2023-05-01 12:06:35,816 DEBUG    > Requête api_signin
+2023-05-01 12:06:35,816 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-01 12:06:35,857 INFO     > Noan est connecté
+2023-05-01 12:06:35,858 DEBUG    > Requête index.html
+2023-05-01 12:06:37,594 INFO     > Noan est connecté
+2023-05-01 12:06:37,594 DEBUG    > Requête projet.html
+2023-05-01 12:06:38,363 INFO     > Fichier chearchfile
+2023-05-01 12:06:38,364 INFO     > Noan est connecté
+2023-05-01 12:06:38,370 DEBUG    > Requête projetpres.html
+2023-05-01 12:06:39,744 DEBUG    > Requête api_like
+2023-05-01 12:06:39,745 INFO     > Noan est connecté
+2023-05-01 12:06:39,745 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:06:41,547 DEBUG    > Requête api_like
+2023-05-01 12:06:41,548 INFO     > Noan est connecté
+2023-05-01 12:06:41,549 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:06:43,513 DEBUG    > Requête api_like
+2023-05-01 12:06:43,513 INFO     > Noan est connecté
+2023-05-01 12:06:43,515 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:06:47,699 INFO     > Noan est connecté
+2023-05-01 12:06:47,708 INFO     > Compte déconnecter
+2023-05-01 12:06:47,735 DEBUG    > Requête index.html
+2023-05-01 12:06:49,027 DEBUG    > Requête projet.html
+2023-05-01 12:06:50,136 INFO     > Fichier chearchfile
+2023-05-01 12:06:50,142 DEBUG    > Requête projetpres.html
+2023-05-01 12:06:51,866 DEBUG    > Requête api_like
+2023-05-01 12:06:51,867 ERROR    > Utilisateur non connecter
+2023-05-01 12:07:16,127 INFO     > Fichier chearchfile
+2023-05-01 12:07:16,133 DEBUG    > Requête projetpres.html
+2023-05-01 12:07:16,878 DEBUG    > Requête api_like
+2023-05-01 12:07:16,878 ERROR    > Utilisateur non connecter
+2023-05-01 12:07:19,117 DEBUG    > Requête api_like
+2023-05-01 12:07:19,118 ERROR    > Utilisateur non connecter
+2023-05-01 12:07:27,485 INFO     > Fichier chearchfile
+2023-05-01 12:07:27,493 DEBUG    > Requête projetpres.html
+2023-05-01 12:07:37,435 INFO     > Fichier chearchfile
+2023-05-01 12:07:37,444 DEBUG    > Requête projetpres.html
+2023-05-01 12:08:58,818 INFO     > Lancement de l'application ! 
+2023-05-01 12:08:58,818 INFO     > Création de la base de donnée
+2023-05-01 12:08:58,818 INFO     > Démarrage du serveur flask
+2023-05-01 12:09:03,231 INFO     > Fichier chearchfile
+2023-05-01 12:09:03,237 DEBUG    > Requête projetpres.html
+2023-05-01 12:09:40,956 DEBUG    > Requête signin.html
+2023-05-01 12:09:47,945 DEBUG    > Requête api_signin
+2023-05-01 12:09:47,945 INFO     > Autentification validé pour : door7302@gmail.com
+2023-05-01 12:09:47,985 INFO     > David est connecté
+2023-05-01 12:09:47,986 DEBUG    > Requête index.html
+2023-05-01 12:10:04,820 INFO     > David est connecté
+2023-05-01 12:10:04,829 INFO     > Compte déconnecter
+2023-05-01 12:10:04,863 DEBUG    > Requête index.html
+2023-05-01 12:10:11,075 DEBUG    > Requête index.html
+2023-05-01 12:10:14,811 DEBUG    > Requête projet.html
+2023-05-01 12:10:15,793 INFO     > Fichier chearchfile
+2023-05-01 12:10:15,799 DEBUG    > Requête projetpres.html
+2023-05-01 12:10:23,258 DEBUG    > Requête api_like
+2023-05-01 12:10:23,259 ERROR    > Utilisateur non connecter
+2023-05-01 12:10:26,504 DEBUG    > Requête projet.html
+2023-05-01 12:10:27,634 DEBUG    > Requête index.html
+2023-05-01 12:10:29,659 DEBUG    > Requête signin.html
+2023-05-01 12:10:35,080 DEBUG    > Requête signin.html
+2023-05-01 12:10:37,814 DEBUG    > Requête index.html
+2023-05-01 12:11:02,612 DEBUG    > Requête projet.html
+2023-05-01 12:11:03,715 DEBUG    > Requête perso.html
+2023-05-01 12:11:05,213 DEBUG    > Requête index.html
+2023-05-01 12:11:05,765 DEBUG    > Requête projet.html
+2023-05-01 12:11:07,213 INFO     > Fichier chearchfile
+2023-05-01 12:11:07,215 DEBUG    > Requête projetpres.html
+2023-05-01 12:11:10,187 DEBUG    > Requête api_like
+2023-05-01 12:11:10,188 ERROR    > Utilisateur non connecter
+2023-05-01 12:11:18,998 DEBUG    > Requête api_like
+2023-05-01 12:11:18,998 ERROR    > Utilisateur non connecter
+2023-05-01 12:12:00,681 DEBUG    > Requête projet.html
+2023-05-01 12:12:01,638 INFO     > Fichier chearchfile
+2023-05-01 12:12:01,644 DEBUG    > Requête projetpres.html
+2023-05-01 12:12:41,371 DEBUG    > Requête signin.html
+2023-05-01 12:12:46,765 DEBUG    > Requête api_signin
+2023-05-01 12:12:46,766 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-01 12:12:46,808 INFO     > Noan est connecté
+2023-05-01 12:12:46,809 DEBUG    > Requête index.html
+2023-05-01 12:12:49,019 INFO     > Noan est connecté
+2023-05-01 12:12:49,020 DEBUG    > Requête projet.html
+2023-05-01 12:12:49,916 INFO     > Fichier chearchfile
+2023-05-01 12:12:49,917 INFO     > Noan est connecté
+2023-05-01 12:12:49,922 DEBUG    > Requête projetpres.html
+2023-05-01 12:13:02,200 INFO     > Noan est connecté
+2023-05-01 12:13:02,234 INFO     > Fichier chearchfile
+2023-05-01 12:13:02,235 INFO     > Noan est connecté
+2023-05-01 12:13:02,243 DEBUG    > Requête projetpres.html
+2023-05-01 12:13:13,746 INFO     > Noan est connecté
+2023-05-01 12:13:13,780 INFO     > Fichier chearchfile
+2023-05-01 12:13:13,782 INFO     > Noan est connecté
+2023-05-01 12:13:13,793 DEBUG    > Requête projetpres.html
+2023-05-01 12:20:27,584 INFO     > Lancement de l'application ! 
+2023-05-01 12:20:27,584 INFO     > Création de la base de donnée
+2023-05-01 12:20:27,584 INFO     > Démarrage du serveur flask
+2023-05-01 12:20:32,695 INFO     > Fichier chearchfile
+2023-05-01 12:20:32,695 INFO     > Noan est connecté
+2023-05-01 12:20:32,701 DEBUG    > Requête projetpres.html
+2023-05-01 12:21:27,490 INFO     > Lancement de l'application ! 
+2023-05-01 12:21:27,490 INFO     > Création de la base de donnée
+2023-05-01 12:21:27,490 INFO     > Démarrage du serveur flask
+2023-05-01 12:21:30,230 INFO     > Noan est connecté
+2023-05-01 12:21:30,230 DEBUG    > Requête index.html
+2023-05-01 12:21:31,550 INFO     > Noan est connecté
+2023-05-01 12:21:31,550 DEBUG    > Requête projet.html
+2023-05-01 12:21:33,190 INFO     > Fichier chearchfile
+2023-05-01 12:21:33,190 INFO     > Noan est connecté
+2023-05-01 12:21:33,197 DEBUG    > Requête projetpres.html
+2023-05-01 12:21:35,118 DEBUG    > Requête api_like
+2023-05-01 12:21:35,119 INFO     > Noan est connecté
+2023-05-01 12:21:35,119 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:21:38,067 DEBUG    > Requête api_like
+2023-05-01 12:21:38,068 INFO     > Noan est connecté
+2023-05-01 12:21:38,069 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:23:15,314 INFO     > Fichier chearchfile
+2023-05-01 12:23:15,315 INFO     > Noan est connecté
+2023-05-01 12:23:15,320 DEBUG    > Requête projetpres.html
+2023-05-01 12:23:49,559 INFO     > Lancement de l'application ! 
+2023-05-01 12:23:49,559 INFO     > Création de la base de donnée
+2023-05-01 12:23:49,559 INFO     > Démarrage du serveur flask
+2023-05-01 12:23:56,017 INFO     > Fichier chearchfile
+2023-05-01 12:23:56,018 INFO     > Noan est connecté
+2023-05-01 12:23:56,023 DEBUG    > Requête projetpres.html
+2023-05-01 12:23:57,718 DEBUG    > Requête api_like
+2023-05-01 12:23:57,718 INFO     > Noan est connecté
+2023-05-01 12:23:57,718 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:23:58,504 DEBUG    > Requête api_like
+2023-05-01 12:23:58,504 INFO     > Noan est connecté
+2023-05-01 12:23:58,505 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:23:58,978 DEBUG    > Requête api_like
+2023-05-01 12:23:58,979 INFO     > Noan est connecté
+2023-05-01 12:23:58,979 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:23:59,407 DEBUG    > Requête api_like
+2023-05-01 12:23:59,407 INFO     > Noan est connecté
+2023-05-01 12:23:59,408 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:23:59,825 DEBUG    > Requête api_like
+2023-05-01 12:23:59,826 INFO     > Noan est connecté
+2023-05-01 12:23:59,826 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:00,401 DEBUG    > Requête api_like
+2023-05-01 12:24:00,402 INFO     > Noan est connecté
+2023-05-01 12:24:00,402 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:01,800 DEBUG    > Requête api_like
+2023-05-01 12:24:01,800 INFO     > Noan est connecté
+2023-05-01 12:24:01,801 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:02,985 INFO     > Noan est connecté
+2023-05-01 12:24:02,985 DEBUG    > Requête projet.html
+2023-05-01 12:24:04,294 INFO     > Fichier chearchfile
+2023-05-01 12:24:04,294 INFO     > Noan est connecté
+2023-05-01 12:24:04,300 DEBUG    > Requête projetpres.html
+2023-05-01 12:24:05,248 DEBUG    > Requête api_like
+2023-05-01 12:24:05,249 INFO     > Noan est connecté
+2023-05-01 12:24:05,250 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:06,459 INFO     > Noan est connecté
+2023-05-01 12:24:06,460 DEBUG    > Requête index.html
+2023-05-01 12:24:08,272 INFO     > Noan est connecté
+2023-05-01 12:24:08,273 DEBUG    > Requête projet.html
+2023-05-01 12:24:09,308 INFO     > Fichier chearchfile
+2023-05-01 12:24:09,308 INFO     > Noan est connecté
+2023-05-01 12:24:09,315 DEBUG    > Requête projetpres.html
+2023-05-01 12:24:10,237 DEBUG    > Requête api_like
+2023-05-01 12:24:10,238 INFO     > Noan est connecté
+2023-05-01 12:24:10,239 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:14,658 INFO     > Noan est connecté
+2023-05-01 12:24:14,692 INFO     > Fichier chearchfile
+2023-05-01 12:24:14,693 INFO     > Noan est connecté
+2023-05-01 12:24:14,701 DEBUG    > Requête projetpres.html
+2023-05-01 12:24:34,944 INFO     > Noan est connecté
+2023-05-01 12:24:34,944 DEBUG    > Requête projet.html
+2023-05-01 12:24:36,895 INFO     > Fichier chearchfile
+2023-05-01 12:24:36,895 INFO     > Noan est connecté
+2023-05-01 12:24:36,896 DEBUG    > Requête projetpres.html
+2023-05-01 12:24:38,282 DEBUG    > Requête api_like
+2023-05-01 12:24:38,282 INFO     > Noan est connecté
+2023-05-01 12:24:38,283 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 12:24:39,801 INFO     > Noan est connecté
+2023-05-01 12:24:39,801 DEBUG    > Requête index.html
+2023-05-01 12:24:41,695 INFO     > Noan est connecté
+2023-05-01 12:24:41,698 INFO     > Compte déconnecter
+2023-05-01 12:24:41,735 DEBUG    > Requête index.html
+2023-05-01 12:24:43,722 DEBUG    > Requête signup.html
+2023-05-01 12:24:53,352 DEBUG    > Requête api_signup
+2023-05-01 12:24:53,353 DEBUG    > Utilisateur déja existant
+2023-05-01 12:24:58,717 DEBUG    > Requête api_signup
+2023-05-01 12:24:58,725 INFO     > Compte créé : Noan_Roy
+2023-05-01 12:24:58,757 DEBUG    > Requête signin.html
+2023-05-01 12:25:04,960 DEBUG    > Requête api_signin
+2023-05-01 12:25:04,960 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-01 12:25:04,996 INFO     > Noan est connecté
+2023-05-01 12:25:04,996 DEBUG    > Requête index.html
+2023-05-01 12:25:12,957 INFO     > Noan est connecté
+2023-05-01 12:25:12,966 INFO     > Compte déconnecter
+2023-05-01 12:25:12,994 DEBUG    > Requête index.html
+2023-05-01 12:25:14,883 DEBUG    > Requête signin.html
+2023-05-01 12:25:19,620 DEBUG    > Requête api_signin
+2023-05-01 12:25:19,620 INFO     > Autentification validé pour : roynoan4@gmail.com
+2023-05-01 12:25:19,658 INFO     > Noan_Roy est connecté
+2023-05-01 12:25:19,659 DEBUG    > Requête index.html
+2023-05-01 12:25:23,049 INFO     > Noan_Roy est connecté
+2023-05-01 12:25:23,066 INFO     > Compte déconnecter
+2023-05-01 12:25:23,095 DEBUG    > Requête index.html
+2023-05-01 12:25:31,116 DEBUG    > Requête perso.html
+2023-05-01 12:50:29,429 DEBUG    > Requête index.html
+2023-05-01 13:27:44,137 DEBUG    > Requête index.html
+2023-05-01 13:27:45,522 DEBUG    > Requête projet.html
+2023-05-01 13:27:46,100 DEBUG    > Requête index.html
+2023-05-01 13:27:48,038 DEBUG    > Requête projet.html
+2023-05-01 13:27:48,686 INFO     > Fichier chearchfile
+2023-05-01 13:27:48,691 DEBUG    > Requête projetpres.html
+2023-05-01 13:27:50,894 DEBUG    > Requête api_like
+2023-05-01 13:27:50,894 ERROR    > Utilisateur non connecter
+2023-05-01 13:28:27,187 DEBUG    > Requête api_like
+2023-05-01 13:28:27,187 ERROR    > Utilisateur non connecter
+2023-05-01 14:25:09,636 INFO     > Lancement de l'application ! 
+2023-05-01 14:25:09,636 INFO     > Ouverture du fichier de configuration
+2023-05-01 14:25:09,636 INFO     > Création de la base de donnée
+2023-05-01 14:25:09,636 INFO     > Démarrage du scheduler
+2023-05-01 14:25:09,777 INFO     > Démarrage du serveur flask
+2023-05-01 14:25:13,966 DEBUG    > Requête signup.html
+2023-05-01 14:25:35,188 DEBUG    > Requête api_signup
+2023-05-01 14:25:35,223 DEBUG    > Requête signin.html
+2023-05-01 14:26:09,804 INFO     > Check périodique
+2023-05-01 14:26:09,804 ERROR    > Erreur inconnue dans check_account
+2023-05-01 14:26:09,804 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 516, in check_account
+    for i in to_remove:
+TypeError: 'NoneType' object is not iterable
+
+2023-05-01 14:26:10,377 DEBUG    > Requête api_signin
+2023-05-01 14:26:10,377 ERROR    > Erreur inconnue dans la fonction signin
+2023-05-01 14:26:10,378 ERROR    > Erreur inconnue dans api_signin
+2023-05-01 14:26:10,379 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 375, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2023-05-01 14:26:11,672 DEBUG    > Requête api_signin
+2023-05-01 14:26:11,673 ERROR    > Erreur inconnue dans la fonction signin
+2023-05-01 14:26:11,673 ERROR    > Erreur inconnue dans api_signin
+2023-05-01 14:26:11,673 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 375, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2023-05-01 14:27:09,787 INFO     > Check périodique
+2023-05-01 14:27:09,789 ERROR    > Erreur inconnue dans check_account
+2023-05-01 14:27:09,790 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 516, in check_account
+    for i in to_remove:
+TypeError: 'NoneType' object is not iterable
+
+2023-05-01 14:28:09,782 INFO     > Check périodique
+2023-05-01 14:28:09,783 ERROR    > Erreur inconnue dans check_account
+2023-05-01 14:28:09,783 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 516, in check_account
+    for i in to_remove:
+TypeError: 'NoneType' object is not iterable
+
+2023-05-01 14:28:24,556 INFO     > Lancement de l'application ! 
+2023-05-01 14:28:24,556 INFO     > Ouverture du fichier de configuration
+2023-05-01 14:28:24,571 INFO     > Création de la base de donnée
+2023-05-01 14:28:24,571 INFO     > Démarrage du scheduler
+2023-05-01 14:28:24,661 INFO     > Démarrage du serveur flask
+2023-05-01 14:29:24,677 INFO     > Check périodique
+2023-05-01 14:29:24,677 INFO     > Création du compte : dada, après validation
+2023-05-01 14:29:24,677 WARNING  > Vérification des comptes désactivé
+2023-05-01 14:29:24,677 INFO     > Compte créé : dada
+2023-05-01 14:29:24,677 ERROR    > Erreur inconnue dans check_account
+2023-05-01 14:29:24,692 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 516, in check_account
+    for i in to_remove:
+TypeError: 'NoneType' object is not iterable
+
+2023-05-01 14:30:23,661 INFO     > Lancement de l'application ! 
+2023-05-01 14:30:23,662 INFO     > Ouverture du fichier de configuration
+2023-05-01 14:30:23,662 INFO     > Création de la base de donnée
+2023-05-01 14:30:23,662 INFO     > Démarrage du scheduler
+2023-05-01 14:30:23,756 INFO     > Démarrage du serveur flask
+2023-05-01 14:31:10,370 INFO     > Lancement de l'application ! 
+2023-05-01 14:31:10,371 INFO     > Ouverture du fichier de configuration
+2023-05-01 14:31:10,373 INFO     > Création de la base de donnée
+2023-05-01 14:31:10,374 INFO     > Démarrage du scheduler
+2023-05-01 14:31:10,460 INFO     > Démarrage du serveur flask
+2023-05-01 14:32:10,483 INFO     > Check périodique
+2023-05-01 14:32:10,486 INFO     > Création du compte : dada, après validation
+2023-05-01 14:32:10,486 WARNING  > Vérification des comptes désactivé
+2023-05-01 14:32:10,487 DEBUG    > Email déja existant
+2023-05-01 14:32:26,075 DEBUG    > Requête api_signin
+2023-05-01 14:32:26,076 INFO     > Autentification validé pour : davidroy49@orange.fr
+2023-05-01 14:32:26,117 INFO     > dada est connecté
+2023-05-01 14:32:26,117 DEBUG    > Requête index.html
+2023-05-01 14:32:28,253 INFO     > dada est connecté
+2023-05-01 14:32:28,258 INFO     > Compte déconnecter
+2023-05-01 14:32:28,283 DEBUG    > Requête index.html
+2023-05-01 14:32:30,322 DEBUG    > Requête signup.html
+2023-05-01 14:32:48,079 DEBUG    > Requête api_signup
+2023-05-01 14:32:48,115 DEBUG    > Requête signin.html
+2023-05-01 14:33:10,469 INFO     > Check périodique
+2023-05-01 14:33:10,469 INFO     > Création du compte : maman, après validation
+2023-05-01 14:33:10,470 WARNING  > Vérification des comptes désactivé
+2023-05-01 14:33:10,480 INFO     > Compte créé : maman
+2023-05-01 14:33:25,349 DEBUG    > Requête api_signin
+2023-05-01 14:33:25,350 INFO     > Autentification validé pour : magzi.roy49@gmail.com
+2023-05-01 14:33:25,387 INFO     > maman est connecté
+2023-05-01 14:33:25,389 DEBUG    > Requête index.html
+2023-05-01 14:33:27,708 INFO     > maman est connecté
+2023-05-01 14:33:27,708 DEBUG    > Requête projet.html
+2023-05-01 14:33:28,660 INFO     > maman est connecté
+2023-05-01 14:33:28,660 DEBUG    > Requête index.html
+2023-05-01 14:33:30,418 INFO     > maman est connecté
+2023-05-01 14:33:30,419 DEBUG    > Requête projet.html
+2023-05-01 14:33:31,206 INFO     > Fichier chearchfile
+2023-05-01 14:33:31,206 INFO     > maman est connecté
+2023-05-01 14:33:31,211 DEBUG    > Requête projetpres.html
+2023-05-01 14:33:44,292 INFO     > maman est connecté
+2023-05-01 14:33:44,329 INFO     > Fichier chearchfile
+2023-05-01 14:33:44,329 INFO     > maman est connecté
+2023-05-01 14:33:44,341 DEBUG    > Requête projetpres.html
+2023-05-01 14:33:49,314 INFO     > Fichier chearchfile
+2023-05-01 14:33:49,314 INFO     > maman est connecté
+2023-05-01 14:33:49,319 DEBUG    > Requête projetpres.html
+2023-05-01 14:33:52,678 DEBUG    > Requête api_like
+2023-05-01 14:33:52,679 INFO     > maman est connecté
+2023-05-01 14:33:52,679 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 14:33:53,059 DEBUG    > Requête api_like
+2023-05-01 14:33:53,060 INFO     > maman est connecté
+2023-05-01 14:33:53,060 DEBUG    > Utilisateur connecter pour liker
+2023-05-01 14:33:56,086 INFO     > maman est connecté
+2023-05-01 14:33:56,090 INFO     > Compte déconnecter
+2023-05-01 14:33:56,126 DEBUG    > Requête index.html
+2023-05-01 14:34:10,475 INFO     > Check périodique
+2023-05-01 14:35:10,476 INFO     > Check périodique
+2023-05-01 14:36:10,478 INFO     > Check périodique
+2023-05-01 14:37:10,473 INFO     > Check périodique
+2023-05-01 14:38:10,465 INFO     > Check périodique
+2023-05-01 14:39:10,472 INFO     > Check périodique
+2023-05-01 14:40:10,464 INFO     > Check périodique
+2023-05-01 14:41:10,466 INFO     > Check périodique
+2023-05-01 14:42:10,476 INFO     > Check périodique
+2023-05-01 14:43:10,465 INFO     > Check périodique
+2023-05-01 14:44:10,462 INFO     > Check périodique
+2023-05-01 14:45:10,462 INFO     > Check périodique
+2023-05-01 14:46:10,473 INFO     > Check périodique
+2023-05-01 14:47:10,467 INFO     > Check périodique
+2023-05-01 14:48:10,473 INFO     > Check périodique
+2023-05-01 14:49:10,471 INFO     > Check périodique
+2023-05-01 14:50:10,475 INFO     > Check périodique
+2023-05-01 14:51:10,463 INFO     > Check périodique
+2023-05-01 14:52:10,474 INFO     > Check périodique
+2023-05-01 14:53:10,467 INFO     > Check périodique
+2023-05-01 14:54:10,470 INFO     > Check périodique
+2023-05-01 14:55:10,472 INFO     > Check périodique
+2023-05-01 14:56:10,466 INFO     > Check périodique
+2023-05-01 14:57:10,468 INFO     > Check périodique
+2023-05-01 14:58:10,474 INFO     > Check périodique
+2023-05-01 14:59:10,465 INFO     > Check périodique
+2023-05-01 15:00:10,462 INFO     > Check périodique
+2023-05-01 15:01:10,470 INFO     > Check périodique
+2023-05-01 15:02:10,469 INFO     > Check périodique
+2023-05-01 15:03:10,467 INFO     > Check périodique
+2023-05-01 15:04:10,467 INFO     > Check périodique
+2023-05-01 15:05:10,462 INFO     > Check périodique
+2023-05-01 15:06:10,463 INFO     > Check périodique
+2023-05-01 15:08:10,469 INFO     > Check périodique
+2023-05-01 15:09:10,462 INFO     > Check périodique
+2023-05-01 15:10:10,465 INFO     > Check périodique
+2023-05-01 15:11:10,472 INFO     > Check périodique
+2023-05-01 15:12:10,471 INFO     > Check périodique
+2023-05-01 15:13:10,478 INFO     > Check périodique
+2023-05-01 15:14:10,475 INFO     > Check périodique
+2023-05-01 15:15:10,463 INFO     > Check périodique
+2023-05-01 15:16:10,476 INFO     > Check périodique
+2023-05-01 15:17:10,476 INFO     > Check périodique
+2023-05-01 15:18:10,464 INFO     > Check périodique
+2023-05-01 15:19:10,469 INFO     > Check périodique
+2023-05-01 15:20:10,465 INFO     > Check périodique
+2023-05-01 15:21:10,466 INFO     > Check périodique
+2023-05-01 15:22:10,476 INFO     > Check périodique
+2023-05-01 15:23:10,466 INFO     > Check périodique
+2023-05-01 15:24:10,472 INFO     > Check périodique
+2023-05-01 15:25:10,470 INFO     > Check périodique
+2023-05-01 15:26:10,466 INFO     > Check périodique
+2023-05-01 15:27:10,476 INFO     > Check périodique
+2023-05-01 15:28:10,465 INFO     > Check périodique
+2023-05-01 15:29:10,476 INFO     > Check périodique
+2023-05-01 15:30:10,470 INFO     > Check périodique
+2023-05-01 15:31:10,467 INFO     > Check périodique
+2023-05-01 15:32:10,462 INFO     > Check périodique
+2023-05-01 15:33:10,465 INFO     > Check périodique
+2023-05-01 15:34:10,471 INFO     > Check périodique
+2023-05-01 15:35:10,467 INFO     > Check périodique
+2023-05-01 15:36:10,474 INFO     > Check périodique
+2023-05-01 15:37:10,474 INFO     > Check périodique
+2023-05-01 15:38:10,465 INFO     > Check périodique
+2023-05-01 15:39:10,470 INFO     > Check périodique
+2023-05-01 15:40:10,474 INFO     > Check périodique
+2023-05-01 15:41:10,476 INFO     > Check périodique
+2023-05-01 15:42:10,462 INFO     > Check périodique
+2023-05-01 15:43:10,469 INFO     > Check périodique
+2023-05-01 15:44:10,475 INFO     > Check périodique
+2023-05-01 15:45:10,462 INFO     > Check périodique
+2023-05-01 15:46:10,467 INFO     > Check périodique
+2023-05-01 15:47:10,471 INFO     > Check périodique
+2023-05-01 15:48:10,467 INFO     > Check périodique
+2023-05-01 15:49:10,474 INFO     > Check périodique
+2023-05-01 15:50:10,474 INFO     > Check périodique
+2023-05-01 15:51:10,461 INFO     > Check périodique
+2023-05-01 15:52:10,471 INFO     > Check périodique
+2023-05-01 15:53:10,469 INFO     > Check périodique
+2023-05-01 15:54:10,476 INFO     > Check périodique
+2023-05-01 15:55:10,461 INFO     > Check périodique
+2023-05-01 15:56:10,464 INFO     > Check périodique
+2023-05-01 15:57:10,473 INFO     > Check périodique
+2023-05-01 15:58:10,475 INFO     > Check périodique
+2023-05-01 15:59:10,472 INFO     > Check périodique
+2023-05-01 16:00:10,471 INFO     > Check périodique
+2023-05-01 16:01:10,462 INFO     > Check périodique
+2023-05-01 16:02:10,467 INFO     > Check périodique
+2023-05-01 16:03:10,464 INFO     > Check périodique
+2023-05-01 16:04:10,467 INFO     > Check périodique
+2023-05-01 16:05:10,462 INFO     > Check périodique
+2023-05-01 16:06:10,476 INFO     > Check périodique
+2023-05-01 16:07:10,463 INFO     > Check périodique
+2023-05-01 16:08:10,464 INFO     > Check périodique
+2023-05-01 16:09:10,462 INFO     > Check périodique
+2023-05-01 16:10:10,473 INFO     > Check périodique
+2023-05-01 16:11:10,465 INFO     > Check périodique
+2023-05-01 16:12:10,472 INFO     > Check périodique
+2023-05-01 16:13:10,466 INFO     > Check périodique
+2023-05-01 16:14:10,474 INFO     > Check périodique
+2023-05-01 16:15:10,468 INFO     > Check périodique
+2023-05-01 16:16:10,476 INFO     > Check périodique
+2023-05-01 16:17:10,465 INFO     > Check périodique
+2023-05-01 16:18:10,477 INFO     > Check périodique
+2023-05-01 16:19:10,462 INFO     > Check périodique
+2023-05-01 16:20:10,474 INFO     > Check périodique
+2023-05-01 16:21:10,469 INFO     > Check périodique
+2023-05-01 16:22:10,473 INFO     > Check périodique
+2023-05-01 16:23:10,463 INFO     > Check périodique
+2023-05-01 16:24:10,467 INFO     > Check périodique
+2023-05-01 16:25:10,474 INFO     > Check périodique
+2023-05-01 16:26:10,479 INFO     > Check périodique
+2023-05-01 16:27:10,470 INFO     > Check périodique
+2023-05-01 16:28:10,475 INFO     > Check périodique

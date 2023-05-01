@@ -52,7 +52,7 @@ function submit_contact() {
                     }
                     else {
                         // sinon on va renvoyer une pop-up d'erreur 
-                        alertify.alert("Quiz","Une erreur s'est produite !");
+                        alertify.alert("contact","Une erreur s'est produite !");
     
                     }
                 },

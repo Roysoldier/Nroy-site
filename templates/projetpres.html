@@ -293,7 +293,7 @@
         }
 
         likeBtn.addEventListener('click', function () {
-          this.classList.toggle('active');
+          
 
 
           var nameProj = document.getElementById('pres-title-project').innerHTML;
@@ -311,8 +311,9 @@
               success: function (result) {
                 if (result.status == "ok") {
                   //window.location = "projetpres.html"
+                  likeBtn.classList.toggle('active');
                 } else {
-                  //alert(result.msg);
+                  alert("Merci de vous connecter");
                 }
               },
               error: function (xhr, ajaxOptions, thrownError) {

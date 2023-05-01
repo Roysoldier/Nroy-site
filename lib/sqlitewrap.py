@@ -74,7 +74,7 @@ class SqliteWrap:
                 return [], None
             return result,None
         except Exception as e:
-            print("read :", e)
+            #print("read :", e)
             return [],e
     
     def update_row(self,tableName="",condition="",change=""):
@@ -84,7 +84,7 @@ class SqliteWrap:
             self.conn.commit()
             return 1,None
         except Exception as e:
-            print("Update : ",e)
+            #print("Update : ",e)
             return 0,e
 
 

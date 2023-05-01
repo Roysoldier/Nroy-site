@@ -172,6 +172,51 @@ li {
     
 }
 
+.rep-comm {
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  
+    background-color: black;
+    padding: 15px;
+    margin-left: 15px;
+   margin-right: 10px;
+    
+}
+.rep-comm:focus {
+    border-radius: 0px;
+    width: 85%;
+    margin: auto;
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.comm {
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   
+    background-color: black;
+    padding: 15px;
+    
+    
+}
+.comm:focus {
+    border-radius: 0px;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 form[id=project-create-form] {
     margin-left: auto;
     margin-right: auto;
@@ -293,6 +338,68 @@ form[id=project-create-form] {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+}
+
+.box-commment {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 43%;
+    border: solid 2px grey;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.comment {
+    display: flex;
+    margin: 15px;
+}
+
+.rep-comment {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text-comment {
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: -45px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.rep-text-comment {
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.reep-comment {
+    margin-left: 70px;
+    color: #6d6d6d;
+    cursor: pointer;
+}
+
+.name-comment {
+    display: xx;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.rep-name-comment {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    left: 32.6%;
+    color: white;
 }
 
 
@@ -581,6 +688,7 @@ form.center-block-form {
     width: 500px;
     padding: 10px;
     font-size: 25px;
+    color: #fff;
 }
 
 .center-button:hover {
@@ -588,9 +696,50 @@ form.center-block-form {
     font-weight: bold;
 }
 
+
+.button-comm {
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    float:right;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    font-size: 15px;
+    border-color: rgb(110, 110, 110);
+}
+.button-comm:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+.rep-button-comm {
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    float:right;
+    margin: 10px;
+    display: fixed;
+    transform: translate(0%,-170%);
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    font-size: 15px;
+    border-color: rgb(110, 110, 110);
+}
+.rep-button-comm:hover {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+
 .base-form {
 
-    background-color: rgba(140, 48, 201, 0.2);
+    background-color: rgba(117, 201, 48, 0.2);
     border: solid white 2px;
     border-radius: 25px;
     color: #fff;
@@ -680,23 +829,60 @@ form.center-block-form {
       transform: scale(1);
     }
   }
-  
-
-  .google-filter-button {
-    background-color: #4285F4;
-    color: #ffffff;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
+ 
+/* Style pour le bouton */
+.dropdown-base {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    padding: 10px 20px;
+    left: 69.6%;
+    color: white;
+}
+.drop-btn {
+    background-color: transparent;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    transition: all 0.2s ease-in-out;
+    padding: 0;
+    cursor: pointer;
+    
+   
+}
+  
+  .drop-btn:focus {
+    outline: none;
   }
   
-  .google-filter-button:hover {
-    background-color: #3367D6;
-    cursor: pointer;
+  .dots {
+    fill: #999;
   }
+  
+  /* Style pour la liste déroulante */
+  .dropdown-content-op{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #525252;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    margin-top: -4px;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content-op a {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #919191;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-op a:hover {
+    background-color: #5f5f5f;
+  }
+  
+  /* Style pour afficher la liste déroulante */
+  .show {
+    display: block;
+  }
+  
   

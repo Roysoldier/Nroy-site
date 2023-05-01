@@ -51,10 +51,10 @@ def index():
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
         #print("login : ",isConnect)
         if isConnect:
-            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","proj":listproj}
+            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj}
         else:
             render = {"login":isConnect,"proj":listproj}
         #print("render : ",render)
@@ -73,9 +73,9 @@ def perso():
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
         #print("login : ",isConnect)
-        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}"}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}"}
         #print("render : ",render)
         if debug:
             logger.log("Requête perso.html", "DEBUG")
@@ -92,9 +92,9 @@ def new_project():
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
         #print("login : ",isConnect)
-        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}"}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}"}
         #print("render : ",render)
         if debug:
             logger.log("Requête newproject.html", "DEBUG")
@@ -135,12 +135,12 @@ def projet():
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
         projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
         print(projres)
         #print(projres)
         #print("login : ",isConnect)
-        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":projres}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","projet":projres}
         #print("render : ",render)
         if debug:
             logger.log("Requête projet.html", "DEBUG")
@@ -151,6 +151,34 @@ def projet():
         if debug:
             logger.log(str(traceback.format_exc()),"DEBUG")
 
+@APP_FLASK.route('/myproj.html', methods=['GET'])
+def myproj():
+    try:
+        cook = request.cookies.get('USER_ID',"")
+        #print("cook :",cook)
+        isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
+        res,err = mydb.read_row("users",f"user = '{cook}'")
+        projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
+        fproj = []
+        print(projres)
+        for i,v in enumerate(projres):
+            print(v)
+            print(v[1],i)
+            if v[1] == cook:
+                fproj.append(v)
+        #print(projres)
+        #print("login : ",isConnect)
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+        #print("render : ",render)
+        if debug:
+            logger.log("Requête myproj.html", "DEBUG")
+        #renvoie du code source projet.html au navigateur web après traitement
+        return render_template('myproj.html', render=render)
+    except:
+        logger.log("Erreur inconnue dans myproj.html", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+
 @APP_FLASK.route('/profil.html', methods=['GET'])
 def profil():
     try:
@@ -158,8 +186,8 @@ def profil():
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
-        render = {"login":isConnect,"pseudo":cook,"email":res[0][2],"bio": res[0][6].replace('"',"'"),"img": f"./static/data/{res[0][7]}"}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"email":ires[0][2],"bio": ires[0][1].replace('"',"'"),"img": f"./static/data/{ires[0][3]}"}
         #print("render : ",render)
         if debug:
             logger.log("Requête profil.html", "DEBUG")
@@ -177,8 +205,8 @@ def editprofil():
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
-        render = {"login":isConnect,"pseudo":cook,"email":res[0][2],"bio": res[0][6].replace('"',"'"),"img": f"./static/data/{res[0][7]}"}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"email":ires[0][2],"bio": ires[0][2].replace('"',"'"),"img": f"./static/data/{ires[0][3]}"}
         #print("render : ",render)
         if debug:
             logger.log("Requête editprofil.html", "DEBUG")
@@ -195,18 +223,25 @@ def projetpres(nameProject):
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
-
+        recup_pp(nameProject)
         lres,lerr = mydb.read_row("like",f"user = '{cook}'")
+        cres, cerr = mydb.read_row("commentaire",f"project = '{nameProject}'")
+        commentaire = []
+        responce = []
+        for i in cres:
+            if i[5] == 0:
+                commentaire.append(i)
+            else:
+                responce.append(i)
         liker = False
         for i in lres:
             if i[1] == cook and i[2] == nameProject and i[3]:
                 liker = True
 
         #print("login : ",isConnect)
-        res,err = mydb.read_row("users",f"user = '{cook}'")
         pres,perr = mydb.read_row("project",f"name = '{nameProject}'")
-        print(pres)
-        render = {"login":isConnect,"pseudo":cook,"email":res[0][2],"bio": res[0][6].replace('"',"'"),"img": f"./static/data/{res[0][7]}","project":pres[0],"like":liker,"nbrlike":pres[0][8]}
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        render = {"login":isConnect,"pseudo":cook,"email":ires[0][2],"bio": ires[0][1].replace('"',"'"),"img": f"./static/data/{ires[0][3]}","project":pres[0],"like":liker,"nbrlike":pres[0][8],"commentaire":commentaire,"responce":responce}
         #print("render : ",render)
         if debug:
             logger.log("Requête projetpres.html", "DEBUG")
@@ -316,6 +351,36 @@ def api_signin():
         if debug:
             logger.log(str(traceback.format_exc()),"DEBUG")
         return jsonify({"status":"nok","msg":'error'})
+    
+@APP_FLASK.route('/api/comment', methods=['POST'])
+def api_comment():
+    try:
+        cook = request.cookies.get('USER_ID',"")
+        payload = request.json
+        maxid,err= mydb.max_index('commentaire',"id")
+        res,err = mydb.add_row("commentaire",[("id",maxid[0][0] + 1),("user",cook),("project",payload['projet']),("content",payload['comment']),("img","none"),("rep",payload['status'])])
+        return jsonify({"status":"ok","msg":'opérationel'})
+    except:
+        logger.log("Erreur inconnue dans api_commment", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+        return jsonify({"status":"nok","msg":'error'})
+    
+@APP_FLASK.route('/api/deleteMessage', methods=['POST'])
+def api_delete_message():
+    try:
+        cook = request.cookies.get('USER_ID',"")
+        payload = request.json
+        res,err = mydb.delete_row('commentaire',('id',payload['id']))
+        res,err = mydb.delete_row('commentaire',('status',payload['id']))
+        
+        
+        return jsonify({"status":"ok","msg":'opérationel'})
+    except:
+        logger.log("Erreur inconnue dans  api_delete_message", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+        return jsonify({"status":"nok","msg":'error'})
 
 @APP_FLASK.route('/api/bio', methods=['POST'])
 def api_bio():
@@ -323,7 +388,7 @@ def api_bio():
         cook = request.cookies.get('USER_ID',"")
         #print("cook :",cook)
         payload = request.json
-        res,err = mydb.update_row("users",f"user = '{cook}'",f"bio = '{payload['bio']}'")
+        res,err = mydb.update_row("userinfo",f"name = '{cook}'",f"bio = '{payload['bio']}'")
         
         return jsonify({"status":"ok","data":{'bio':payload['bio']}})
     except:
@@ -337,16 +402,16 @@ def upload_file():
     try:
  
         cook = request.cookies.get('USER_ID',"")
-        res,err = mydb.read_row("users",f"user = '{cook}'")
+        res,err = mydb.read_row("userinfo",f"name = '{cook}'")
 
         f = request.files['file']
         if f:
             #print(f)
-            if res[0][7] != "circle-person.png":
-                remove(f"./static/data/{res[0][7]}")
+            if res[0][3] != "circle-person.png":
+                remove(f"./static/data/{res[0][3]}")
             f.save(path.join(APP_FLASK.config['UPLOAD_FOLDER'],f"{cook}_{f.filename}"))
 
-            res,err = mydb.update_row("users",f"user = '{cook}'",f"img = '{cook}_{f.filename}'")
+            res,err = mydb.update_row("userinfo",f"name = '{cook}'",f"img = '{cook}_{f.filename}'")
         logger.log("Fichier uploader", "INFO")
     except:
         logger.log("Erreur inconnue dans upload_file", "ERROR")
@@ -422,7 +487,14 @@ def recup_project(nbrproj):
     except:
         logger.log("Erreur inconnue dans la fonction recup_projet", "ERROR")
         if debug:
-            logger.log(str(traceback.format_exc()),"DEBUG")
+            logger.log(str(traceback.format_exc()),"DEBUG") 
+def recup_pp(proj):
+    cres, cerr = mydb.read_row("commentaire",f"project = '{proj}'")
+    for i in cres:
+      res,err = mydb.read_row("userinfo",f"name = '{i[1]}'")
+      res,err = mydb.update_row("commentaire",f"user = '{i[1]}'",f"img = './static/data/{res[0][3]}'")  
+    cres, cerr = mydb.read_row("commentaire",f"project = '{proj}'")
+    print(cres)
    
 
 ###############################################
@@ -432,9 +504,11 @@ if __name__ == '__main__':
     logger.log("Lancement de l'application ! ", "INFO")
 #Lancement de serveur WEB flask sur l'adresse IP locale et le port 8080
     logger.log("Création de la base de donnée", "INFO")
-    mydb.create_table("users",[("id","INTEGER"),("user","TEXT"),("email","TEXT"),("mdp","TEXT"),("lastlog","INTEGER"),("connected","INTEGER"),("bio","TEXT"),("img","BLOB")])
-    mydb.create_table("project",[("id","INTEGER"),("owner","TEXT"),("name","TEXT"),("title","TEXT"),("text","TEXT"),("date","TEXT"),("img","BLOB"),("link","TEXT"),("like","INTEGER")])
+    mydb.create_table("users",[("id","INTEGER"),("user","TEXT"),("email","TEXT"),("mdp","TEXT"),("lastlog","INTEGER"),("connected","INTEGER")])
+    mydb.create_table("userinfo",[("name","TEXT"),("email","TEXT"),("bio","TEXT"),("img","BLOB")])
+    mydb.create_table("project",[("id","INTEGER"),("owner","TEXT"),("name","TEXT"),("title","TEXT"),("text","TEXT"),("date","TEXT"),("img","BLOB"),("link","TEXT"),("like","INTEGER"),("comment","INTEGER")])
     mydb.create_table("like",[("id","INTEGER"),("user","TEXT"),("project","TEXT"),("status","INTEGER")])
+    mydb.create_table("commentaire",[("id","INTEGER"),("user","TEXT"),("project","TEXT"),("content","TEXT"),('img',"TEXT"),('rep',"INTEGER")])
     logger.log("Démarrage du serveur flask", "INFO")
     APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = "127.0.0.1", port = 8080)
     

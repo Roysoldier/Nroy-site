@@ -1,155 +1,355 @@
 <html lang="fr">
-    <head>
-        <title>{{render['project'][1]}} - {{render['project'][2]}}</title>
-        <link rel="icon" href="static/img/logo.png">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="static/css/main.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
 
-    <body>
-        
+<head>
+  <title>{{render['project'][1]}} - {{render['project'][2]}}</title>
+  <link rel="icon" href="static/img/logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
 <body>
-   
-   
-       
-     
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="nav">
-            <a class="navbar-brand" href="perso.html" >
-                <img src="static/img/logo.png" width="60" height="60" alt="">
+
+  <body>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="nav">
+      <a class="navbar-brand" href="perso.html">
+        <img src="static/img/logo.png" width="60" height="60" alt="">
+      </a>
+
+      <a class="navbar-brand" href="#">Site de Noan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projet.html">Projet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jeux</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plus
             </a>
-            
-            <a class="navbar-brand" href="#">Site de Noan</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projet.html">Projet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Jeux</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plus
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Librairie</a>
-                    <a class="dropdown-item" href="#">Vos code</a>
-                    <a class="dropdown-item" href="#">Aide</a>
-                    </div>
-                </li>
-                </ul>
-                {% if not render['login']%}
-                <ul class="nav bs"  >
-                    <li class="nav-item "><a href="signin.html" class="nav-link link-dark px-2 bs">Login</a></li>
-                    <li class="nav-item"><a href="signup.html" class="nav-link link-dark px-2 bs">Sign up</a></li>
-                  </ul>
-                  {% else%}
-                  <div class="nav-item dropdown  bss" >
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
-                    </a>
-                    <ul class="dropdown-menu   text-small">
-                      <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
-                      <li><a class="dropdown-item" href="#">Settings</a></li>
-                      <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
-                    </ul>
-                  </div>
-                  {%endif%}
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Librairie</a>
+              <a class="dropdown-item" href="#">Vos code</a>
+              <a class="dropdown-item" href="#">Aide</a>
             </div>
-            </nav>
-        <div class="center-pres">
-            
-            <h2 id ='pres-title-project' class="pres-title-project">{{render['project'][2]}}</h2>
-            <h2 class="owner-project">Crée par : {{render['project'][1]}}</h2>
-            <img class="pres-img" src="./static/data/{{render['project'][6]}}"/>
-            <div class="like">
-              <i class="fa fa-heart-o"></i>
-              <i class="fa fa-heart"></i>
-            </div>
-            <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]}}</h3>
-            <p class="txt-title-project">{{render['project'][4]}}</p>
-            <a target="_blank" class="btn btn-primary center-button" href="{{render['project'][7]}}" role="button">Link</a>
-            
+          </li>
+        </ul>
+        {% if not render['login']%}
+        <ul class="nav bs">
+          <li class="nav-item "><a href="signin.html" class="nav-link link-dark px-2 bs">Login</a></li>
+          <li class="nav-item"><a href="signup.html" class="nav-link link-dark px-2 bs">Sign up</a></li>
+        </ul>
+        {% else %}
+        <div class="nav-item dropdown  bss">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu   text-small">
+            <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
+            <li><a class="dropdown-item" href="myproj.html">Mes Projet</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
+          </ul>
+        </div>
+        {%endif%}
+      </div>
+    </nav>
+    <div class="center-pres">
 
-           
-              
-              
-              <script>
-                var render = {{ render|tojson }};
-const likeBtn = document.querySelector('.like');
-if (render['like']) {
-  likeBtn.classList.toggle('active');
-} else {
-  likeBtn.classList.toggle('disable');
-}
+      <h2 id='pres-title-project' class="pres-title-project">{{render['project'][2]}}</h2>
+      <h2 class="owner-project">Crée par : {{render['project'][1]}}</h2>
+      <img class="pres-img" src="./static/data/{{render['project'][6]}}" />
+      <div class="like">
+        <i class="fa fa-heart-o"></i>
+        <i class="fa fa-heart"></i>
+      </div>
+      <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]}}</h3>
+      <p class="txt-title-project">{{render['project'][4]}}</p>
+      <a target="_blank" class="btn btn-primary center-button" href="{{render['project'][7]}}" role="button">Link</a>
+      <div class="box-commment">
+        <div class="add-comment">
+          <input type="text" id="newcomment" name="newcomment" class="form-control comm"
+            placeholder="➤ Poster un commentaire">
+          <input type="submit" onclick="new_comment(0)" class="btn btn-primary button-comm"
+            placeholder="Envoyer"></input>
+        </div>
+        <br />
+        <br />
 
-likeBtn.addEventListener('click', function () {
-    this.classList.toggle('active');
-  
 
-  var nameProj = document.getElementById('pres-title-project').innerHTML;
-  var sendrequest = {
-    "name": nameProj
-  };
-
-  $(function () {
-    $.ajax({
-      type: 'POST',
-      url: "api/like",
-      data: JSON.stringify(sendrequest),
-      contentType: "application/json",
-      dataType: "json",
-      success: function (result) {
-        if (result.status == "ok") {
-          //window.location = "projetpres.html"
-        } else {
-          //alert(result.msg);
-        }
-      },
-      error: function (xhr, ajaxOptions, thrownError) {
-        alert("Une erreur réseau est survenue");
-      }
-    });
-  });
-
-});
-              </script>
-              
-              
-              <script src="static/js/like.js"></script>
-            <br/>
-        </div> 
-            
-       
-           
-
-            
-
+    {% for i in render["commentaire"] %}
+        <div class="comment">
+          <img src={{i[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          <p class="name-comment">{{i[1]}}</p>
+          <p class="text-comment">{{i[3]|replace("¤","'")}}</p>
           
+          
+          
+         
 
-        <div class="main"></div>
-        <script src="static/js/projectinfo.js"></script>
-        <script src="static/js/connect.js"></script>
-        <script src="static/js/contact.js"></script>
-        <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js"></script>
-    </body>
+          <div class="dropdown-base d_{{i[0]}}">
+            <button class="drop-btn {{i[0]}}">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots-vertical dots" viewBox="0 0 16 16">
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+              </svg>
+            </button>
+            <div class="dropdown-content-op {{i[0]}}_b">
+              {% if i[1] == render['pseudo'] %}
+              <a onclick="delete_message('{{i[0]}}')">Suprimer</a>
+              <a href="#">Modifier</a>
+              {%endif%}
+              <a class="{{i[0]}}_rep">Répondre</a>
+            </div>
+
+            <script>
+              $(document).ready(function () {
+                // Afficher/cacher la liste déroulante lorsqu'on clique sur le bouton
+                $(".{{i[0]}}").click(function () {
+                  $(".{{i[0]}}_b").toggle();
+                });
+
+                // Cacher la liste déroulante si on clique en dehors du bouton ou de la liste déroulante
+                $(document).click(function (event) {
+                  if (!$(event.target).closest(".d_{{i[0]}}").length) {
+                    $(".{{i[0]}}_b").hide();
+                  }
+                });
+              });
+            </script>
+
+
+          </div>
+         
+          <br />
+        </div>
+        
+        {% set count = {'value':0} %}
+        {% for tuple_item in render['responce'] %}
+            {% if i[0] == tuple_item[5] %}
+            {% if count.update({'value': count.value + 1}) %}{% endif %} 
+            {% endif %}
+            
+        {% endfor %}
+        
+        {% if count.value > 0 %}
+            {% if count.value == 1 %}
+              <a class="reep-comment reep-comment_{{i[0]}}"> ▼ Voir la réponse </a>
+              <a class="reep-comment reep-comment_{{i[0]}}_f"> ▲ Voir la réponse</a>            
+            {% else %}
+              <a class="reep-comment reep-comment_{{i[0]}}"> ▼ Voir les {{count.value}} réponses </a>
+              <a class="reep-comment reep-comment_{{i[0]}}_f"> ▲ Voir les {{count.value}} réponses </a> 
+            {%endif%}
+            <!-- Debug information: -->
+        {% endif %}
+              
+      
+
+
+
+    <div class="responce_{{i[0]}}">
+      {% for v in render["responce"] %}
+      {%if v[5] == i[0]%}
+        <div class="rep-comment">
+          <img src={{v[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          <p class="rep-text-comment">{{v[3]|replace("¤","'")}}</p>
+          <p class="rep-name-comment">{{v[1]}}</p>
+
+
+          <div class="dropdown-base d_{{v[0]}}">
+            {% if v[1] == render['pseudo'] %}
+            <button class="drop-btn {{v[0]}}">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-three-dots-vertical dots" viewBox="0 0 16 16">
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+              </svg>
+            </button>
+            
+            <div class="dropdown-content-op {{v[0]}}_b">
+              
+              <a onclick="delete_message('{{v[0]}}')">Suprimer</a>
+              <a href="#">Modifier</a>
+              
+            </div>
+            {%endif%}
+
+            <script>
+              $(document).ready(function () {
+                // Afficher/cacher la liste déroulante lorsqu'on clique sur le bouton
+                $(".{{v[0]}}").click(function () {
+                  $(".{{v[0]}}_b").toggle();
+                });
+
+                // Cacher la liste déroulante si on clique en dehors du bouton ou de la liste déroulante
+                $(document).click(function (event) {
+                  if (!$(event.target).closest(".d_{{v[0]}}").length) {
+                    $(".{{v[0]}}_b").hide();
+                  }
+                });
+              });
+            </script>
+
+
+          </div>
+
+          <br />
+        </div>
+
+        
+      {%endif%}
+      {%endfor%}
+    </div>
+
+    <script>
+      $(".responce_{{i[0]}}").hide()
+      $(".reep-comment_{{i[0]}}_f").hide()
+      $(document).ready(function () {
+        // Afficher/cacher la liste déroulante lorsqu'on clique sur le bouton
+        $(".reep-comment_{{i[0]}}").click(function () {
+          $(".responce_{{i[0]}}").toggle();
+          $(".reep-comment_{{i[0]}}").hide()
+          $(".reep-comment_{{i[0]}}_f").toggle()
+        });
+
+        $(".reep-comment_{{i[0]}}_f").click(function () {
+          $(".responce_{{i[0]}}").hide();
+          $(".reep-comment_{{i[0]}}").toggle()
+          $(".reep-comment_{{i[0]}}_f").hide()
+        });
+
+      });
+    </script>
+        
+
+        <div class="rep-add-comment {{i[0]}}_responce">
+          <input type="text" id="newresponce_{{i[0]}}" name="newcomment" class="form-control rep-comm {{i[0]}}_com"
+            placeholder="➤ Poster une Réponse">
+          <input type="submit" onclick="new_comment({{i[0]}})" class="btn btn-primary rep-button-comm"
+            placeholder="Envoyer"></input>
+          </div>
+            <script>
+              $(".{{i[0]}}_responce").hide()
+              $(document).ready(function () {
+                // Afficher/cacher la liste déroulante lorsqu'on clique sur le bouton
+                $(".{{i[0]}}_rep").click(function () {
+                  $(".{{i[0]}}_responce").toggle();
+                });
+
+              });
+            </script>
+       
+
+
+    {% endfor %}
+      </div>
+
+
+
+
+
+
+      <script>
+        var render = {{ render| tojson }};
+        const likeBtn = document.querySelector('.like');
+        if (render['like']) {
+          likeBtn.classList.toggle('active');
+        } else {
+          likeBtn.classList.toggle('disable');
+        }
+
+        likeBtn.addEventListener('click', function () {
+          this.classList.toggle('active');
+
+
+          var nameProj = document.getElementById('pres-title-project').innerHTML;
+          var sendrequest = {
+            "name": nameProj
+          };
+
+          $(function () {
+            $.ajax({
+              type: 'POST',
+              url: "api/like",
+              data: JSON.stringify(sendrequest),
+              contentType: "application/json",
+              dataType: "json",
+              success: function (result) {
+                if (result.status == "ok") {
+                  //window.location = "projetpres.html"
+                } else {
+                  //alert(result.msg);
+                }
+              },
+              error: function (xhr, ajaxOptions, thrownError) {
+                alert("Une erreur réseau est survenue");
+              }
+            });
+          });
+
+        });
+
+
+      </script>
+
+
+      
+      <br />
+    </div>
+
+
+
+
+
+
+
+
+    <div class="main"></div>
+    <script src="static/js/comment.js"></script>
+    <script src="static/js/projectinfo.js"></script>
+    <script src="static/js/connect.js"></script>
+    <script src="static/js/contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" language="javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js"></script>
+  </body>

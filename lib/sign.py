@@ -21,7 +21,8 @@ def signup(logger=None,mydb=None,payload=None,debug=False):
                     id = res[0][0] + 1
                     binarykey = bytes(payload['password'], "utf-8")
                     hashkey = hashlib.sha256(binarykey).hexdigest()
-                    res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey),("lastlog",0),("connected",0),('bio',""),("img","circle-person.png")])
+                    res,err = mydb.add_row("users",[("id",id),("user",payload["pseudo"]),("email",payload["email"]),("mdp",hashkey),("lastlog",0),("connected",0)])
+                    res,err = mydb.add_row("userinfo",[("name",payload["pseudo"]),("email",payload["email"]),('bio',""),("img","circle-person.png")])
                     if res == 1 and not err:
 
                         logger.log(f"Compte créé : {payload['pseudo']}","INFO")

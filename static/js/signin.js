@@ -33,9 +33,9 @@ function sign_in() {
                 success: function (result) {
     
                     if (result.status == "ok") {
-                        //alert(result.msg);
-                        //var cookie = window.Cookies.get();
-                        //alert(JSON.stringify(cookie))
+                        alert(result.msg);
+                        var cookie = window.Cookies.get();
+                        alert(JSON.stringify(cookie))
                         
                         window.location = "index.html";
                     }

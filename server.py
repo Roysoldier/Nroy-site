@@ -578,5 +578,5 @@ if __name__ == '__main__':
         job = scheduler.add_job(check_account, 'interval', minutes=CONFIG['scheduler']['interval'])
         scheduler.start()
     logger.log("Démarrage du serveur flask", "INFO")
-    APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
-    
+    #APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
+    APP_FLASK.run(host = CONFIG['network']['ip'], port = CONFIG['network']['port'])

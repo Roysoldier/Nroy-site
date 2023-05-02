@@ -17283,3 +17283,52 @@ TypeError: 'NoneType' object is not iterable
 2023-05-02 18:32:26,412 INFO     > Autentification validé pour : roynoan@gmail.com
 2023-05-02 18:32:28,543 INFO     > Noan est connecté
 2023-05-02 18:32:28,544 DEBUG    > Requête index.html
+2023-05-02 18:33:08,308 INFO     > Check périodique
+2023-05-02 18:34:08,300 INFO     > Check périodique
+2023-05-02 18:35:08,309 INFO     > Check périodique
+2023-05-02 18:36:08,303 INFO     > Check périodique
+2023-05-02 18:37:08,304 INFO     > Check périodique
+2023-05-02 18:38:08,301 INFO     > Check périodique
+2023-05-02 18:39:08,302 INFO     > Check périodique
+2023-05-02 18:40:08,307 INFO     > Check périodique
+2023-05-02 18:41:08,312 INFO     > Check périodique
+2023-05-02 18:42:08,312 INFO     > Check périodique
+2023-05-02 18:43:08,299 INFO     > Check périodique
+2023-05-02 18:44:08,312 INFO     > Check périodique
+2023-05-02 18:45:08,302 INFO     > Check périodique
+2023-05-02 18:46:08,300 INFO     > Check périodique
+2023-05-02 18:47:08,302 INFO     > Check périodique
+2023-05-02 18:48:08,304 INFO     > Check périodique
+2023-05-02 18:48:41,162 INFO     > Lancement de l'application ! 
+2023-05-02 18:48:41,163 INFO     > Ouverture du fichier de configuration
+2023-05-02 18:48:41,166 INFO     > Création de la base de donnée
+2023-05-02 18:48:41,167 INFO     > Démarrage du scheduler
+2023-05-02 18:48:41,282 INFO     > Démarrage du serveur flask
+2023-05-02 18:49:33,667 DEBUG    > Requête index.html
+2023-05-02 18:49:36,347 DEBUG    > Requête signin.html
+2023-05-02 18:49:41,282 INFO     > Check périodique
+2023-05-02 18:50:01,088 DEBUG    > Requête api_signin
+2023-05-02 18:50:01,088 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-02 18:50:12,795 INFO     > Noan est connecté
+2023-05-02 18:50:12,795 DEBUG    > Requête index.html
+2023-05-02 18:50:20,752 INFO     > Noan est connecté
+2023-05-02 18:50:20,753 DEBUG    > Requête index.html
+2023-05-02 18:50:25,026 INFO     > Noan est connecté
+2023-05-02 18:50:25,027 DEBUG    > Requête projet.html
+2023-05-02 18:50:41,072 INFO     > Noan est connecté
+2023-05-02 18:50:41,079 INFO     > Compte déconnecter
+2023-05-02 18:50:41,281 INFO     > Check périodique
+2023-05-02 18:50:41,393 DEBUG    > Requête index.html
+2023-05-02 18:51:17,247 DEBUG    > Requête index.html
+2023-05-02 18:51:28,847 DEBUG    > Requête signin.html
+2023-05-02 18:51:41,284 INFO     > Check périodique
+2023-05-02 18:51:42,182 DEBUG    > Requête api_signin
+2023-05-02 18:51:42,182 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-05-02 18:51:58,470 INFO     > Noan est connecté
+2023-05-02 18:51:58,470 DEBUG    > Requête index.html
+2023-05-02 18:52:41,281 INFO     > Check périodique
+2023-05-02 18:53:41,288 INFO     > Check périodique
+2023-05-02 18:54:41,292 INFO     > Check périodique
+2023-05-02 18:55:41,280 INFO     > Check périodique
+2023-05-02 18:56:41,279 INFO     > Check périodique
+2023-05-02 18:57:41,294 INFO     > Check périodique

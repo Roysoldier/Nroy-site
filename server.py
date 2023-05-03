@@ -371,7 +371,7 @@ def api_signin():
         result,user = sign.signin(logger=logger,mydb=mydb,email=request.json['email'],pwd=request.json['password'],debug=debug)
         if user['auth']:
             resp = make_response(jsonify (result))  
-            resp.set_cookie('USER_ID',user['user'])  
+            resp.set_cookie('USER_ID',user['user'],path="/",domain="nroydev.fr", httponly=True, secure=True)  
         return resp
     except:
         logger.log("Erreur inconnue dans api_signin", "ERROR")
@@ -578,5 +578,5 @@ if __name__ == '__main__':
         job = scheduler.add_job(check_account, 'interval', minutes=CONFIG['scheduler']['interval'])
         scheduler.start()
     logger.log("Démarrage du serveur flask", "INFO")
-    #APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
-    APP_FLASK.run(host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
+    APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
+    #APP_FLASK.run(host = CONFIG['network']['ip'], port = CONFIG['network']['port'])

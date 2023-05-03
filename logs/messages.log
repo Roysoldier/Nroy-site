@@ -18121,3 +18121,28 @@ TypeError: 'NoneType' object is not iterable
     render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
 IndexError: tuple index out of range
 
+2023-05-03 13:26:52,856 INFO     > Check périodique
+2023-05-03 13:27:41,506 INFO     > Noan est connecté
+2023-05-03 13:27:41,507 DEBUG    > Requête editprofil.html
+2023-05-03 13:27:47,978 INFO     > Lancement de l'application ! 
+2023-05-03 13:27:47,979 INFO     > Ouverture du fichier de configuration
+2023-05-03 13:27:47,986 INFO     > Création de la base de donnée
+2023-05-03 13:27:47,987 INFO     > Démarrage du scheduler
+2023-05-03 13:27:48,181 INFO     > Démarrage du serveur flask
+2023-05-03 13:27:49,972 INFO     > Noan est connecté
+2023-05-03 13:27:49,973 DEBUG    > Requête editprofil.html
+2023-05-03 13:27:51,775 INFO     > Noan est connecté
+2023-05-03 13:27:51,775 DEBUG    > Requête index.html
+2023-05-03 13:28:16,034 INFO     > Lancement de l'application ! 
+2023-05-03 13:28:16,034 INFO     > Ouverture du fichier de configuration
+2023-05-03 13:28:16,035 INFO     > Création de la base de donnée
+2023-05-03 13:28:16,036 INFO     > Démarrage du scheduler
+2023-05-03 13:28:16,132 INFO     > Démarrage du serveur flask
+2023-05-03 13:28:17,740 INFO     > Noan est connecté
+2023-05-03 13:28:17,741 DEBUG    > Requête index.html
+2023-05-03 13:29:16,134 INFO     > Check périodique
+2023-05-03 13:30:16,140 INFO     > Check périodique
+2023-05-03 13:31:16,129 INFO     > Check périodique
+2023-05-03 13:32:16,135 INFO     > Check périodique
+2023-05-03 13:33:16,136 INFO     > Check périodique
+2023-05-03 13:34:16,144 INFO     > Check périodique

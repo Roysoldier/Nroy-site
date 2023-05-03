@@ -177,17 +177,17 @@ li {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 100%;
   
     background-color: black;
     padding: 15px;
     margin-left: 15px;
-   margin-right: 10px;
-    
+     margin-right: 10px;
+     
 }
 .rep-comm:focus {
     border-radius: 0px;
-    width: 85%;
+    width: 100%;
     margin: auto;
     background-color: black;
     border-color: black;
@@ -293,12 +293,8 @@ form[id=project-create-form] {
     border-radius: 50px;
     display: block;
   margin: 0 auto;
-  max-width: 90%;
-  max-height: 100%;
-  max-height: 720px;
-  max-width: 1080px;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .description-pres {
@@ -341,10 +337,9 @@ form[id=project-create-form] {
 }
 
 .box-commment {
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 43%;
-    border: solid 2px grey;
+    max-width: 100%;
+    width: 1100px;
+    
     margin: auto;
     margin-top: 25px;
 }
@@ -365,7 +360,7 @@ form[id=project-create-form] {
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     margin-top: 20px;
-    margin-left: -45px;
+    margin-left: -75px;
     margin-bottom: 0px;
     color: white;
 }
@@ -375,7 +370,7 @@ form[id=project-create-form] {
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: -75px;
     margin-bottom: 0px;
     color: white;
 }
@@ -387,7 +382,7 @@ form[id=project-create-form] {
 }
 
 .name-comment {
-    display: xx;
+    display: flex;
     margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -395,11 +390,12 @@ form[id=project-create-form] {
 }
 
 .rep-name-comment {
-    position: absolute;
+    display: flex;
+    margin-left: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    left: 32.6%;
     color: white;
+
 }
 
 
@@ -446,16 +442,19 @@ form[id=project-create-form] {
     max-height: 100%;
     width: 820px;
 }
-.project-img {
+.proj-img {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    
     margin-bottom: 1em;
     
 
     align-items: center;
     justify-content: center;
     margin: auto;
+    min-height: 200px;
+    max-width: 100%;
+    max-height: 200px;
 }
 .proj-img:focus {
     background-color:rgba(20, 0, 107, 0.5);
@@ -614,12 +613,16 @@ input::file-selector-button {
 
 .card-modif {
     margin-top: 2em;
-    
     background-color: rgb(255, 255, 255);
-    width: 590px;
-    height: 470px; 
-    max-width: 90%
+    width: 500px;
+    height: auto;
+    max-width: 100%
     
+}
+.center-page {
+    max-width: 100%;
+    padding: None;
+    margin: auto;
 }
 
 
@@ -640,9 +643,11 @@ input::file-selector-button {
 
 form.center-block-form {
     display: inline-block;
+    margin: auto;
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto
   }
+
 
 
 .bio-text  {
@@ -686,6 +691,7 @@ form.center-block-form {
    display: block;
     text-align: center;
     width: 500px;
+    max-width: 100%;
     padding: 10px;
     font-size: 25px;
     color: #fff;
@@ -722,13 +728,13 @@ form.center-block-form {
     background-color: rgb(66, 66, 66);
     float:right;
     margin: 10px;
-    display: fixed;
-    transform: translate(0%,-170%);
+    display: block;
     text-align: center;
     width: 120px;
     padding: 3px;
     font-size: 15px;
     border-color: rgb(110, 110, 110);
+    
 }
 .rep-button-comm:hover {
     border-color: rgb(255, 255, 255);
@@ -738,7 +744,7 @@ form.center-block-form {
 
 
 .base-form {
-
+    
     background-color: rgba(117, 201, 48, 0.2);
     border: solid white 2px;
     border-radius: 25px;
@@ -831,12 +837,14 @@ form.center-block-form {
   }
  
 /* Style pour le bouton */
+
 .dropdown-base {
-    position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    left: 69.6%;
+    float: left;
+    margin-left: 15px;
     color: white;
+    
 }
 .drop-btn {
     background-color: transparent;

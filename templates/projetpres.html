@@ -67,7 +67,7 @@
         <div class="nav-item dropdown  bss">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
+            <img src={{render['img']}} alt="mdo" width="50" height="50"  class="rounded-circle img">
           </a>
           <ul class="dropdown-menu   text-small">
             <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
@@ -99,12 +99,15 @@
       <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]}}</h3>
       <p class="txt-title-project">{{render['project'][4]}}</p>
       <a target="_blank" class="btn btn-primary center-button" href="{{render['project'][7]}}" role="button">Link</a>
-      <div class="box-commment">
+      <br/>
+      <hr>
+  <div class="box-commment">
         <div class="add-comment">
           <input type="text" id="newcomment" name="newcomment" class="form-control comm"
             placeholder="➤ Poster un commentaire">
           <input type="submit" onclick="new_comment(0)" class="btn btn-primary button-comm"
             placeholder="Envoyer"></input>
+            <br/>
         </div>
         <br />
         <br />
@@ -114,21 +117,21 @@
         <div class="comment">
           <img src={{i[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
           <p class="name-comment">{{i[1]}}</p>
-          <p class="text-comment">{{i[3]|replace("¤","'")}}</p>
+          
           
           
           
          
 
-          <div class="dropdown-base d_{{i[0]}}">
-            <button class="drop-btn {{i[0]}}">
+          <div class="dropdown  dropup dropdown-base d_{{i[0]}} ">
+            <button class="drop-btn {{i[0]}}"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-three-dots-vertical dots" viewBox="0 0 16 16">
                 <path
                   d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
               </svg>
             </button>
-            <div class="dropdown-content-op {{i[0]}}_b">
+            <div class="dropdown-menu dropdown-menu-right dropdown-content-op {{i[0]}}_b">
               {% if i[1] == render['pseudo'] %}
               <a onclick="delete_message('{{i[0]}}')">Suprimer</a>
               <a href="#">Modifier</a>
@@ -154,7 +157,7 @@
 
 
           </div>
-         
+          <p class="text-comment">{{i[3]|replace("¤","'")}}</p>
           <br />
         </div>
         
@@ -186,27 +189,24 @@
       {%if v[5] == i[0]%}
         <div class="rep-comment">
           <img src={{v[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
-          <p class="rep-text-comment">{{v[3]|replace("¤","'")}}</p>
           <p class="rep-name-comment">{{v[1]}}</p>
+          
+          
 
 
-          <div class="dropdown-base d_{{v[0]}}">
-            {% if v[1] == render['pseudo'] %}
-            <button class="drop-btn {{v[0]}}">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-three-dots-vertical dots" viewBox="0 0 16 16">
-                <path
-                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-              </svg>
-            </button>
-            
-            <div class="dropdown-content-op {{v[0]}}_b">
-              
-              <a onclick="delete_message('{{v[0]}}')">Suprimer</a>
-              <a href="#">Modifier</a>
-              
-            </div>
-            {%endif%}
+
+            <div class="dropdown  dropup dropdown-base d_{{v[0]}} ">
+              <button class="drop-btn {{v[0]}}"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-three-dots-vertical dots" viewBox="0 0 16 16">
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                </svg>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right dropdown-content-op {{v[0]}}_b">
+                <a onclick="delete_message('{{v[0]}}')">Suprimer</a>
+                <a href="#">Modifier</a>
+              </div>
 
             <script>
               $(document).ready(function () {
@@ -226,6 +226,7 @@
 
 
           </div>
+          <p class="rep-text-comment">{{v[3]|replace("¤","'")}}</p>
 
           <br />
         </div>
@@ -261,6 +262,7 @@
             placeholder="➤ Poster une Réponse">
           <input type="submit" onclick="new_comment({{i[0]}})" class="btn btn-primary rep-button-comm"
             placeholder="Envoyer"></input>
+            <br/>
           </div>
             <script>
               $(".{{i[0]}}_responce").hide()

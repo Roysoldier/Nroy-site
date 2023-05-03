@@ -17332,3 +17332,792 @@ TypeError: 'NoneType' object is not iterable
 2023-05-02 18:55:41,280 INFO     > Check périodique
 2023-05-02 18:56:41,279 INFO     > Check périodique
 2023-05-02 18:57:41,294 INFO     > Check périodique
+2023-05-03 08:59:52,727 INFO     > Lancement de l'application ! 
+2023-05-03 08:59:52,727 INFO     > Ouverture du fichier de configuration
+2023-05-03 08:59:52,729 INFO     > Création de la base de donnée
+2023-05-03 08:59:52,730 INFO     > Démarrage du scheduler
+2023-05-03 08:59:52,849 INFO     > Démarrage du serveur flask
+2023-05-03 08:59:58,414 INFO     > Noan est connecté
+2023-05-03 08:59:58,415 DEBUG    > Requête index.html
+2023-05-03 09:00:04,206 INFO     > Noan est connecté
+2023-05-03 09:00:04,207 DEBUG    > Requête projet.html
+2023-05-03 09:00:05,003 INFO     > Fichier chearchfile
+2023-05-03 09:00:05,003 INFO     > Noan est connecté
+2023-05-03 09:00:05,008 DEBUG    > Requête projetpres.html
+2023-05-03 09:00:22,402 INFO     > Fichier chearchfile
+2023-05-03 09:00:22,403 INFO     > Noan est connecté
+2023-05-03 09:00:22,407 DEBUG    > Requête projetpres.html
+2023-05-03 09:00:30,632 INFO     > Fichier chearchfile
+2023-05-03 09:00:30,633 INFO     > Noan est connecté
+2023-05-03 09:00:30,638 DEBUG    > Requête projetpres.html
+2023-05-03 09:00:38,827 INFO     > Fichier chearchfile
+2023-05-03 09:00:38,828 INFO     > Noan est connecté
+2023-05-03 09:00:38,833 DEBUG    > Requête projetpres.html
+2023-05-03 09:00:47,159 INFO     > Fichier chearchfile
+2023-05-03 09:00:47,159 INFO     > Noan est connecté
+2023-05-03 09:00:47,165 DEBUG    > Requête projetpres.html
+2023-05-03 09:00:51,199 DEBUG    > Requête api_like
+2023-05-03 09:00:51,199 INFO     > Noan est connecté
+2023-05-03 09:00:51,200 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 09:00:51,635 DEBUG    > Requête api_like
+2023-05-03 09:00:51,636 INFO     > Noan est connecté
+2023-05-03 09:00:51,637 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 09:00:52,849 INFO     > Check périodique
+2023-05-03 09:01:38,532 INFO     > Fichier chearchfile
+2023-05-03 09:01:38,533 INFO     > Noan est connecté
+2023-05-03 09:01:38,539 DEBUG    > Requête projetpres.html
+2023-05-03 09:01:46,183 INFO     > Fichier chearchfile
+2023-05-03 09:01:46,183 INFO     > Noan est connecté
+2023-05-03 09:01:46,189 DEBUG    > Requête projetpres.html
+2023-05-03 09:01:52,551 INFO     > Fichier chearchfile
+2023-05-03 09:01:52,551 INFO     > Noan est connecté
+2023-05-03 09:01:52,556 DEBUG    > Requête projetpres.html
+2023-05-03 09:01:52,851 INFO     > Check périodique
+2023-05-03 09:01:59,124 INFO     > Fichier chearchfile
+2023-05-03 09:01:59,124 INFO     > Noan est connecté
+2023-05-03 09:01:59,130 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:09,775 INFO     > Fichier chearchfile
+2023-05-03 09:02:09,776 INFO     > Noan est connecté
+2023-05-03 09:02:09,781 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:22,233 INFO     > Fichier chearchfile
+2023-05-03 09:02:22,234 INFO     > Noan est connecté
+2023-05-03 09:02:22,239 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:30,033 INFO     > Fichier chearchfile
+2023-05-03 09:02:30,033 INFO     > Noan est connecté
+2023-05-03 09:02:30,039 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:39,125 INFO     > Fichier chearchfile
+2023-05-03 09:02:39,126 INFO     > Noan est connecté
+2023-05-03 09:02:39,131 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:46,389 INFO     > Fichier chearchfile
+2023-05-03 09:02:46,389 INFO     > Noan est connecté
+2023-05-03 09:02:46,393 DEBUG    > Requête projetpres.html
+2023-05-03 09:02:52,849 INFO     > Check périodique
+2023-05-03 09:03:29,869 INFO     > Fichier chearchfile
+2023-05-03 09:03:29,869 INFO     > Noan est connecté
+2023-05-03 09:03:29,875 DEBUG    > Requête projetpres.html
+2023-05-03 09:03:46,971 INFO     > Fichier chearchfile
+2023-05-03 09:03:46,971 INFO     > Noan est connecté
+2023-05-03 09:03:46,976 DEBUG    > Requête projetpres.html
+2023-05-03 09:03:52,862 INFO     > Check périodique
+2023-05-03 09:03:55,086 INFO     > Fichier chearchfile
+2023-05-03 09:03:55,087 INFO     > Noan est connecté
+2023-05-03 09:03:55,093 DEBUG    > Requête projetpres.html
+2023-05-03 09:04:21,222 INFO     > Fichier chearchfile
+2023-05-03 09:04:21,222 INFO     > Noan est connecté
+2023-05-03 09:04:21,228 DEBUG    > Requête projetpres.html
+2023-05-03 09:04:38,612 INFO     > Fichier chearchfile
+2023-05-03 09:04:38,613 INFO     > Noan est connecté
+2023-05-03 09:04:38,619 DEBUG    > Requête projetpres.html
+2023-05-03 09:04:52,850 INFO     > Check périodique
+2023-05-03 09:04:56,320 INFO     > Fichier chearchfile
+2023-05-03 09:04:56,320 INFO     > Noan est connecté
+2023-05-03 09:04:56,326 DEBUG    > Requête projetpres.html
+2023-05-03 09:05:38,197 INFO     > Fichier chearchfile
+2023-05-03 09:05:38,197 INFO     > Noan est connecté
+2023-05-03 09:05:38,203 DEBUG    > Requête projetpres.html
+2023-05-03 09:05:50,847 INFO     > Fichier chearchfile
+2023-05-03 09:05:50,847 INFO     > Noan est connecté
+2023-05-03 09:05:50,853 DEBUG    > Requête projetpres.html
+2023-05-03 09:05:52,851 INFO     > Check périodique
+2023-05-03 09:06:52,858 INFO     > Check périodique
+2023-05-03 09:06:55,191 INFO     > Fichier chearchfile
+2023-05-03 09:06:55,191 INFO     > Noan est connecté
+2023-05-03 09:06:55,197 DEBUG    > Requête projetpres.html
+2023-05-03 09:07:09,804 INFO     > Fichier chearchfile
+2023-05-03 09:07:09,804 INFO     > Noan est connecté
+2023-05-03 09:07:09,810 DEBUG    > Requête projetpres.html
+2023-05-03 09:07:29,923 INFO     > Fichier chearchfile
+2023-05-03 09:07:29,923 INFO     > Noan est connecté
+2023-05-03 09:07:29,928 DEBUG    > Requête projetpres.html
+2023-05-03 09:07:49,508 INFO     > Fichier chearchfile
+2023-05-03 09:07:49,508 INFO     > Noan est connecté
+2023-05-03 09:07:49,514 DEBUG    > Requête projetpres.html
+2023-05-03 09:07:52,850 INFO     > Check périodique
+2023-05-03 09:08:05,625 INFO     > Fichier chearchfile
+2023-05-03 09:08:05,625 INFO     > Noan est connecté
+2023-05-03 09:08:05,630 DEBUG    > Requête projetpres.html
+2023-05-03 09:08:14,963 INFO     > Fichier chearchfile
+2023-05-03 09:08:14,964 INFO     > Noan est connecté
+2023-05-03 09:08:14,968 DEBUG    > Requête projetpres.html
+2023-05-03 09:08:25,224 INFO     > Fichier chearchfile
+2023-05-03 09:08:25,224 INFO     > Noan est connecté
+2023-05-03 09:08:25,230 DEBUG    > Requête projetpres.html
+2023-05-03 09:08:37,304 INFO     > Fichier chearchfile
+2023-05-03 09:08:37,305 INFO     > Noan est connecté
+2023-05-03 09:08:37,309 DEBUG    > Requête projetpres.html
+2023-05-03 09:08:52,853 INFO     > Check périodique
+2023-05-03 09:09:04,748 INFO     > Fichier chearchfile
+2023-05-03 09:09:04,749 INFO     > Noan est connecté
+2023-05-03 09:09:04,754 DEBUG    > Requête projetpres.html
+2023-05-03 09:09:21,387 INFO     > Fichier chearchfile
+2023-05-03 09:09:21,387 INFO     > Noan est connecté
+2023-05-03 09:09:21,393 DEBUG    > Requête projetpres.html
+2023-05-03 09:09:45,847 INFO     > Fichier chearchfile
+2023-05-03 09:09:45,848 INFO     > Noan est connecté
+2023-05-03 09:09:45,854 DEBUG    > Requête projetpres.html
+2023-05-03 09:09:52,849 INFO     > Check périodique
+2023-05-03 09:09:53,625 INFO     > Fichier chearchfile
+2023-05-03 09:09:53,626 INFO     > Noan est connecté
+2023-05-03 09:09:53,630 DEBUG    > Requête projetpres.html
+2023-05-03 09:10:19,262 INFO     > Fichier chearchfile
+2023-05-03 09:10:19,263 INFO     > Noan est connecté
+2023-05-03 09:10:19,268 DEBUG    > Requête projetpres.html
+2023-05-03 09:10:26,019 INFO     > Fichier chearchfile
+2023-05-03 09:10:26,019 INFO     > Noan est connecté
+2023-05-03 09:10:26,025 DEBUG    > Requête projetpres.html
+2023-05-03 09:10:42,731 INFO     > Fichier chearchfile
+2023-05-03 09:10:42,731 INFO     > Noan est connecté
+2023-05-03 09:10:42,736 DEBUG    > Requête projetpres.html
+2023-05-03 09:10:52,854 INFO     > Check périodique
+2023-05-03 09:11:11,213 INFO     > Fichier chearchfile
+2023-05-03 09:11:11,213 INFO     > Noan est connecté
+2023-05-03 09:11:11,219 DEBUG    > Requête projetpres.html
+2023-05-03 09:11:24,572 INFO     > Fichier chearchfile
+2023-05-03 09:11:24,572 INFO     > Noan est connecté
+2023-05-03 09:11:24,578 DEBUG    > Requête projetpres.html
+2023-05-03 09:11:31,885 INFO     > Fichier chearchfile
+2023-05-03 09:11:31,886 INFO     > Noan est connecté
+2023-05-03 09:11:31,890 DEBUG    > Requête projetpres.html
+2023-05-03 09:11:52,849 INFO     > Check périodique
+2023-05-03 09:11:56,197 INFO     > Fichier chearchfile
+2023-05-03 09:11:56,199 INFO     > Noan est connecté
+2023-05-03 09:11:56,211 DEBUG    > Requête projetpres.html
+2023-05-03 09:12:07,836 INFO     > Fichier chearchfile
+2023-05-03 09:12:07,837 INFO     > Noan est connecté
+2023-05-03 09:12:07,844 DEBUG    > Requête projetpres.html
+2023-05-03 09:12:17,024 INFO     > Fichier chearchfile
+2023-05-03 09:12:17,024 INFO     > Noan est connecté
+2023-05-03 09:12:17,031 DEBUG    > Requête projetpres.html
+2023-05-03 09:12:22,190 INFO     > Fichier chearchfile
+2023-05-03 09:12:22,190 INFO     > Noan est connecté
+2023-05-03 09:12:22,196 DEBUG    > Requête projetpres.html
+2023-05-03 09:12:30,424 INFO     > Fichier chearchfile
+2023-05-03 09:12:30,425 INFO     > Noan est connecté
+2023-05-03 09:12:30,430 DEBUG    > Requête projetpres.html
+2023-05-03 09:12:52,852 INFO     > Check périodique
+2023-05-03 09:13:17,455 INFO     > Fichier chearchfile
+2023-05-03 09:13:17,456 INFO     > Noan est connecté
+2023-05-03 09:13:17,461 DEBUG    > Requête projetpres.html
+2023-05-03 09:13:30,889 INFO     > Fichier chearchfile
+2023-05-03 09:13:30,890 INFO     > Noan est connecté
+2023-05-03 09:13:30,895 DEBUG    > Requête projetpres.html
+2023-05-03 09:13:38,305 INFO     > Fichier chearchfile
+2023-05-03 09:13:38,305 INFO     > Noan est connecté
+2023-05-03 09:13:38,311 DEBUG    > Requête projetpres.html
+2023-05-03 09:13:52,848 INFO     > Check périodique
+2023-05-03 09:14:52,848 INFO     > Check périodique
+2023-05-03 09:15:52,848 INFO     > Check périodique
+2023-05-03 09:16:52,850 INFO     > Check périodique
+2023-05-03 09:17:52,858 INFO     > Check périodique
+2023-05-03 09:18:52,859 INFO     > Check périodique
+2023-05-03 09:18:57,414 INFO     > Fichier chearchfile
+2023-05-03 09:18:57,415 INFO     > Noan est connecté
+2023-05-03 09:18:57,432 DEBUG    > Requête projetpres.html
+2023-05-03 09:19:42,876 INFO     > Fichier chearchfile
+2023-05-03 09:19:42,880 INFO     > Noan est connecté
+2023-05-03 09:19:42,894 DEBUG    > Requête projetpres.html
+2023-05-03 09:19:52,857 INFO     > Check périodique
+2023-05-03 09:20:04,038 INFO     > Fichier chearchfile
+2023-05-03 09:20:04,039 INFO     > Noan est connecté
+2023-05-03 09:20:04,046 DEBUG    > Requête projetpres.html
+2023-05-03 09:20:52,851 INFO     > Check périodique
+2023-05-03 09:21:11,836 INFO     > Fichier chearchfile
+2023-05-03 09:21:11,837 INFO     > Noan est connecté
+2023-05-03 09:21:11,845 DEBUG    > Requête projetpres.html
+2023-05-03 09:21:24,426 INFO     > Fichier chearchfile
+2023-05-03 09:21:24,426 INFO     > Noan est connecté
+2023-05-03 09:21:24,433 DEBUG    > Requête projetpres.html
+2023-05-03 09:21:52,857 INFO     > Check périodique
+2023-05-03 09:21:56,129 INFO     > Fichier chearchfile
+2023-05-03 09:21:56,130 INFO     > Noan est connecté
+2023-05-03 09:21:56,135 DEBUG    > Requête projetpres.html
+2023-05-03 09:22:52,859 INFO     > Check périodique
+2023-05-03 09:23:14,717 INFO     > Fichier chearchfile
+2023-05-03 09:23:14,718 INFO     > Noan est connecté
+2023-05-03 09:23:14,722 DEBUG    > Requête projetpres.html
+2023-05-03 09:23:26,957 INFO     > Fichier chearchfile
+2023-05-03 09:23:26,958 INFO     > Noan est connecté
+2023-05-03 09:23:26,963 DEBUG    > Requête projetpres.html
+2023-05-03 09:23:52,850 INFO     > Check périodique
+2023-05-03 09:24:03,477 INFO     > Fichier chearchfile
+2023-05-03 09:24:03,477 INFO     > Noan est connecté
+2023-05-03 09:24:03,482 DEBUG    > Requête projetpres.html
+2023-05-03 09:24:47,982 INFO     > Fichier chearchfile
+2023-05-03 09:24:47,983 INFO     > Noan est connecté
+2023-05-03 09:24:47,992 DEBUG    > Requête projetpres.html
+2023-05-03 09:24:52,856 INFO     > Check périodique
+2023-05-03 09:25:07,604 INFO     > Fichier chearchfile
+2023-05-03 09:25:07,604 INFO     > Noan est connecté
+2023-05-03 09:25:07,609 DEBUG    > Requête projetpres.html
+2023-05-03 09:25:52,849 INFO     > Check périodique
+2023-05-03 09:26:52,860 INFO     > Check périodique
+2023-05-03 09:27:52,860 INFO     > Check périodique
+2023-05-03 09:28:52,861 INFO     > Check périodique
+2023-05-03 09:29:52,856 INFO     > Check périodique
+2023-05-03 09:30:52,862 INFO     > Check périodique
+2023-05-03 09:31:52,864 INFO     > Check périodique
+2023-05-03 09:32:52,850 INFO     > Check périodique
+2023-05-03 09:33:52,861 INFO     > Check périodique
+2023-05-03 09:34:52,856 INFO     > Check périodique
+2023-05-03 09:35:52,848 INFO     > Check périodique
+2023-05-03 09:36:52,856 INFO     > Check périodique
+2023-05-03 09:37:52,863 INFO     > Check périodique
+2023-05-03 09:38:52,848 INFO     > Check périodique
+2023-05-03 09:39:52,851 INFO     > Check périodique
+2023-05-03 09:40:52,858 INFO     > Check périodique
+2023-05-03 09:41:52,853 INFO     > Check périodique
+2023-05-03 09:42:52,862 INFO     > Check périodique
+2023-05-03 09:43:52,862 INFO     > Check périodique
+2023-05-03 09:44:52,848 INFO     > Check périodique
+2023-05-03 09:45:52,849 INFO     > Check périodique
+2023-05-03 09:46:52,860 INFO     > Check périodique
+2023-05-03 09:47:52,859 INFO     > Check périodique
+2023-05-03 09:48:52,849 INFO     > Check périodique
+2023-05-03 09:49:52,853 INFO     > Check périodique
+2023-05-03 09:50:52,853 INFO     > Check périodique
+2023-05-03 09:51:52,856 INFO     > Check périodique
+2023-05-03 09:52:52,863 INFO     > Check périodique
+2023-05-03 09:53:52,851 INFO     > Check périodique
+2023-05-03 09:54:52,853 INFO     > Check périodique
+2023-05-03 09:55:52,858 INFO     > Check périodique
+2023-05-03 09:56:52,852 INFO     > Check périodique
+2023-05-03 09:57:52,849 INFO     > Check périodique
+2023-05-03 09:58:52,863 INFO     > Check périodique
+2023-05-03 09:59:52,861 INFO     > Check périodique
+2023-05-03 10:00:52,851 INFO     > Check périodique
+2023-05-03 10:01:52,849 INFO     > Check périodique
+2023-05-03 10:02:52,857 INFO     > Check périodique
+2023-05-03 10:03:52,854 INFO     > Check périodique
+2023-05-03 10:04:52,849 INFO     > Check périodique
+2023-05-03 10:05:52,857 INFO     > Check périodique
+2023-05-03 10:06:52,849 INFO     > Check périodique
+2023-05-03 10:07:52,852 INFO     > Check périodique
+2023-05-03 10:08:52,859 INFO     > Check périodique
+2023-05-03 10:09:52,848 INFO     > Check périodique
+2023-05-03 10:10:52,861 INFO     > Check périodique
+2023-05-03 10:11:52,853 INFO     > Check périodique
+2023-05-03 10:12:52,856 INFO     > Check périodique
+2023-05-03 10:13:52,858 INFO     > Check périodique
+2023-05-03 10:14:52,848 INFO     > Check périodique
+2023-05-03 10:15:52,862 INFO     > Check périodique
+2023-05-03 10:16:52,853 INFO     > Check périodique
+2023-05-03 10:17:52,857 INFO     > Check périodique
+2023-05-03 10:18:52,848 INFO     > Check périodique
+2023-05-03 10:19:52,863 INFO     > Check périodique
+2023-05-03 10:20:52,854 INFO     > Check périodique
+2023-05-03 10:21:52,849 INFO     > Check périodique
+2023-05-03 10:22:52,859 INFO     > Check périodique
+2023-05-03 10:23:52,849 INFO     > Check périodique
+2023-05-03 10:24:52,853 INFO     > Check périodique
+2023-05-03 10:25:52,849 INFO     > Check périodique
+2023-05-03 10:26:52,859 INFO     > Check périodique
+2023-05-03 10:27:52,858 INFO     > Check périodique
+2023-05-03 10:28:52,854 INFO     > Check périodique
+2023-05-03 10:29:52,853 INFO     > Check périodique
+2023-05-03 10:30:52,849 INFO     > Check périodique
+2023-05-03 10:31:52,852 INFO     > Check périodique
+2023-05-03 10:32:52,850 INFO     > Check périodique
+2023-05-03 10:33:52,851 INFO     > Check périodique
+2023-05-03 10:34:52,860 INFO     > Check périodique
+2023-05-03 10:35:52,854 INFO     > Check périodique
+2023-05-03 10:36:52,853 INFO     > Check périodique
+2023-05-03 10:37:52,854 INFO     > Check périodique
+2023-05-03 10:38:52,858 INFO     > Check périodique
+2023-05-03 10:39:52,857 INFO     > Check périodique
+2023-05-03 10:40:52,862 INFO     > Check périodique
+2023-05-03 10:41:52,862 INFO     > Check périodique
+2023-05-03 10:42:52,858 INFO     > Check périodique
+2023-05-03 11:54:52,852 INFO     > Check périodique
+2023-05-03 11:55:52,860 INFO     > Check périodique
+2023-05-03 11:56:05,040 INFO     > Fichier chearchfile
+2023-05-03 11:56:05,040 INFO     > Noan est connecté
+2023-05-03 11:56:05,047 DEBUG    > Requête projetpres.html
+2023-05-03 11:56:52,857 INFO     > Check périodique
+2023-05-03 11:57:06,378 INFO     > Noan est connecté
+2023-05-03 11:57:06,398 INFO     > Fichier chearchfile
+2023-05-03 11:57:06,398 INFO     > Noan est connecté
+2023-05-03 11:57:06,410 DEBUG    > Requête projetpres.html
+2023-05-03 11:57:52,859 INFO     > Check périodique
+2023-05-03 11:58:52,856 INFO     > Check périodique
+2023-05-03 11:59:06,632 INFO     > Fichier chearchfile
+2023-05-03 11:59:06,633 INFO     > Noan est connecté
+2023-05-03 11:59:06,638 DEBUG    > Requête projetpres.html
+2023-05-03 11:59:36,294 INFO     > Fichier chearchfile
+2023-05-03 11:59:36,294 INFO     > Noan est connecté
+2023-05-03 11:59:36,299 DEBUG    > Requête projetpres.html
+2023-05-03 11:59:45,763 INFO     > Fichier chearchfile
+2023-05-03 11:59:45,763 INFO     > Noan est connecté
+2023-05-03 11:59:45,768 DEBUG    > Requête projetpres.html
+2023-05-03 11:59:52,850 INFO     > Check périodique
+2023-05-03 11:59:53,176 INFO     > Fichier chearchfile
+2023-05-03 11:59:53,177 INFO     > Noan est connecté
+2023-05-03 11:59:53,182 DEBUG    > Requête projetpres.html
+2023-05-03 12:00:47,736 INFO     > Noan est connecté
+2023-05-03 12:00:47,757 INFO     > Fichier chearchfile
+2023-05-03 12:00:47,758 INFO     > Noan est connecté
+2023-05-03 12:00:47,767 DEBUG    > Requête projetpres.html
+2023-05-03 12:00:52,847 INFO     > Check périodique
+2023-05-03 12:00:57,689 INFO     > Fichier chearchfile
+2023-05-03 12:00:57,690 INFO     > Noan est connecté
+2023-05-03 12:00:57,695 DEBUG    > Requête projetpres.html
+2023-05-03 12:01:52,857 INFO     > Check périodique
+2023-05-03 12:02:52,848 INFO     > Check périodique
+2023-05-03 12:03:52,848 INFO     > Check périodique
+2023-05-03 12:04:28,036 INFO     > Fichier chearchfile
+2023-05-03 12:04:28,037 INFO     > Noan est connecté
+2023-05-03 12:04:28,043 DEBUG    > Requête projetpres.html
+2023-05-03 12:04:42,756 INFO     > Fichier chearchfile
+2023-05-03 12:04:42,757 INFO     > Noan est connecté
+2023-05-03 12:04:42,765 DEBUG    > Requête projetpres.html
+2023-05-03 12:04:52,850 INFO     > Check périodique
+2023-05-03 12:04:53,278 INFO     > Fichier chearchfile
+2023-05-03 12:04:53,278 INFO     > Noan est connecté
+2023-05-03 12:04:53,284 DEBUG    > Requête projetpres.html
+2023-05-03 12:05:10,656 INFO     > Fichier chearchfile
+2023-05-03 12:05:10,657 INFO     > Noan est connecté
+2023-05-03 12:05:10,665 DEBUG    > Requête projetpres.html
+2023-05-03 12:05:52,857 INFO     > Check périodique
+2023-05-03 12:06:52,855 INFO     > Check périodique
+2023-05-03 12:07:52,867 INFO     > Check périodique
+2023-05-03 12:08:52,862 INFO     > Check périodique
+2023-05-03 12:09:52,857 INFO     > Check périodique
+2023-05-03 12:10:02,169 INFO     > Fichier chearchfile
+2023-05-03 12:10:02,170 INFO     > Noan est connecté
+2023-05-03 12:10:02,176 DEBUG    > Requête projetpres.html
+2023-05-03 12:10:19,599 INFO     > Fichier chearchfile
+2023-05-03 12:10:19,600 INFO     > Noan est connecté
+2023-05-03 12:10:19,605 DEBUG    > Requête projetpres.html
+2023-05-03 12:10:39,692 INFO     > Fichier chearchfile
+2023-05-03 12:10:39,693 INFO     > Noan est connecté
+2023-05-03 12:10:39,698 DEBUG    > Requête projetpres.html
+2023-05-03 12:10:52,860 INFO     > Check périodique
+2023-05-03 12:11:15,332 INFO     > Fichier chearchfile
+2023-05-03 12:11:15,332 INFO     > Noan est connecté
+2023-05-03 12:11:15,338 DEBUG    > Requête projetpres.html
+2023-05-03 12:11:52,853 INFO     > Check périodique
+2023-05-03 12:12:07,713 INFO     > Fichier chearchfile
+2023-05-03 12:12:07,713 INFO     > Noan est connecté
+2023-05-03 12:12:07,720 DEBUG    > Requête projetpres.html
+2023-05-03 12:12:40,156 INFO     > Fichier chearchfile
+2023-05-03 12:12:40,156 INFO     > Noan est connecté
+2023-05-03 12:12:40,163 DEBUG    > Requête projetpres.html
+2023-05-03 12:12:52,858 INFO     > Check périodique
+2023-05-03 12:13:05,390 INFO     > Fichier chearchfile
+2023-05-03 12:13:05,391 INFO     > Noan est connecté
+2023-05-03 12:13:05,397 DEBUG    > Requête projetpres.html
+2023-05-03 12:13:42,349 INFO     > Fichier chearchfile
+2023-05-03 12:13:42,349 INFO     > Noan est connecté
+2023-05-03 12:13:42,355 DEBUG    > Requête projetpres.html
+2023-05-03 12:13:52,624 INFO     > Fichier chearchfile
+2023-05-03 12:13:52,625 INFO     > Noan est connecté
+2023-05-03 12:13:52,631 DEBUG    > Requête projetpres.html
+2023-05-03 12:13:52,849 INFO     > Check périodique
+2023-05-03 12:14:52,851 INFO     > Check périodique
+2023-05-03 12:15:31,125 INFO     > Fichier chearchfile
+2023-05-03 12:15:31,125 INFO     > Noan est connecté
+2023-05-03 12:15:31,131 DEBUG    > Requête projetpres.html
+2023-05-03 12:15:52,847 INFO     > Check périodique
+2023-05-03 12:16:52,853 INFO     > Check périodique
+2023-05-03 12:17:52,850 INFO     > Check périodique
+2023-05-03 12:18:52,858 INFO     > Check périodique
+2023-05-03 12:19:52,852 INFO     > Check périodique
+2023-05-03 12:20:52,858 INFO     > Check périodique
+2023-05-03 12:21:52,857 INFO     > Check périodique
+2023-05-03 12:22:52,852 INFO     > Check périodique
+2023-05-03 12:23:52,850 INFO     > Check périodique
+2023-05-03 12:24:52,860 INFO     > Check périodique
+2023-05-03 12:25:14,727 INFO     > Noan est connecté
+2023-05-03 12:25:14,754 INFO     > Fichier chearchfile
+2023-05-03 12:25:14,755 INFO     > Noan est connecté
+2023-05-03 12:25:14,767 DEBUG    > Requête projetpres.html
+2023-05-03 12:25:29,074 INFO     > Fichier chearchfile
+2023-05-03 12:25:29,075 INFO     > Noan est connecté
+2023-05-03 12:25:29,080 DEBUG    > Requête projetpres.html
+2023-05-03 12:25:52,855 INFO     > Check périodique
+2023-05-03 12:26:52,861 INFO     > Check périodique
+2023-05-03 12:27:52,854 INFO     > Check périodique
+2023-05-03 12:28:51,486 INFO     > Fichier chearchfile
+2023-05-03 12:28:51,486 INFO     > Noan est connecté
+2023-05-03 12:28:51,492 DEBUG    > Requête projetpres.html
+2023-05-03 12:28:52,858 INFO     > Check périodique
+2023-05-03 12:29:01,278 INFO     > Fichier chearchfile
+2023-05-03 12:29:01,279 INFO     > Noan est connecté
+2023-05-03 12:29:01,285 DEBUG    > Requête projetpres.html
+2023-05-03 12:29:45,122 INFO     > Fichier chearchfile
+2023-05-03 12:29:45,122 INFO     > Noan est connecté
+2023-05-03 12:29:45,129 DEBUG    > Requête projetpres.html
+2023-05-03 12:29:52,862 INFO     > Check périodique
+2023-05-03 12:29:59,997 INFO     > Fichier chearchfile
+2023-05-03 12:29:59,997 INFO     > Noan est connecté
+2023-05-03 12:30:00,003 DEBUG    > Requête projetpres.html
+2023-05-03 12:30:14,468 INFO     > Fichier chearchfile
+2023-05-03 12:30:14,468 INFO     > Noan est connecté
+2023-05-03 12:30:14,473 DEBUG    > Requête projetpres.html
+2023-05-03 12:30:22,723 INFO     > Fichier chearchfile
+2023-05-03 12:30:22,724 INFO     > Noan est connecté
+2023-05-03 12:30:22,729 DEBUG    > Requête projetpres.html
+2023-05-03 12:30:35,060 INFO     > Fichier chearchfile
+2023-05-03 12:30:35,061 INFO     > Noan est connecté
+2023-05-03 12:30:35,066 DEBUG    > Requête projetpres.html
+2023-05-03 12:30:48,207 INFO     > Fichier chearchfile
+2023-05-03 12:30:48,207 INFO     > Noan est connecté
+2023-05-03 12:30:48,213 DEBUG    > Requête projetpres.html
+2023-05-03 12:30:52,858 INFO     > Check périodique
+2023-05-03 12:30:59,355 INFO     > Fichier chearchfile
+2023-05-03 12:30:59,355 INFO     > Noan est connecté
+2023-05-03 12:30:59,360 DEBUG    > Requête projetpres.html
+2023-05-03 12:31:27,559 INFO     > Fichier chearchfile
+2023-05-03 12:31:27,560 INFO     > Noan est connecté
+2023-05-03 12:31:27,566 DEBUG    > Requête projetpres.html
+2023-05-03 12:31:42,082 INFO     > Fichier chearchfile
+2023-05-03 12:31:42,083 INFO     > Noan est connecté
+2023-05-03 12:31:42,088 DEBUG    > Requête projetpres.html
+2023-05-03 12:31:50,804 INFO     > Fichier chearchfile
+2023-05-03 12:31:50,805 INFO     > Noan est connecté
+2023-05-03 12:31:50,810 DEBUG    > Requête projetpres.html
+2023-05-03 12:31:52,855 INFO     > Check périodique
+2023-05-03 12:32:15,094 INFO     > Fichier chearchfile
+2023-05-03 12:32:15,094 INFO     > Noan est connecté
+2023-05-03 12:32:15,100 DEBUG    > Requête projetpres.html
+2023-05-03 12:32:22,072 INFO     > Fichier chearchfile
+2023-05-03 12:32:22,072 INFO     > Noan est connecté
+2023-05-03 12:32:22,078 DEBUG    > Requête projetpres.html
+2023-05-03 12:32:29,276 INFO     > Fichier chearchfile
+2023-05-03 12:32:29,276 INFO     > Noan est connecté
+2023-05-03 12:32:29,282 DEBUG    > Requête projetpres.html
+2023-05-03 12:32:45,277 INFO     > Fichier chearchfile
+2023-05-03 12:32:45,278 INFO     > Noan est connecté
+2023-05-03 12:32:45,283 DEBUG    > Requête projetpres.html
+2023-05-03 12:32:52,859 INFO     > Check périodique
+2023-05-03 12:33:12,018 INFO     > Fichier chearchfile
+2023-05-03 12:33:12,019 INFO     > Noan est connecté
+2023-05-03 12:33:12,025 DEBUG    > Requête projetpres.html
+2023-05-03 12:33:38,993 INFO     > Noan est connecté
+2023-05-03 12:33:39,013 INFO     > Fichier chearchfile
+2023-05-03 12:33:39,014 INFO     > Noan est connecté
+2023-05-03 12:33:39,025 DEBUG    > Requête projetpres.html
+2023-05-03 12:33:52,861 INFO     > Check périodique
+2023-05-03 12:34:08,879 INFO     > Fichier chearchfile
+2023-05-03 12:34:08,879 INFO     > Noan est connecté
+2023-05-03 12:34:08,885 DEBUG    > Requête projetpres.html
+2023-05-03 12:34:52,859 INFO     > Check périodique
+2023-05-03 12:35:52,853 INFO     > Check périodique
+2023-05-03 12:36:45,557 INFO     > Fichier chearchfile
+2023-05-03 12:36:45,558 INFO     > Noan est connecté
+2023-05-03 12:36:45,591 DEBUG    > Requête projetpres.html
+2023-05-03 12:36:52,857 INFO     > Check périodique
+2023-05-03 12:36:54,243 INFO     > Fichier chearchfile
+2023-05-03 12:36:54,244 INFO     > Noan est connecté
+2023-05-03 12:36:54,249 DEBUG    > Requête projetpres.html
+2023-05-03 12:37:06,666 INFO     > Fichier chearchfile
+2023-05-03 12:37:06,666 INFO     > Noan est connecté
+2023-05-03 12:37:06,673 DEBUG    > Requête projetpres.html
+2023-05-03 12:37:19,915 INFO     > Fichier chearchfile
+2023-05-03 12:37:19,916 INFO     > Noan est connecté
+2023-05-03 12:37:19,921 DEBUG    > Requête projetpres.html
+2023-05-03 12:37:28,999 INFO     > Fichier chearchfile
+2023-05-03 12:37:28,999 INFO     > Noan est connecté
+2023-05-03 12:37:29,005 DEBUG    > Requête projetpres.html
+2023-05-03 12:37:48,889 INFO     > Fichier chearchfile
+2023-05-03 12:37:48,890 INFO     > Noan est connecté
+2023-05-03 12:37:48,898 DEBUG    > Requête projetpres.html
+2023-05-03 12:37:52,848 INFO     > Check périodique
+2023-05-03 12:38:28,323 INFO     > Fichier chearchfile
+2023-05-03 12:38:28,324 INFO     > Noan est connecté
+2023-05-03 12:38:28,330 DEBUG    > Requête projetpres.html
+2023-05-03 12:38:52,854 INFO     > Check périodique
+2023-05-03 12:38:54,777 INFO     > Fichier chearchfile
+2023-05-03 12:38:54,778 INFO     > Noan est connecté
+2023-05-03 12:38:54,784 DEBUG    > Requête projetpres.html
+2023-05-03 12:39:20,044 INFO     > Fichier chearchfile
+2023-05-03 12:39:20,045 INFO     > Noan est connecté
+2023-05-03 12:39:20,059 DEBUG    > Requête projetpres.html
+2023-05-03 12:39:52,860 INFO     > Check périodique
+2023-05-03 12:40:52,849 INFO     > Check périodique
+2023-05-03 12:41:52,857 INFO     > Check périodique
+2023-05-03 12:42:52,853 INFO     > Check périodique
+2023-05-03 12:43:52,854 INFO     > Check périodique
+2023-05-03 12:44:52,859 INFO     > Check périodique
+2023-05-03 12:45:52,852 INFO     > Check périodique
+2023-05-03 12:46:52,861 INFO     > Check périodique
+2023-05-03 12:47:52,852 INFO     > Check périodique
+2023-05-03 12:48:52,851 INFO     > Check périodique
+2023-05-03 12:49:52,855 INFO     > Check périodique
+2023-05-03 12:50:52,855 INFO     > Check périodique
+2023-05-03 12:51:52,858 INFO     > Check périodique
+2023-05-03 12:52:52,849 INFO     > Check périodique
+2023-05-03 12:53:31,117 INFO     > Fichier chearchfile
+2023-05-03 12:53:31,118 INFO     > Noan est connecté
+2023-05-03 12:53:31,123 DEBUG    > Requête projetpres.html
+2023-05-03 12:53:52,862 INFO     > Check périodique
+2023-05-03 12:54:36,419 INFO     > Fichier chearchfile
+2023-05-03 12:54:36,420 INFO     > Noan est connecté
+2023-05-03 12:54:36,425 DEBUG    > Requête projetpres.html
+2023-05-03 12:54:52,853 INFO     > Check périodique
+2023-05-03 12:55:52,851 INFO     > Check périodique
+2023-05-03 12:56:11,222 INFO     > Fichier chearchfile
+2023-05-03 12:56:11,223 INFO     > Noan est connecté
+2023-05-03 12:56:11,230 DEBUG    > Requête projetpres.html
+2023-05-03 12:56:21,366 INFO     > Fichier chearchfile
+2023-05-03 12:56:21,367 INFO     > Noan est connecté
+2023-05-03 12:56:21,372 DEBUG    > Requête projetpres.html
+2023-05-03 12:56:52,851 INFO     > Check périodique
+2023-05-03 12:57:52,855 INFO     > Check périodique
+2023-05-03 12:58:46,788 INFO     > Fichier chearchfile
+2023-05-03 12:58:46,789 INFO     > Noan est connecté
+2023-05-03 12:58:46,793 DEBUG    > Requête projetpres.html
+2023-05-03 12:58:51,876 INFO     > Fichier chearchfile
+2023-05-03 12:58:51,876 INFO     > Noan est connecté
+2023-05-03 12:58:51,882 DEBUG    > Requête projetpres.html
+2023-05-03 12:58:52,854 INFO     > Check périodique
+2023-05-03 12:58:59,843 INFO     > Noan est connecté
+2023-05-03 12:58:59,843 DEBUG    > Requête newproject.html
+2023-05-03 12:59:18,638 INFO     > Fichier uploader
+2023-05-03 12:59:18,638 INFO     > Noan est connecté
+2023-05-03 12:59:18,639 DEBUG    > Requête projet.html
+2023-05-03 12:59:20,448 INFO     > Fichier chearchfile
+2023-05-03 12:59:20,448 INFO     > Noan est connecté
+2023-05-03 12:59:20,450 DEBUG    > Requête projetpres.html
+2023-05-03 12:59:39,835 INFO     > Noan est connecté
+2023-05-03 12:59:39,835 DEBUG    > Requête index.html
+2023-05-03 12:59:43,807 INFO     > Noan est connecté
+2023-05-03 12:59:43,809 DEBUG    > Requête projet.html
+2023-05-03 12:59:46,172 INFO     > Fichier chearchfile
+2023-05-03 12:59:46,172 INFO     > Noan est connecté
+2023-05-03 12:59:46,173 DEBUG    > Requête projetpres.html
+2023-05-03 12:59:52,860 INFO     > Check périodique
+2023-05-03 12:59:57,529 INFO     > Fichier chearchfile
+2023-05-03 12:59:57,530 INFO     > Noan est connecté
+2023-05-03 12:59:57,530 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:15,458 INFO     > Fichier chearchfile
+2023-05-03 13:00:15,459 INFO     > Noan est connecté
+2023-05-03 13:00:15,460 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:20,713 INFO     > Noan est connecté
+2023-05-03 13:00:20,714 DEBUG    > Requête projet.html
+2023-05-03 13:00:21,590 INFO     > Fichier chearchfile
+2023-05-03 13:00:21,591 INFO     > Noan est connecté
+2023-05-03 13:00:21,592 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:28,923 INFO     > Fichier chearchfile
+2023-05-03 13:00:28,924 INFO     > Noan est connecté
+2023-05-03 13:00:28,925 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:50,825 INFO     > Fichier chearchfile
+2023-05-03 13:00:50,825 INFO     > Noan est connecté
+2023-05-03 13:00:50,827 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:52,848 INFO     > Check périodique
+2023-05-03 13:00:53,416 INFO     > Fichier chearchfile
+2023-05-03 13:00:53,417 INFO     > Noan est connecté
+2023-05-03 13:00:53,422 DEBUG    > Requête projetpres.html
+2023-05-03 13:00:58,316 INFO     > Fichier chearchfile
+2023-05-03 13:00:58,316 INFO     > Noan est connecté
+2023-05-03 13:00:58,323 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:05,254 INFO     > Noan est connecté
+2023-05-03 13:01:05,255 DEBUG    > Requête projet.html
+2023-05-03 13:01:08,180 INFO     > Fichier chearchfile
+2023-05-03 13:01:08,181 INFO     > Noan est connecté
+2023-05-03 13:01:08,182 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:24,278 INFO     > Noan est connecté
+2023-05-03 13:01:24,316 INFO     > Fichier chearchfile
+2023-05-03 13:01:24,316 INFO     > Noan est connecté
+2023-05-03 13:01:24,317 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:32,289 INFO     > Noan est connecté
+2023-05-03 13:01:32,307 INFO     > Fichier chearchfile
+2023-05-03 13:01:32,308 INFO     > Noan est connecté
+2023-05-03 13:01:32,309 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:41,704 INFO     > Noan est connecté
+2023-05-03 13:01:41,704 DEBUG    > Requête projet.html
+2023-05-03 13:01:44,530 INFO     > Fichier chearchfile
+2023-05-03 13:01:44,530 INFO     > Noan est connecté
+2023-05-03 13:01:44,531 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:51,274 INFO     > Noan est connecté
+2023-05-03 13:01:51,293 INFO     > Fichier chearchfile
+2023-05-03 13:01:51,294 INFO     > Noan est connecté
+2023-05-03 13:01:51,299 DEBUG    > Requête projetpres.html
+2023-05-03 13:01:52,855 INFO     > Check périodique
+2023-05-03 13:02:03,218 INFO     > Noan est connecté
+2023-05-03 13:02:03,219 DEBUG    > Requête projet.html
+2023-05-03 13:02:10,008 INFO     > Noan est connecté
+2023-05-03 13:02:10,008 DEBUG    > Requête newproject.html
+2023-05-03 13:02:21,112 INFO     > Fichier uploader
+2023-05-03 13:02:21,112 INFO     > Noan est connecté
+2023-05-03 13:02:21,113 DEBUG    > Requête projet.html
+2023-05-03 13:02:23,771 INFO     > Fichier chearchfile
+2023-05-03 13:02:23,772 INFO     > Noan est connecté
+2023-05-03 13:02:23,772 DEBUG    > Requête projetpres.html
+2023-05-03 13:02:33,607 INFO     > Noan est connecté
+2023-05-03 13:02:33,630 INFO     > Fichier chearchfile
+2023-05-03 13:02:33,631 INFO     > Noan est connecté
+2023-05-03 13:02:33,636 DEBUG    > Requête projetpres.html
+2023-05-03 13:02:48,312 INFO     > Noan est connecté
+2023-05-03 13:02:48,333 INFO     > Fichier chearchfile
+2023-05-03 13:02:48,334 INFO     > Noan est connecté
+2023-05-03 13:02:48,339 DEBUG    > Requête projetpres.html
+2023-05-03 13:02:52,857 INFO     > Check périodique
+2023-05-03 13:02:57,070 DEBUG    > Requête api_like
+2023-05-03 13:02:57,071 INFO     > Noan est connecté
+2023-05-03 13:02:57,072 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 13:02:58,160 DEBUG    > Requête api_like
+2023-05-03 13:02:58,161 INFO     > Noan est connecté
+2023-05-03 13:02:58,161 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 13:02:58,923 DEBUG    > Requête api_like
+2023-05-03 13:02:58,923 INFO     > Noan est connecté
+2023-05-03 13:02:58,924 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 13:02:59,430 DEBUG    > Requête api_like
+2023-05-03 13:02:59,430 INFO     > Noan est connecté
+2023-05-03 13:02:59,431 DEBUG    > Utilisateur connecter pour liker
+2023-05-03 13:03:03,695 INFO     > Noan est connecté
+2023-05-03 13:03:03,695 DEBUG    > Requête index.html
+2023-05-03 13:03:06,591 INFO     > Noan est connecté
+2023-05-03 13:03:06,591 DEBUG    > Requête projet.html
+2023-05-03 13:03:52,860 INFO     > Check périodique
+2023-05-03 13:04:52,861 INFO     > Check périodique
+2023-05-03 13:05:42,558 INFO     > Noan est connecté
+2023-05-03 13:05:42,558 DEBUG    > Requête projet.html
+2023-05-03 13:05:52,862 INFO     > Check périodique
+2023-05-03 13:06:22,632 INFO     > Noan est connecté
+2023-05-03 13:06:22,632 DEBUG    > Requête projet.html
+2023-05-03 13:06:32,029 INFO     > Noan est connecté
+2023-05-03 13:06:32,030 DEBUG    > Requête projet.html
+2023-05-03 13:06:52,849 INFO     > Check périodique
+2023-05-03 13:07:39,246 INFO     > Noan est connecté
+2023-05-03 13:07:39,247 DEBUG    > Requête projet.html
+2023-05-03 13:07:52,863 INFO     > Check périodique
+2023-05-03 13:07:54,816 INFO     > Noan est connecté
+2023-05-03 13:07:54,816 DEBUG    > Requête projet.html
+2023-05-03 13:08:52,852 INFO     > Check périodique
+2023-05-03 13:09:33,163 INFO     > Noan est connecté
+2023-05-03 13:09:33,164 DEBUG    > Requête projet.html
+2023-05-03 13:09:43,149 INFO     > Fichier chearchfile
+2023-05-03 13:09:43,149 INFO     > Noan est connecté
+2023-05-03 13:09:43,151 DEBUG    > Requête projetpres.html
+2023-05-03 13:09:44,149 INFO     > Noan est connecté
+2023-05-03 13:09:44,149 DEBUG    > Requête projet.html
+2023-05-03 13:09:52,857 INFO     > Check périodique
+2023-05-03 13:10:07,944 INFO     > Noan est connecté
+2023-05-03 13:10:07,944 DEBUG    > Requête projet.html
+2023-05-03 13:10:17,776 INFO     > Noan est connecté
+2023-05-03 13:10:17,777 DEBUG    > Requête projet.html
+2023-05-03 13:10:27,634 INFO     > Noan est connecté
+2023-05-03 13:10:27,634 DEBUG    > Requête projet.html
+2023-05-03 13:10:52,875 INFO     > Check périodique
+2023-05-03 13:11:06,003 INFO     > Noan est connecté
+2023-05-03 13:11:06,005 DEBUG    > Requête projet.html
+2023-05-03 13:11:18,153 INFO     > Noan est connecté
+2023-05-03 13:11:18,154 DEBUG    > Requête projet.html
+2023-05-03 13:11:42,606 INFO     > Noan est connecté
+2023-05-03 13:11:42,607 DEBUG    > Requête projet.html
+2023-05-03 13:11:52,864 INFO     > Check périodique
+2023-05-03 13:12:52,849 INFO     > Check périodique
+2023-05-03 13:13:52,857 INFO     > Check périodique
+2023-05-03 13:14:11,683 INFO     > Noan est connecté
+2023-05-03 13:14:11,683 DEBUG    > Requête projet.html
+2023-05-03 13:14:25,919 INFO     > Noan est connecté
+2023-05-03 13:14:25,919 DEBUG    > Requête projet.html
+2023-05-03 13:14:35,791 INFO     > Noan est connecté
+2023-05-03 13:14:35,791 DEBUG    > Requête projet.html
+2023-05-03 13:14:52,850 INFO     > Check périodique
+2023-05-03 13:14:56,169 INFO     > Noan est connecté
+2023-05-03 13:14:56,169 DEBUG    > Requête projet.html
+2023-05-03 13:15:42,578 INFO     > Noan est connecté
+2023-05-03 13:15:42,578 DEBUG    > Requête projet.html
+2023-05-03 13:15:52,859 INFO     > Check périodique
+2023-05-03 13:15:53,828 INFO     > Noan est connecté
+2023-05-03 13:15:53,828 DEBUG    > Requête projet.html
+2023-05-03 13:15:58,449 INFO     > Noan est connecté
+2023-05-03 13:15:58,449 DEBUG    > Requête projet.html
+2023-05-03 13:16:35,494 INFO     > Noan est connecté
+2023-05-03 13:16:35,494 DEBUG    > Requête projet.html
+2023-05-03 13:16:39,090 INFO     > Noan est connecté
+2023-05-03 13:16:39,091 DEBUG    > Requête projet.html
+2023-05-03 13:16:45,702 INFO     > Fichier chearchfile
+2023-05-03 13:16:45,702 INFO     > Noan est connecté
+2023-05-03 13:16:45,703 DEBUG    > Requête projetpres.html
+2023-05-03 13:16:52,859 INFO     > Check périodique
+2023-05-03 13:17:01,259 INFO     > Noan est connecté
+2023-05-03 13:17:01,261 DEBUG    > Requête projet.html
+2023-05-03 13:17:10,492 INFO     > Noan est connecté
+2023-05-03 13:17:10,493 DEBUG    > Requête projet.html
+2023-05-03 13:17:52,857 INFO     > Check périodique
+2023-05-03 13:18:31,560 INFO     > Noan est connecté
+2023-05-03 13:18:31,561 DEBUG    > Requête projet.html
+2023-05-03 13:18:52,850 INFO     > Check périodique
+2023-05-03 13:18:57,555 INFO     > Noan est connecté
+2023-05-03 13:18:57,556 DEBUG    > Requête projet.html
+2023-05-03 13:19:38,348 INFO     > Noan est connecté
+2023-05-03 13:19:38,348 DEBUG    > Requête projet.html
+2023-05-03 13:19:44,537 INFO     > Noan est connecté
+2023-05-03 13:19:44,537 DEBUG    > Requête projet.html
+2023-05-03 13:19:52,863 INFO     > Check périodique
+2023-05-03 13:19:59,384 INFO     > Noan est connecté
+2023-05-03 13:19:59,385 DEBUG    > Requête projet.html
+2023-05-03 13:20:00,330 INFO     > Noan est connecté
+2023-05-03 13:20:00,331 DEBUG    > Requête projet.html
+2023-05-03 13:20:12,455 INFO     > Noan est connecté
+2023-05-03 13:20:12,455 DEBUG    > Requête projet.html
+2023-05-03 13:20:18,643 INFO     > Noan est connecté
+2023-05-03 13:20:18,645 DEBUG    > Requête projet.html
+2023-05-03 13:20:27,759 INFO     > Noan est connecté
+2023-05-03 13:20:27,760 DEBUG    > Requête projet.html
+2023-05-03 13:20:37,204 INFO     > Noan est connecté
+2023-05-03 13:20:37,205 DEBUG    > Requête projet.html
+2023-05-03 13:20:38,086 INFO     > Noan est connecté
+2023-05-03 13:20:38,086 DEBUG    > Requête projet.html
+2023-05-03 13:20:48,044 INFO     > Noan est connecté
+2023-05-03 13:20:48,045 DEBUG    > Requête projet.html
+2023-05-03 13:20:52,856 INFO     > Check périodique
+2023-05-03 13:21:16,552 INFO     > Noan est connecté
+2023-05-03 13:21:16,552 DEBUG    > Requête projet.html
+2023-05-03 13:21:35,118 INFO     > Noan est connecté
+2023-05-03 13:21:35,119 DEBUG    > Requête projet.html
+2023-05-03 13:21:49,119 INFO     > Noan est connecté
+2023-05-03 13:21:49,119 DEBUG    > Requête projet.html
+2023-05-03 13:21:52,860 INFO     > Check périodique
+2023-05-03 13:22:06,313 INFO     > Fichier chearchfile
+2023-05-03 13:22:06,314 INFO     > Noan est connecté
+2023-05-03 13:22:06,320 DEBUG    > Requête projetpres.html
+2023-05-03 13:22:14,488 INFO     > Noan est connecté
+2023-05-03 13:22:14,489 DEBUG    > Requête projet.html
+2023-05-03 13:22:42,722 INFO     > Noan est connecté
+2023-05-03 13:22:42,723 DEBUG    > Requête projet.html
+2023-05-03 13:22:52,849 INFO     > Check périodique
+2023-05-03 13:22:56,462 INFO     > Noan est connecté
+2023-05-03 13:22:56,463 DEBUG    > Requête projet.html
+2023-05-03 13:23:02,199 INFO     > Noan est connecté
+2023-05-03 13:23:02,200 DEBUG    > Requête projet.html
+2023-05-03 13:23:15,791 INFO     > Noan est connecté
+2023-05-03 13:23:15,792 DEBUG    > Requête projet.html
+2023-05-03 13:23:28,612 INFO     > Noan est connecté
+2023-05-03 13:23:28,613 DEBUG    > Requête projet.html
+2023-05-03 13:23:52,849 INFO     > Check périodique
+2023-05-03 13:23:53,106 INFO     > Noan est connecté
+2023-05-03 13:23:53,106 DEBUG    > Requête projet.html
+2023-05-03 13:23:56,038 INFO     > Noan est connecté
+2023-05-03 13:23:56,039 DEBUG    > Requête projet.html
+2023-05-03 13:24:23,057 INFO     > Noan est connecté
+2023-05-03 13:24:23,057 DEBUG    > Requête projet.html
+2023-05-03 13:24:40,625 INFO     > Noan est connecté
+2023-05-03 13:24:40,628 DEBUG    > Requête projet.html
+2023-05-03 13:24:52,861 INFO     > Check périodique
+2023-05-03 13:24:54,073 INFO     > Noan est connecté
+2023-05-03 13:24:54,073 DEBUG    > Requête projet.html
+2023-05-03 13:24:59,772 INFO     > Noan est connecté
+2023-05-03 13:24:59,773 DEBUG    > Requête projet.html
+2023-05-03 13:25:09,275 INFO     > Noan est connecté
+2023-05-03 13:25:09,276 DEBUG    > Requête projet.html
+2023-05-03 13:25:36,024 INFO     > Noan est connecté
+2023-05-03 13:25:36,025 DEBUG    > Requête projet.html
+2023-05-03 13:25:40,298 INFO     > Noan est connecté
+2023-05-03 13:25:40,299 DEBUG    > Requête projet.html
+2023-05-03 13:25:45,180 INFO     > Noan est connecté
+2023-05-03 13:25:45,180 DEBUG    > Requête index.html
+2023-05-03 13:25:49,348 INFO     > Noan est connecté
+2023-05-03 13:25:49,349 DEBUG    > Requête profil.html
+2023-05-03 13:25:52,857 INFO     > Check périodique
+2023-05-03 13:25:57,946 INFO     > Noan est connecté
+2023-05-03 13:25:57,947 DEBUG    > Requête editprofil.html
+2023-05-03 13:26:01,748 INFO     > Noan est connecté
+2023-05-03 13:26:01,748 ERROR    > Erreur inconnue dans myproj.html
+2023-05-03 13:26:01,759 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 185, in myproj
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+IndexError: tuple index out of range
+

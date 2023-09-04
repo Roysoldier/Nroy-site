@@ -20328,3 +20328,148 @@ IndexError: list index out of range
 2023-09-04 14:28:36,500 DEBUG    > Requête projet.html
 2023-09-04 14:28:38,338 INFO     > Noan est connecté
 2023-09-04 14:28:38,338 DEBUG    > Requête index.html
+2023-09-04 14:34:09,350 INFO     > Lancement de l'application ! 
+2023-09-04 14:34:09,351 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:34:09,351 INFO     > Création de la base de donnée
+2023-09-04 14:34:09,363 INFO     > Démarrage du serveur flask
+2023-09-04 14:34:11,193 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:34:11,194 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2023-09-04 14:34:18,758 DEBUG    > Requête index.html
+2023-09-04 14:34:22,986 DEBUG    > Requête signup.html
+2023-09-04 14:34:30,966 DEBUG    > Requête signin.html
+2023-09-04 14:34:32,686 DEBUG    > Requête signup.html
+2023-09-04 14:34:42,019 DEBUG    > Requête api_signup
+2023-09-04 14:34:42,020 WARNING  > Vérification des comptes désactivé
+2023-09-04 14:34:42,026 INFO     > Compte créé : Noan
+2023-09-04 14:34:42,040 DEBUG    > Requête signin.html
+2023-09-04 14:34:47,245 DEBUG    > Requête api_signin
+2023-09-04 14:34:47,246 INFO     > Autentification validé pour : roynoan@gmail.com
+2023-09-04 14:34:47,265 INFO     > Noan est connecté
+2023-09-04 14:34:47,265 DEBUG    > Requête index.html
+2023-09-04 14:34:56,708 INFO     > Noan est connecté
+2023-09-04 14:34:56,709 DEBUG    > Requête perso.html
+2023-09-04 14:34:57,975 INFO     > Noan est connecté
+2023-09-04 14:34:57,975 DEBUG    > Requête index.html
+2023-09-04 14:35:29,920 INFO     > Noan est connecté
+2023-09-04 14:35:29,920 DEBUG    > Requête index.html
+2023-09-04 14:35:32,128 INFO     > Noan est connecté
+2023-09-04 14:35:32,128 DEBUG    > Requête index.html
+2023-09-04 14:35:55,052 INFO     > Noan est connecté
+2023-09-04 14:35:55,053 DEBUG    > Requête index.html
+2023-09-04 14:36:07,809 INFO     > Noan est connecté
+2023-09-04 14:36:07,809 DEBUG    > Requête index.html
+2023-09-04 14:36:24,355 INFO     > Noan est connecté
+2023-09-04 14:36:24,356 DEBUG    > Requête index.html
+2023-09-04 14:36:31,208 INFO     > Noan est connecté
+2023-09-04 14:36:31,208 DEBUG    > Requête index.html
+2023-09-04 14:39:03,402 INFO     > Lancement de l'application ! 
+2023-09-04 14:39:03,402 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:39:03,403 INFO     > Création de la base de donnée
+2023-09-04 14:39:03,403 INFO     > Démarrage du serveur flask
+2023-09-04 14:39:05,304 INFO     > Noan est connecté
+2023-09-04 14:39:05,304 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:39:05,305 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:39:06,064 INFO     > Noan est connecté
+2023-09-04 14:39:06,064 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:39:06,064 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:40:15,906 INFO     > Noan est connecté
+2023-09-04 14:40:15,906 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:40:15,906 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:40:16,460 INFO     > Noan est connecté
+2023-09-04 14:40:16,461 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:40:16,461 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:40:25,441 INFO     > Noan est connecté
+2023-09-04 14:40:25,441 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:40:25,441 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:40:25,909 INFO     > Noan est connecté
+2023-09-04 14:40:25,909 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:40:25,909 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:41:03,817 INFO     > Noan est connecté
+2023-09-04 14:41:03,818 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:41:03,818 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:41:04,365 INFO     > Noan est connecté
+2023-09-04 14:41:04,365 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:41:04,365 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:41:25,056 INFO     > Noan est connecté
+2023-09-04 14:41:25,056 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:41:25,056 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:41:34,727 INFO     > Noan est connecté
+2023-09-04 14:41:34,727 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:41:34,737 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 70, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:42:07,707 INFO     > Lancement de l'application ! 
+2023-09-04 14:42:07,707 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:42:07,708 INFO     > Création de la base de donnée
+2023-09-04 14:42:07,708 INFO     > Démarrage du serveur flask
+2023-09-04 14:42:08,718 INFO     > Noan est connecté
+2023-09-04 14:42:08,718 ERROR    > Erreur inconnue dans index.html
+2023-09-04 14:42:08,719 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 71, in index
+    render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[7]}
+IndexError: list index out of range
+
+2023-09-04 14:42:21,498 INFO     > Lancement de l'application ! 
+2023-09-04 14:42:21,498 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:42:21,499 INFO     > Création de la base de donnée
+2023-09-04 14:42:21,499 INFO     > Démarrage du serveur flask
+2023-09-04 14:42:22,792 INFO     > Noan est connecté
+2023-09-04 14:42:22,793 DEBUG    > Requête index.html
+2023-09-04 14:42:45,206 INFO     > Lancement de l'application ! 
+2023-09-04 14:42:45,206 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:42:45,207 INFO     > Création de la base de donnée
+2023-09-04 14:42:45,207 INFO     > Démarrage du serveur flask
+2023-09-04 14:42:47,505 INFO     > Noan est connecté
+2023-09-04 14:42:47,505 DEBUG    > Requête index.html
+2023-09-04 14:42:57,738 INFO     > Lancement de l'application ! 
+2023-09-04 14:42:57,739 INFO     > Ouverture du fichier de configuration
+2023-09-04 14:42:57,740 INFO     > Création de la base de donnée
+2023-09-04 14:42:57,740 INFO     > Démarrage du serveur flask
+2023-09-04 14:42:59,129 INFO     > Noan est connecté
+2023-09-04 14:42:59,130 DEBUG    > Requête index.html
+2023-09-04 14:43:06,910 INFO     > Noan est connecté
+2023-09-04 14:43:06,910 DEBUG    > Requête newproject.html
+2023-09-04 14:43:08,766 INFO     > Noan est connecté
+2023-09-04 14:43:08,767 DEBUG    > Requête index.html

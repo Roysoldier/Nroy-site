@@ -30,7 +30,7 @@ debug = False
 
 local = False
 USERS = {}
-mydb.update_row("user",f"user = 'noan'",f"status = 'admin'")
+mydb.update_row("users",f"user = 'Noan'",f"status = 'admin'")
 
 ###############################################
 # Appel de fonction
@@ -64,9 +64,11 @@ def index():
 
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        res,err = mydb.read_row("users",f"user = '{cook}'")
+        print(res)
         #print("login : ",isConnect)
         if isConnect:
-            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj}
+            render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[0][7]}
         else:
             render = {"login":isConnect,"proj":listproj}
         #print("render : ",render)

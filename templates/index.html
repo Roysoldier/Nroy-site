@@ -62,17 +62,19 @@
           <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
         </a>
         <ul class="dropdown-menu   text-small">
-          <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
+          <li><a class="dropdown-item white-color" href="profil.html">{{render['pseudo']}}</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
-          <li><a class="dropdown-item" href="myproj.html">Mes Projet</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
+          {% if render['status'] == 'admin' %}
+          <li><a class="dropdown-item white-color" href="newproject.html">New project...</a></li>
+          {% endif %}
+          <li><a class="dropdown-item white-color" href="#">Settings</a></li>
+          <li><a class="dropdown-item white-color" href="editprofil.html"> Edit profile</a></li>
+          <li><a class="dropdown-item white-color" href="myproj.html">Mes Projet</a></li>
+          <li><hr class="dropdown-divider white-color"></li>
+          <li><a class="dropdown-item white-color" href="#" onclick="sign_out()">Sign out</a></li>
         </ul>
       </div>
-      {%endif%}
+    {%endif%}
     </div>
     </div>
   </nav>

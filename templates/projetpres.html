@@ -67,7 +67,7 @@
         <div class="nav-item dropdown  bss">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img src={{render['img']}} alt="mdo" width="50" height="50"  class="rounded-circle img">
+            <img src={{render['img']}} alt="mdo" width="50" height="50"  class="rounded-circle ">
           </a>
           <ul class="dropdown-menu   text-small">
             <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
@@ -115,7 +115,10 @@
 
     {% for i in render["commentaire"] %}
         <div class="comment">
-          <img src={{i[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          <a class="pp-profile" onclick="checkprofile('{{i[1]}}')"> 
+            <img src={{i[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          </a>
+          
           <p class="name-comment">{{i[1]}}</p>
           
           
@@ -345,7 +348,7 @@
     <script src="static/js/comment.js"></script>
     <script src="static/js/projectinfo.js"></script>
     <script src="static/js/connect.js"></script>
-    <script src="static/js/contact.js"></script>
+    <script src="static/js/profil.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

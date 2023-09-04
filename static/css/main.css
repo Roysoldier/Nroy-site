@@ -410,6 +410,13 @@ form[id=project-create-form] {
     font-weight: bold;
 }
 
+.cr {
+    width: auto;
+    height: auto;
+    max-width: 1280px;
+    max-height: 620px;
+}
+
 .project {
     margin-top: 2em;
     border-radius: 25px;
@@ -442,6 +449,11 @@ form[id=project-create-form] {
     max-height: 100%;
     width: 820px;
 }
+
+.pp-profile {
+    cursor: pointer;
+}
+
 .proj-img {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
@@ -607,9 +619,7 @@ input::file-selector-button {
     color: #fff;
 }
 
-.dropdown-item {
-    color: #fff;
-}
+
 
 .card-modif {
     margin-top: 2em;

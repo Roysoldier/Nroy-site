@@ -12,6 +12,7 @@ import yamlordereddictloader
 from apscheduler.schedulers.background import BackgroundScheduler
 import threading
 import json
+import hashlib
 
 ROOT_PATH = path.dirname(path.abspath(__file__)).strip() + "/"
 
@@ -27,7 +28,9 @@ logger = myLogger.MyLogger(path=ROOT_PATH + "logs/messages.log")
 
 debug = False
 
+local = False
 USERS = {}
+mydb.update_row("user",f"user = 'noan'",f"status = 'admin'")
 
 ###############################################
 # Appel de fonction
@@ -56,7 +59,9 @@ def index():
         listproj = recup_project(3)
         #print(listproj)       
         cook = request.cookies.get('USER_ID',"")
-        #print("cook :",cook)
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
         #print("login : ",isConnect)
@@ -78,6 +83,8 @@ def index():
 def perso():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -100,6 +107,8 @@ def perso():
 def new_project():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -146,6 +155,8 @@ def signup():
 def projet():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
@@ -170,6 +181,8 @@ def projet():
 def myproj():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         res,err = mydb.read_row("users",f"user = '{cook}'")
@@ -201,6 +214,8 @@ def myproj():
 def profil():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -223,6 +238,8 @@ def profil():
 def editprofil():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -241,10 +258,38 @@ def editprofil():
         if debug:
             logger.log(str(traceback.format_exc()),"DEBUG")
 
+@APP_FLASK.route('/otherprofile.html', methods=['GET'])
+def otherprofile():
+    try:
+        cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        #print('ici')
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        oires,oierr = mydb.read_row("userinfo",f"name = '{nameProfile}'")
+        isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
+        if debug:
+            logger.log("Requête otherprofile.html", "DEBUG")
+        if isConnect:
+           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","otherimg": f"./static/data/{oires[0][3]}","otherbio":oires[0][2],"othername":oires[0][1]}
+        else:
+            render = {"login":isConnect,"otherimg": f"./static/data/{oires[0][3]}","otherbio":oires[0][2],"othername":oires[0][0],"otheremail":oires[0][1]}
+
+        return render_template('otherprofile.html',render=render)
+
+    except:
+        logger.log("Erreur inconnue dans otherprofile.html", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+
+@APP_FLASK.route('/projetpres.html', methods=['GET'])
+
 @APP_FLASK.route('/projetpres.html', methods=['GET'])
 def projetpres(nameProject):
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         recup_pp(nameProject)
@@ -292,9 +337,12 @@ def chearchfile():
     return projetpres(recup_value)
 
 
+
 ###############################################
 # API
 ###############################################
+
+
 
 @APP_FLASK.route('/api/contact', methods=['POST'])
 def api_contact():
@@ -309,6 +357,8 @@ def api_like():
         if debug:
             logger.log("Requête api_like", "DEBUG")
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         liker = False
         if isConnect:
@@ -361,6 +411,25 @@ def api_signup():
         return jsonify({"status":"nok","msg":'error'})
     
 
+@APP_FLASK.route('/api/checkprofile', methods=['POST'])
+def api_checkprofile():
+    try:
+        
+        payload =request.json
+        res,err = mydb.read_row("userinfo",f"name = '{payload['name']}'")
+        global nameProfile
+        nameProfile = payload['name']
+        if debug:
+            logger.log("Requête checkprofile", "DEBUG")
+
+        return jsonify({"status":"ok","msg":'ok'})
+    except:
+        logger.log("Erreur inconnue dans checkprofile", "ERROR")
+        if debug:
+            logger.log(str(traceback.format_exc()),"DEBUG")
+        return jsonify({"status":"nok","msg":'error'})
+    
+
 @APP_FLASK.route('/api/signin', methods=['POST'])
 def api_signin():
     try:
@@ -370,8 +439,17 @@ def api_signin():
         
         result,user = sign.signin(logger=logger,mydb=mydb,email=request.json['email'],pwd=request.json['password'],debug=debug)
         if user['auth']:
+            binarykey = bytes(user['user'] + "nroydevencryptagecookie", "utf-8")
+            hashcook = hashlib.sha256(binarykey).hexdigest()
+            res,err = mydb.update_row("users",f"user = '{user['user']}'",f"hashcook = '{hashcook}'")
+            res, err = mydb.read_rows("users", ["user","hashcook"])
+
             resp = make_response(jsonify (result))  
-            resp.set_cookie('USER_ID',user['user'],path="/",domain="nroydev.fr", httponly=True, secure=True)  
+            if not local:
+                resp.set_cookie('USER_ID',hashcook,path="/",domain="nroydev.fr", httponly=True, secure=True)  
+            else:
+                resp.set_cookie('USER_ID',hashcook,path="/", httponly=True, secure=True)  
+            
         return resp
     except:
         logger.log("Erreur inconnue dans api_signin", "ERROR")
@@ -384,6 +462,8 @@ def api_comment():
     try:
 
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         if isConnect:
             payload = request.json
@@ -402,6 +482,8 @@ def api_comment():
 def api_delete_message():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         payload = request.json
         res,err = mydb.delete_row('commentaire',('id',payload['id']))
         res,err = mydb.delete_row('commentaire',('status',payload['id']))
@@ -418,6 +500,8 @@ def api_delete_message():
 def api_bio():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         #print("cook :",cook)
         payload = request.json
         res,err = mydb.update_row("userinfo",f"name = '{cook}'",f"bio = '{payload['bio']}'")
@@ -434,6 +518,8 @@ def upload_file():
     try:
  
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         res,err = mydb.read_row("userinfo",f"name = '{cook}'")
 
         f = request.files['file']
@@ -456,6 +542,8 @@ def upload_file_proj():
     try:
         #print("enter")
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         res,err = mydb.read_row("users",f"user = '{cook}'")
         res,err = mydb.read_row("project",f"owner = '{cook}'")
         res,err = mydb.max_index()
@@ -487,6 +575,8 @@ def upload_file_proj():
 def api_signout():
     try:
         cook = request.cookies.get('USER_ID',"")
+        if cook:
+            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
         payload = request.json
         sign.sign_out(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         logger.log(payload["message"],"INFO")
@@ -565,9 +655,11 @@ if __name__ == '__main__':
     except IOError:
         logger.log("Erreur dans le fichier de config", "ERROR")
         sys.exit()
-    debug = CONFIG['debug']
+    
+    debug = CONFIG.get('debug',False)
+    local = CONFIG.get('local',False)
     logger.log("Création de la base de donnée", "INFO")
-    mydb.create_table("users",[("id","INTEGER"),("user","TEXT"),("email","TEXT"),("mdp","TEXT"),("lastlog","INTEGER"),("connected","INTEGER")])
+    mydb.create_table("users",[("id","INTEGER"),("user","TEXT"),("email","TEXT"),("mdp","TEXT"),("lastlog","INTEGER"),("connected","INTEGER"),("hashcook","TEXT"),("status","TEXT")])
     mydb.create_table("userinfo",[("name","TEXT"),("email","TEXT"),("bio","TEXT"),("img","BLOB")])
     mydb.create_table("project",[("id","INTEGER"),("owner","TEXT"),("name","TEXT"),("title","TEXT"),("text","TEXT"),("date","TEXT"),("img","BLOB"),("link","TEXT"),("like","INTEGER"),("comment","INTEGER")])
     mydb.create_table("like",[("id","INTEGER"),("user","TEXT"),("project","TEXT"),("status","INTEGER")])
@@ -578,5 +670,5 @@ if __name__ == '__main__':
         job = scheduler.add_job(check_account, 'interval', minutes=CONFIG['scheduler']['interval'])
         scheduler.start()
     logger.log("Démarrage du serveur flask", "INFO")
-    APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.pem',ROOT_PATH + 'ssl/key.pem'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
+    APP_FLASK.run(ssl_context=(ROOT_PATH + 'ssl/cert.cer',ROOT_PATH + 'ssl/key.key'),host = CONFIG['network']['ip'], port = CONFIG['network']['port'])
     #APP_FLASK.run(host = CONFIG['network']['ip'], port = CONFIG['network']['port'])

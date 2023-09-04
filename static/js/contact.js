@@ -49,6 +49,7 @@ function submit_contact() {
                     // on va verifier le status renvoyer par flask
                     if (result.status == "ok") {
                         alertify.alert("Contact","Ton message à bien été envoyer !");
+                        
                     }
                     else {
                         // sinon on va renvoyer une pop-up d'erreur 

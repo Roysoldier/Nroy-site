@@ -52,7 +52,6 @@ function modif_bio_valid() {
 }
 
 function checkprofile(name) {
-    alert(name)
         var sendrequest = {
             "name": name
         }
@@ -68,7 +67,6 @@ function checkprofile(name) {
                 success: function (result) {
 
                     if (result.status == "ok") {
-                        alert('oui')
                         window.location = 'otherprofile.html'
                     }
                     else {

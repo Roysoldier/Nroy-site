@@ -65,7 +65,6 @@ def index():
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
         res,err = mydb.read_row("users",f"user = '{cook}'")
-        print(res)
         #print("login : ",isConnect)
         if isConnect:
             render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","proj":listproj,"status":res[0][7]}
@@ -91,8 +90,9 @@ def perso():
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        res,err = mydb.read_row("users",f"user = '{cook}'")
         if isConnect:
-           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}"}
+           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","status":res[0][7]}
         else:
             render = {"login":isConnect}
         #print("render : ",render)
@@ -115,15 +115,19 @@ def new_project():
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        res,err = mydb.read_row("users",f"user = '{cook}'")
         if isConnect:
-           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}"}
+           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","status":res[0][7]}
         else:
             render = {"login":isConnect}
         #print("render : ",render)
         if debug:
             logger.log("Requête newproject.html", "DEBUG")
-        #renvoie du code source perso.html au navigateur web après traitement
-        return render_template('newproject.html',render=render)
+        if res[0][7] != 'admin':
+            return index()
+        else:
+            #renvoie du code source perso.html au navigateur web après traitement
+            return render_template('newproject.html',render=render)
     except:
         logger.log("Erreur inconnue dans newproject.html", "ERROR")
         if debug:
@@ -162,11 +166,12 @@ def projet():
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
-        #print(projres)
+
         #print("login : ",isConnect)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
+        res,err = mydb.read_row("users",f"user = '{cook}'")
         if isConnect:
-           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","projet":projres}
+           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","projet":projres,"status":res[0][7]}
         else:
             render = {"login":isConnect,"projet":projres}
         #print("render : ",render)
@@ -197,7 +202,7 @@ def myproj():
                 fproj.append(v)
         #print(projres)
         #print("login : ",isConnect)
-        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj}
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj,"status":res[0][7]}
         #print("render : ",render)
         if debug:
             logger.log("Requête myproj.html", "DEBUG")
@@ -441,7 +446,7 @@ def api_signin():
         
         result,user = sign.signin(logger=logger,mydb=mydb,email=request.json['email'],pwd=request.json['password'],debug=debug)
         if user['auth']:
-            binarykey = bytes(user['user'] + "nroydevencryptagecookie", "utf-8")
+            binarykey = bytes(user['user'] + f"nroydevencryptagecookie{randint(1,1000)}", "utf-8")
             hashcook = hashlib.sha256(binarykey).hexdigest()
             res,err = mydb.update_row("users",f"user = '{user['user']}'",f"hashcook = '{hashcook}'")
             res, err = mydb.read_rows("users", ["user","hashcook"])
@@ -549,16 +554,16 @@ def upload_file_proj():
         res,err = mydb.read_row("users",f"user = '{cook}'")
         res,err = mydb.read_row("project",f"owner = '{cook}'")
         res,err = mydb.max_index()
-        name = request.form['name']
+        name = request.form['name'].replace("'","£").replace("'","¤")
         
-        title = request.form['titleform']
+        title = request.form['titleform'].replace('"',"£").replace("'","¤")
 
-        text = request.form['textform']
+        text = request.form['textform'].replace('"',"£").replace("'","¤")
         link = request.form['link']
 
         f = request.files['file']
-    
-        if f and len(name) > 4 and len(name) < 30 and len(title) > 4 and len(title) < 30 and len(text) > 4 and len(text) < 300 and re.match(lien,link):
+        if f and len(name) > 4 and len(name) < 30 and len(title) > 4 and len(title) < 60 and len(text) > 4 and len(text) < 10000 and re.match(lien,link):
+            print("foo")
             f.save(path.join(APP_FLASK.config['UPLOAD_FOLDER'],f"Project_{cook}_{f.filename}"))
             res,err = mydb.max_index('project',"id")
             res,err = mydb.add_row("project",[("id",res[0][0] + 1),("owner",cook),("name",name),("title",title),("text",text),("date",str(datetime.datetime.now().strftime("%d-%m-%y %H:%M:%S"))),("img",f"Project_{cook}_{f.filename}"),("link",link),("like",0)])
@@ -600,7 +605,6 @@ def check_account():
                 tmp_account = json.load(f)
             to_remove = []
             for i,v in enumerate(tmp_account):
-                print(i)
                 if v['verif']:
                     logger.log(f"Création du compte : {v['pseudo']}, après validation", "INFO")
                     result = sign.signup(logger=logger,mydb=mydb,payload=v,debug=debug,bypass=True,verif=False,lock=LOCK,path=ROOT_PATH)
@@ -642,7 +646,6 @@ def recup_pp(proj):
       res,err = mydb.read_row("userinfo",f"name = '{i[1]}'")
       res,err = mydb.update_row("commentaire",f"user = '{i[1]}'",f"img = './static/data/{res[0][3]}'")  
     cres, cerr = mydb.read_row("commentaire",f"project = '{proj}'")
-    #print(cres)
    
 
 ###############################################

@@ -43,20 +43,7 @@
           <li class="nav-item">
             <a class="nav-link" href="projet.html">Projet</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Jeux</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Plus
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Librairie</a>
-              <a class="dropdown-item" href="#">Vos code</a>
-              <a class="dropdown-item" href="#">Aide</a>
-            </div>
-          </li>
+          
         </ul>
         {% if not render['login']%}
         <ul class="nav bs">
@@ -70,18 +57,20 @@
             <img src={{render['img']}} alt="mdo" width="50" height="50"  class="rounded-circle ">
           </a>
           <ul class="dropdown-menu   text-small">
-            <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
+            <li><a class="dropdown-item white-color" href="profil.html">{{render['pseudo']}}</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
-            <li><a class="dropdown-item" href="myproj.html">Mes Projet</a></li>
+            {% if render['status'] == 'admin' %}
+          <li><a class="dropdown-item white-color" href="newproject.html">New project...</a></li>
+          {% endif %}
+            <li><a class="dropdown-item white-color" href="#">Settings</a></li>
+            <li><a class="dropdown-item white-color" href="editprofil.html"> Edit profile</a></li>
+            <li><a class="dropdown-item white-color" href="myproj.html">Mes Projet</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
+            <li><a class="dropdown-item white-color" href="#" onclick="sign_out()">Sign out</a></li>
           </ul>
         </div>
         {%endif%}
@@ -89,15 +78,15 @@
     </nav>
     <div class="center-pres">
 
-      <h2 id='pres-title-project' class="pres-title-project">{{render['project'][2]}}</h2>
+      <h2 id='pres-title-project' class="pres-title-project">{{render['project'][2]|replace('£',"'")|replace("¤","'")}}</h2>
       <h2 class="owner-project">Crée par : {{render['project'][1]}}</h2>
       <img class="pres-img" src="./static/data/{{render['project'][6]}}" />
       <div class="like">
         <i class="fa fa-heart-o"></i>
         <i class="fa fa-heart"></i>
       </div>
-      <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]}}</h3>
-      <p class="txt-title-project">{{render['project'][4]}}</p>
+      <h3 class="pres-title-project" style="font-size: 30px;">{{render['project'][3]|replace('£',"'")|replace("¤","'")}}</h3>
+      <p class="txt-title-project">{{render['project'][4]|replace('£',"'")|replace("¤","'")}}</p>
       <a target="_blank" class="btn btn-primary center-button" href="{{render['project'][7]}}" role="button">Link</a>
       <br/>
       <hr>
@@ -134,6 +123,7 @@
                   d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
               </svg>
             </button>
+           
             <div class="dropdown-menu dropdown-menu-right dropdown-content-op {{i[0]}}_b">
               {% if i[1] == render['pseudo'] %}
               <a onclick="delete_message('{{i[0]}}')">Suprimer</a>
@@ -141,6 +131,7 @@
               {%endif%}
               <a class="{{i[0]}}_rep">Répondre</a>
             </div>
+            
 
             <script>
               $(document).ready(function () {
@@ -191,7 +182,10 @@
       {% for v in render["responce"] %}
       {%if v[5] == i[0]%}
         <div class="rep-comment">
-          <img src={{v[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          
+          <a class="pp-profile" onclick="checkprofile('{{v[1]}}')"> 
+            <img src={{v[4]}} alt="mdo" width="50" height="50" class="rounded-circle">
+          </a>
           <p class="rep-name-comment">{{v[1]}}</p>
           
           
@@ -206,11 +200,14 @@
                     d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
                 </svg>
               </button>
+              {% if v[1] == render['pseudo'] %}
               <div class="dropdown-menu dropdown-menu-right dropdown-content-op {{v[0]}}_b">
+                
                 <a onclick="delete_message('{{v[0]}}')">Suprimer</a>
                 <a href="#">Modifier</a>
+                
               </div>
-
+              {%endif%}
             <script>
               $(document).ready(function () {
                 // Afficher/cacher la liste déroulante lorsqu'on clique sur le bouton

@@ -20473,3 +20473,2142 @@ IndexError: list index out of range
 2023-09-04 14:43:06,910 DEBUG    > Requête newproject.html
 2023-09-04 14:43:08,766 INFO     > Noan est connecté
 2023-09-04 14:43:08,767 DEBUG    > Requête index.html
+2023-09-04 15:14:22,444 INFO     > Noan est connecté
+2023-09-04 15:14:22,444 DEBUG    > Requête projet.html
+2023-09-04 15:14:23,385 INFO     > Noan est connecté
+2023-09-04 15:14:23,385 DEBUG    > Requête index.html
+2023-09-04 15:14:26,410 INFO     > Noan est connecté
+2023-09-04 15:14:26,410 DEBUG    > Requête projet.html
+2023-09-04 15:14:28,193 INFO     > Noan est connecté
+2023-09-04 15:14:28,193 DEBUG    > Requête index.html
+2023-09-04 15:14:28,900 INFO     > Noan est connecté
+2023-09-04 15:14:28,900 DEBUG    > Requête perso.html
+2023-09-04 15:14:29,913 INFO     > Noan est connecté
+2023-09-04 15:14:29,914 DEBUG    > Requête index.html
+2023-09-04 15:14:31,001 INFO     > Noan est connecté
+2023-09-04 15:14:31,001 DEBUG    > Requête projet.html
+2023-09-04 15:14:31,490 INFO     > Noan est connecté
+2023-09-04 15:14:31,490 DEBUG    > Requête index.html
+2023-09-04 15:14:32,011 INFO     > Noan est connecté
+2023-09-04 15:14:32,011 DEBUG    > Requête projet.html
+2023-09-04 15:14:32,498 INFO     > Noan est connecté
+2023-09-04 15:14:32,499 DEBUG    > Requête index.html
+2023-09-04 15:14:35,388 INFO     > Noan est connecté
+2023-09-04 15:14:35,389 DEBUG    > Requête newproject.html
+2023-09-04 15:14:39,693 INFO     > Noan est connecté
+2023-09-04 15:14:39,694 DEBUG    > Requête newproject.html
+2023-09-04 15:14:42,448 INFO     > Noan est connecté
+2023-09-04 15:14:42,448 DEBUG    > Requête profil.html
+2023-09-04 15:14:45,592 INFO     > Noan est connecté
+2023-09-04 15:14:45,592 DEBUG    > Requête index.html
+2023-09-04 15:14:57,113 INFO     > Noan est connecté
+2023-09-04 15:14:57,114 DEBUG    > Requête projet.html
+2023-09-04 15:14:58,329 INFO     > Noan est connecté
+2023-09-04 15:14:58,329 DEBUG    > Requête index.html
+2023-09-04 15:14:59,716 INFO     > Noan est connecté
+2023-09-04 15:14:59,716 DEBUG    > Requête projet.html
+2023-09-04 15:15:01,485 INFO     > Noan est connecté
+2023-09-04 15:15:01,486 DEBUG    > Requête index.html
+2023-09-04 21:04:28,342 INFO     > Noan est connecté
+2023-09-04 21:04:28,343 DEBUG    > Requête index.html
+2024-01-04 12:12:20,571 INFO     > Lancement de l'application ! 
+2024-01-04 12:12:20,571 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:12:20,575 INFO     > Création de la base de donnée
+2024-01-04 12:12:20,576 INFO     > Démarrage du serveur flask
+2024-01-04 12:12:34,367 DEBUG    > Requête index.html
+2024-01-04 12:12:51,313 DEBUG    > Requête projet.html
+2024-01-04 12:12:52,340 DEBUG    > Requête index.html
+2024-01-04 12:12:54,458 DEBUG    > Requête projet.html
+2024-01-04 12:12:54,932 DEBUG    > Requête perso.html
+2024-01-04 12:12:57,586 DEBUG    > Requête index.html
+2024-01-04 12:12:58,958 DEBUG    > Requête signin.html
+2024-01-04 12:13:15,341 DEBUG    > Requête api_signin
+2024-01-04 12:13:15,342 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-04 12:13:15,364 INFO     > Noan est connecté
+2024-01-04 12:13:15,364 DEBUG    > Requête index.html
+2024-01-04 12:13:16,721 INFO     > Noan est connecté
+2024-01-04 12:13:16,721 DEBUG    > Requête projet.html
+2024-01-04 12:13:20,639 INFO     > Noan est connecté
+2024-01-04 12:13:20,639 DEBUG    > Requête index.html
+2024-01-04 12:13:27,096 INFO     > Noan est connecté
+2024-01-04 12:13:27,096 DEBUG    > Requête perso.html
+2024-01-04 12:13:49,421 INFO     > Noan est connecté
+2024-01-04 12:13:49,422 DEBUG    > Requête index.html
+2024-01-04 12:13:53,180 INFO     > Noan est connecté
+2024-01-04 12:13:53,181 DEBUG    > Requête projet.html
+2024-01-04 12:13:58,342 INFO     > Noan est connecté
+2024-01-04 12:13:58,342 DEBUG    > Requête newproject.html
+2024-01-04 12:14:10,650 INFO     > Noan est connecté
+2024-01-04 12:14:10,651 DEBUG    > Requête index.html
+2024-01-04 12:14:31,951 INFO     > Noan est connecté
+2024-01-04 12:14:31,952 DEBUG    > Requête projet.html
+2024-01-04 12:14:33,087 INFO     > Noan est connecté
+2024-01-04 12:14:33,088 DEBUG    > Requête index.html
+2024-01-04 12:28:49,027 INFO     > Noan est connecté
+2024-01-04 12:28:49,028 DEBUG    > Requête projet.html
+2024-01-04 12:30:09,687 INFO     > Noan est connecté
+2024-01-04 12:30:09,687 DEBUG    > Requête index.html
+2024-01-04 12:30:11,517 INFO     > Noan est connecté
+2024-01-04 12:30:11,517 DEBUG    > Requête projet.html
+2024-01-04 12:30:16,663 INFO     > Noan est connecté
+2024-01-04 12:30:16,664 DEBUG    > Requête newproject.html
+2024-01-04 12:30:42,046 INFO     > Fichier uploader
+2024-01-04 12:30:42,046 INFO     > Noan est connecté
+2024-01-04 12:30:42,046 DEBUG    > Requête projet.html
+2024-01-04 12:30:44,042 INFO     > Noan est connecté
+2024-01-04 12:30:44,043 DEBUG    > Requête index.html
+2024-01-04 12:30:44,522 INFO     > Noan est connecté
+2024-01-04 12:30:44,522 DEBUG    > Requête projet.html
+2024-01-04 12:30:53,272 INFO     > Noan est connecté
+2024-01-04 12:30:53,273 DEBUG    > Requête newproject.html
+2024-01-04 12:31:02,659 INFO     > Fichier uploader
+2024-01-04 12:31:02,660 INFO     > Noan est connecté
+2024-01-04 12:31:02,660 DEBUG    > Requête projet.html
+2024-01-04 12:31:04,798 INFO     > Noan est connecté
+2024-01-04 12:31:04,798 DEBUG    > Requête index.html
+2024-01-04 12:31:05,372 INFO     > Noan est connecté
+2024-01-04 12:31:05,372 DEBUG    > Requête projet.html
+2024-01-04 12:31:10,809 INFO     > Noan est connecté
+2024-01-04 12:31:10,810 DEBUG    > Requête newproject.html
+2024-01-04 12:31:41,523 INFO     > Fichier uploader
+2024-01-04 12:31:41,523 INFO     > Noan est connecté
+2024-01-04 12:31:41,524 DEBUG    > Requête projet.html
+2024-01-04 12:31:43,566 INFO     > Noan est connecté
+2024-01-04 12:31:43,566 DEBUG    > Requête index.html
+2024-01-04 12:31:44,104 INFO     > Noan est connecté
+2024-01-04 12:31:44,105 DEBUG    > Requête projet.html
+2024-01-04 12:32:11,085 INFO     > Lancement de l'application ! 
+2024-01-04 12:32:11,086 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:32:11,087 INFO     > Création de la base de donnée
+2024-01-04 12:32:11,087 INFO     > Démarrage du serveur flask
+2024-01-04 12:32:13,176 INFO     > Noan est connecté
+2024-01-04 12:32:13,177 DEBUG    > Requête projet.html
+2024-01-04 12:33:12,163 INFO     > Lancement de l'application ! 
+2024-01-04 12:33:12,164 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:33:12,165 INFO     > Création de la base de donnée
+2024-01-04 12:33:12,179 INFO     > Démarrage du serveur flask
+2024-01-04 12:33:17,218 ERROR    > Erreur inconnue dans projet.html
+2024-01-04 12:33:17,219 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 161, in projet
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-04 12:33:18,510 ERROR    > Erreur inconnue dans index.html
+2024-01-04 12:33:18,510 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-04 12:33:32,588 DEBUG    > Requête index.html
+2024-01-04 12:33:34,212 DEBUG    > Requête signup.html
+2024-01-04 12:33:45,498 DEBUG    > Requête api_signup
+2024-01-04 12:33:45,499 WARNING  > Vérification des comptes désactivé
+2024-01-04 12:33:45,505 INFO     > Compte créé : Noan
+2024-01-04 12:33:45,519 DEBUG    > Requête signin.html
+2024-01-04 12:33:52,634 DEBUG    > Requête api_signin
+2024-01-04 12:33:52,635 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-04 12:33:52,654 INFO     > Noan est connecté
+2024-01-04 12:33:52,654 DEBUG    > Requête index.html
+2024-01-04 12:34:00,900 INFO     > Lancement de l'application ! 
+2024-01-04 12:34:00,901 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:34:00,902 INFO     > Création de la base de donnée
+2024-01-04 12:34:00,902 INFO     > Démarrage du serveur flask
+2024-01-04 12:34:02,415 INFO     > Noan est connecté
+2024-01-04 12:34:02,415 DEBUG    > Requête index.html
+2024-01-04 12:34:04,428 INFO     > Noan est connecté
+2024-01-04 12:34:04,428 DEBUG    > Requête newproject.html
+2024-01-04 12:34:29,612 INFO     > Fichier uploader
+2024-01-04 12:34:29,612 INFO     > Noan est connecté
+2024-01-04 12:34:29,612 DEBUG    > Requête projet.html
+2024-01-04 12:34:47,180 INFO     > Noan est connecté
+2024-01-04 12:34:47,180 DEBUG    > Requête index.html
+2024-01-04 12:34:48,797 INFO     > Noan est connecté
+2024-01-04 12:34:48,797 DEBUG    > Requête projet.html
+2024-01-04 12:36:05,572 INFO     > Lancement de l'application ! 
+2024-01-04 12:36:05,572 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:36:05,573 INFO     > Création de la base de donnée
+2024-01-04 12:36:05,574 INFO     > Démarrage du serveur flask
+2024-01-04 12:36:07,001 INFO     > Noan est connecté
+2024-01-04 12:36:07,002 DEBUG    > Requête projet.html
+2024-01-04 12:36:09,547 INFO     > Noan est connecté
+2024-01-04 12:36:09,548 DEBUG    > Requête newproject.html
+2024-01-04 12:36:20,869 INFO     > Fichier uploader
+2024-01-04 12:36:20,869 INFO     > Noan est connecté
+2024-01-04 12:36:20,870 DEBUG    > Requête projet.html
+2024-01-04 12:36:31,981 INFO     > Lancement de l'application ! 
+2024-01-04 12:36:31,981 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:36:31,982 INFO     > Création de la base de donnée
+2024-01-04 12:36:31,982 INFO     > Démarrage du serveur flask
+2024-01-04 12:36:35,680 INFO     > Noan est connecté
+2024-01-04 12:36:35,681 DEBUG    > Requête newproject.html
+2024-01-04 12:36:55,725 INFO     > Fichier uploader
+2024-01-04 12:36:55,725 INFO     > Noan est connecté
+2024-01-04 12:36:55,726 DEBUG    > Requête projet.html
+2024-01-04 12:37:07,885 INFO     > Fichier chearchfile
+2024-01-04 12:37:07,886 INFO     > Noan est connecté
+2024-01-04 12:37:07,886 DEBUG    > Requête projetpres.html
+2024-01-04 12:37:10,568 DEBUG    > Requête api_like
+2024-01-04 12:37:10,568 INFO     > Noan est connecté
+2024-01-04 12:37:10,569 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:37:42,621 INFO     > Noan est connecté
+2024-01-04 12:37:42,636 INFO     > Fichier chearchfile
+2024-01-04 12:37:42,636 INFO     > Noan est connecté
+2024-01-04 12:37:42,637 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:37:42,637 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:37:48,478 INFO     > Fichier chearchfile
+2024-01-04 12:37:48,479 INFO     > Noan est connecté
+2024-01-04 12:37:48,479 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:37:48,479 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:37:59,181 INFO     > Noan est connecté
+2024-01-04 12:37:59,181 DEBUG    > Requête index.html
+2024-01-04 12:38:00,270 INFO     > Noan est connecté
+2024-01-04 12:38:00,271 DEBUG    > Requête projet.html
+2024-01-04 12:38:01,924 INFO     > Fichier chearchfile
+2024-01-04 12:38:01,924 INFO     > Noan est connecté
+2024-01-04 12:38:01,925 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:38:01,925 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:38:06,128 INFO     > Noan est connecté
+2024-01-04 12:38:06,129 DEBUG    > Requête projet.html
+2024-01-04 12:38:10,438 INFO     > Noan est connecté
+2024-01-04 12:38:10,439 DEBUG    > Requête newproject.html
+2024-01-04 12:38:55,725 INFO     > Fichier uploader
+2024-01-04 12:38:55,725 INFO     > Noan est connecté
+2024-01-04 12:38:55,725 DEBUG    > Requête projet.html
+2024-01-04 12:38:59,219 INFO     > Fichier chearchfile
+2024-01-04 12:38:59,219 INFO     > Noan est connecté
+2024-01-04 12:38:59,219 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:38:59,220 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:39:02,339 INFO     > Noan est connecté
+2024-01-04 12:39:02,339 DEBUG    > Requête newproject.html
+2024-01-04 12:39:02,746 INFO     > Noan est connecté
+2024-01-04 12:39:02,747 DEBUG    > Requête projet.html
+2024-01-04 12:39:04,486 INFO     > Fichier chearchfile
+2024-01-04 12:39:04,487 INFO     > Noan est connecté
+2024-01-04 12:39:04,487 DEBUG    > Requête projetpres.html
+2024-01-04 12:39:08,925 INFO     > Noan est connecté
+2024-01-04 12:39:08,940 INFO     > Fichier chearchfile
+2024-01-04 12:39:08,941 INFO     > Noan est connecté
+2024-01-04 12:39:08,944 DEBUG    > Requête projetpres.html
+2024-01-04 12:39:12,409 DEBUG    > Requête checkprofile
+2024-01-04 12:39:14,090 INFO     > Noan est connecté
+2024-01-04 12:39:14,091 DEBUG    > Requête otherprofile.html
+2024-01-04 12:39:15,943 INFO     > Noan est connecté
+2024-01-04 12:39:15,943 DEBUG    > Requête index.html
+2024-01-04 12:39:18,898 INFO     > Noan est connecté
+2024-01-04 12:39:18,898 DEBUG    > Requête profil.html
+2024-01-04 12:39:23,431 INFO     > Noan est connecté
+2024-01-04 12:39:23,431 DEBUG    > Requête editprofil.html
+2024-01-04 12:40:06,229 INFO     > Fichier uploader
+2024-01-04 12:40:06,229 INFO     > Noan est connecté
+2024-01-04 12:40:06,229 DEBUG    > Requête editprofil.html
+2024-01-04 12:40:12,003 INFO     > Fichier uploader
+2024-01-04 12:40:12,003 INFO     > Noan est connecté
+2024-01-04 12:40:12,003 DEBUG    > Requête editprofil.html
+2024-01-04 12:40:13,044 INFO     > Noan est connecté
+2024-01-04 12:40:13,044 DEBUG    > Requête projet.html
+2024-01-04 12:40:13,910 INFO     > Fichier chearchfile
+2024-01-04 12:40:13,910 INFO     > Noan est connecté
+2024-01-04 12:40:13,913 DEBUG    > Requête projetpres.html
+2024-01-04 12:40:18,110 DEBUG    > Requête checkprofile
+2024-01-04 12:40:19,010 INFO     > Noan est connecté
+2024-01-04 12:40:19,010 DEBUG    > Requête otherprofile.html
+2024-01-04 12:40:21,152 INFO     > Noan est connecté
+2024-01-04 12:40:21,153 DEBUG    > Requête index.html
+2024-01-04 12:41:07,086 INFO     > Lancement de l'application ! 
+2024-01-04 12:41:07,087 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:41:07,088 INFO     > Création de la base de donnée
+2024-01-04 12:41:07,101 INFO     > Démarrage du serveur flask
+2024-01-04 12:41:21,138 DEBUG    > Requête index.html
+2024-01-04 12:41:33,436 DEBUG    > Requête signin.html
+2024-01-04 12:41:37,558 DEBUG    > Requête api_signin
+2024-01-04 12:41:37,559 ERROR    > Erreur inconnue dans la fonction signin
+2024-01-04 12:41:37,560 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:41:37,560 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:41:38,080 DEBUG    > Requête signup.html
+2024-01-04 12:41:53,374 DEBUG    > Requête api_signup
+2024-01-04 12:41:53,374 WARNING  > Vérification des comptes désactivé
+2024-01-04 12:41:53,380 INFO     > Compte créé : Noan
+2024-01-04 12:41:53,397 DEBUG    > Requête signin.html
+2024-01-04 12:42:00,974 DEBUG    > Requête api_signin
+2024-01-04 12:42:00,975 DEBUG    > Mot de passe incorect
+2024-01-04 12:42:00,975 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:42:00,975 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:42:06,327 DEBUG    > Requête api_signin
+2024-01-04 12:42:06,327 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-04 12:42:06,345 INFO     > Noan est connecté
+2024-01-04 12:42:06,346 DEBUG    > Requête index.html
+2024-01-04 12:42:09,354 INFO     > Noan est connecté
+2024-01-04 12:42:09,354 DEBUG    > Requête editprofil.html
+2024-01-04 12:42:13,599 INFO     > Fichier uploader
+2024-01-04 12:42:13,600 INFO     > Noan est connecté
+2024-01-04 12:42:13,600 DEBUG    > Requête editprofil.html
+2024-01-04 12:42:19,108 INFO     > Fichier uploader
+2024-01-04 12:42:19,108 INFO     > Noan est connecté
+2024-01-04 12:42:19,108 DEBUG    > Requête editprofil.html
+2024-01-04 12:42:27,070 INFO     > Fichier uploader
+2024-01-04 12:42:27,070 INFO     > Noan est connecté
+2024-01-04 12:42:27,070 DEBUG    > Requête editprofil.html
+2024-01-04 12:42:28,518 INFO     > Noan est connecté
+2024-01-04 12:42:28,519 DEBUG    > Requête index.html
+2024-01-04 12:42:29,118 INFO     > Noan est connecté
+2024-01-04 12:42:29,118 DEBUG    > Requête projet.html
+2024-01-04 12:43:41,781 INFO     > Noan est connecté
+2024-01-04 12:43:41,785 INFO     > Compte déconnecter
+2024-01-04 12:43:41,800 DEBUG    > Requête index.html
+2024-01-04 12:43:42,783 DEBUG    > Requête signup.html
+2024-01-04 12:44:04,355 DEBUG    > Requête api_signup
+2024-01-04 12:44:04,355 WARNING  > Vérification des comptes désactivé
+2024-01-04 12:44:04,361 INFO     > Compte créé : David
+2024-01-04 12:44:04,374 DEBUG    > Requête signin.html
+2024-01-04 12:44:09,772 DEBUG    > Requête api_signin
+2024-01-04 12:44:09,773 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-04 12:44:09,790 INFO     > David est connecté
+2024-01-04 12:44:09,791 DEBUG    > Requête index.html
+2024-01-04 12:44:12,831 INFO     > David est connecté
+2024-01-04 12:44:12,831 DEBUG    > Requête editprofil.html
+2024-01-04 12:44:34,498 INFO     > Fichier uploader
+2024-01-04 12:44:34,499 INFO     > David est connecté
+2024-01-04 12:44:34,499 DEBUG    > Requête editprofil.html
+2024-01-04 12:44:38,309 INFO     > David est connecté
+2024-01-04 12:44:38,309 DEBUG    > Requête index.html
+2024-01-04 12:44:40,552 INFO     > David est connecté
+2024-01-04 12:44:40,552 DEBUG    > Requête profil.html
+2024-01-04 12:44:43,412 INFO     > David est connecté
+2024-01-04 12:44:43,412 DEBUG    > Requête editprofil.html
+2024-01-04 12:44:51,805 INFO     > David est connecté
+2024-01-04 12:44:51,805 DEBUG    > Requête editprofil.html
+2024-01-04 12:44:53,549 INFO     > David est connecté
+2024-01-04 12:44:53,549 DEBUG    > Requête index.html
+2024-01-04 12:46:25,208 INFO     > David est connecté
+2024-01-04 12:46:25,208 DEBUG    > Requête index.html
+2024-01-04 12:46:26,185 INFO     > David est connecté
+2024-01-04 12:46:26,186 DEBUG    > Requête projet.html
+2024-01-04 12:46:28,900 INFO     > David est connecté
+2024-01-04 12:46:28,900 DEBUG    > Requête perso.html
+2024-01-04 12:46:30,784 INFO     > David est connecté
+2024-01-04 12:46:30,784 DEBUG    > Requête newproject.html
+2024-01-04 12:46:33,164 INFO     > David est connecté
+2024-01-04 12:46:33,164 DEBUG    > Requête editprofil.html
+2024-01-04 12:46:49,581 INFO     > David est connecté
+2024-01-04 12:46:49,582 DEBUG    > Requête editprofil.html
+2024-01-04 12:47:17,693 INFO     > David est connecté
+2024-01-04 12:47:17,693 DEBUG    > Requête editprofil.html
+2024-01-04 12:47:19,794 INFO     > David est connecté
+2024-01-04 12:47:19,794 DEBUG    > Requête profil.html
+2024-01-04 12:47:22,036 INFO     > David est connecté
+2024-01-04 12:47:22,036 DEBUG    > Requête myproj.html
+2024-01-04 12:47:27,399 INFO     > David est connecté
+2024-01-04 12:47:27,400 DEBUG    > Requête profil.html
+2024-01-04 12:47:29,036 INFO     > David est connecté
+2024-01-04 12:47:29,037 DEBUG    > Requête index.html
+2024-01-04 12:47:29,675 INFO     > David est connecté
+2024-01-04 12:47:29,675 DEBUG    > Requête projet.html
+2024-01-04 12:47:31,082 INFO     > David est connecté
+2024-01-04 12:47:31,082 DEBUG    > Requête index.html
+2024-01-04 12:47:37,174 INFO     > David est connecté
+2024-01-04 12:47:37,177 INFO     > Compte déconnecter
+2024-01-04 12:47:37,190 DEBUG    > Requête index.html
+2024-01-04 12:47:40,307 DEBUG    > Requête signin.html
+2024-01-04 12:47:47,788 DEBUG    > Requête api_signin
+2024-01-04 12:47:47,789 DEBUG    > Mot de passe incorect
+2024-01-04 12:47:47,789 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:47:47,789 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:47:48,489 DEBUG    > Requête api_signin
+2024-01-04 12:47:48,490 DEBUG    > Mot de passe incorect
+2024-01-04 12:47:48,490 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:47:48,490 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:47:52,445 DEBUG    > Requête api_signin
+2024-01-04 12:47:52,445 DEBUG    > Mot de passe incorect
+2024-01-04 12:47:52,446 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:47:52,446 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:47:52,992 DEBUG    > Requête api_signin
+2024-01-04 12:47:52,993 DEBUG    > Mot de passe incorect
+2024-01-04 12:47:52,993 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:47:52,993 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:47:57,439 DEBUG    > Requête api_signin
+2024-01-04 12:47:57,440 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-04 12:47:57,455 INFO     > Noan est connecté
+2024-01-04 12:47:57,456 DEBUG    > Requête index.html
+2024-01-04 12:48:15,852 INFO     > Lancement de l'application ! 
+2024-01-04 12:48:15,852 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:48:15,853 INFO     > Création de la base de donnée
+2024-01-04 12:48:15,853 INFO     > Démarrage du serveur flask
+2024-01-04 12:48:17,835 INFO     > Noan est connecté
+2024-01-04 12:48:17,836 DEBUG    > Requête index.html
+2024-01-04 12:48:18,104 INFO     > Noan est connecté
+2024-01-04 12:48:18,105 DEBUG    > Requête index.html
+2024-01-04 12:48:35,092 INFO     > Noan est connecté
+2024-01-04 12:48:35,093 DEBUG    > Requête index.html
+2024-01-04 12:48:42,235 DEBUG    > Requête index.html
+2024-01-04 12:48:45,754 DEBUG    > Requête signin.html
+2024-01-04 12:49:01,086 DEBUG    > Requête api_signin
+2024-01-04 12:49:01,086 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-04 12:49:01,104 INFO     > David est connecté
+2024-01-04 12:49:01,104 DEBUG    > Requête index.html
+2024-01-04 12:49:03,752 INFO     > Noan est connecté
+2024-01-04 12:49:03,752 DEBUG    > Requête index.html
+2024-01-04 12:49:06,944 INFO     > David est connecté
+2024-01-04 12:49:06,945 DEBUG    > Requête index.html
+2024-01-04 12:49:16,549 INFO     > Noan est connecté
+2024-01-04 12:49:16,549 DEBUG    > Requête newproject.html
+2024-01-04 12:49:55,898 INFO     > Fichier uploader
+2024-01-04 12:49:55,899 INFO     > Noan est connecté
+2024-01-04 12:49:55,899 DEBUG    > Requête projet.html
+2024-01-04 12:49:57,566 INFO     > Fichier chearchfile
+2024-01-04 12:49:57,567 INFO     > Noan est connecté
+2024-01-04 12:49:57,567 DEBUG    > Requête projetpres.html
+2024-01-04 12:49:58,962 DEBUG    > Requête api_like
+2024-01-04 12:49:58,962 INFO     > Noan est connecté
+2024-01-04 12:49:58,963 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:50:10,529 INFO     > Noan est connecté
+2024-01-04 12:50:10,546 INFO     > Fichier chearchfile
+2024-01-04 12:50:10,547 INFO     > Noan est connecté
+2024-01-04 12:50:10,549 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:50:10,550 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:50:15,163 INFO     > Noan est connecté
+2024-01-04 12:50:15,163 DEBUG    > Requête newproject.html
+2024-01-04 12:50:16,444 INFO     > Fichier uploader
+2024-01-04 12:50:16,444 INFO     > Noan est connecté
+2024-01-04 12:50:16,444 DEBUG    > Requête projet.html
+2024-01-04 12:50:17,406 INFO     > Fichier chearchfile
+2024-01-04 12:50:17,406 INFO     > Noan est connecté
+2024-01-04 12:50:17,406 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:50:17,407 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:50:19,863 INFO     > Noan est connecté
+2024-01-04 12:50:19,864 DEBUG    > Requête newproject.html
+2024-01-04 12:50:21,881 INFO     > Fichier uploader
+2024-01-04 12:50:21,882 INFO     > Noan est connecté
+2024-01-04 12:50:21,882 DEBUG    > Requête projet.html
+2024-01-04 12:50:23,373 INFO     > Fichier chearchfile
+2024-01-04 12:50:23,374 INFO     > Noan est connecté
+2024-01-04 12:50:23,374 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:50:23,374 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:50:25,285 INFO     > Noan est connecté
+2024-01-04 12:50:25,286 DEBUG    > Requête newproject.html
+2024-01-04 12:50:27,410 INFO     > Fichier uploader
+2024-01-04 12:50:27,410 INFO     > Noan est connecté
+2024-01-04 12:50:27,411 DEBUG    > Requête projet.html
+2024-01-04 12:50:28,593 INFO     > Fichier chearchfile
+2024-01-04 12:50:28,593 INFO     > Noan est connecté
+2024-01-04 12:50:28,594 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-04 12:50:28,594 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 310, in projetpres
+    liker = Trueh
+NameError: name 'Trueh' is not defined
+
+2024-01-04 12:50:30,141 INFO     > Noan est connecté
+2024-01-04 12:50:30,141 DEBUG    > Requête newproject.html
+2024-01-04 12:51:10,849 INFO     > Lancement de l'application ! 
+2024-01-04 12:51:10,849 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:51:10,850 INFO     > Création de la base de donnée
+2024-01-04 12:51:10,863 INFO     > Démarrage du serveur flask
+2024-01-04 12:51:12,092 DEBUG    > Requête newproject.html
+2024-01-04 12:51:13,305 DEBUG    > Requête newproject.html
+2024-01-04 12:51:13,864 DEBUG    > Requête index.html
+2024-01-04 12:51:15,582 DEBUG    > Requête index.html
+2024-01-04 12:51:17,429 DEBUG    > Requête signin.html
+2024-01-04 12:51:20,976 DEBUG    > Requête signup.html
+2024-01-04 12:51:52,156 DEBUG    > Requête api_signup
+2024-01-04 12:51:52,157 WARNING  > Vérification des comptes désactivé
+2024-01-04 12:51:52,162 INFO     > Compte créé : Noan
+2024-01-04 12:51:52,179 DEBUG    > Requête signin.html
+2024-01-04 12:51:59,000 DEBUG    > Requête api_signin
+2024-01-04 12:51:59,000 DEBUG    > Mot de passe incorect
+2024-01-04 12:51:59,000 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 12:51:59,001 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 12:52:03,224 DEBUG    > Requête api_signin
+2024-01-04 12:52:03,225 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-04 12:52:03,246 INFO     > Noan est connecté
+2024-01-04 12:52:03,247 DEBUG    > Requête index.html
+2024-01-04 12:52:06,140 INFO     > Noan est connecté
+2024-01-04 12:52:06,140 DEBUG    > Requête editprofil.html
+2024-01-04 12:52:12,720 INFO     > Fichier uploader
+2024-01-04 12:52:12,720 INFO     > Noan est connecté
+2024-01-04 12:52:12,720 DEBUG    > Requête editprofil.html
+2024-01-04 12:52:57,024 INFO     > Fichier uploader
+2024-01-04 12:52:57,025 INFO     > Noan est connecté
+2024-01-04 12:52:57,025 DEBUG    > Requête editprofil.html
+2024-01-04 12:53:03,701 INFO     > Fichier uploader
+2024-01-04 12:53:03,701 INFO     > Noan est connecté
+2024-01-04 12:53:03,701 DEBUG    > Requête editprofil.html
+2024-01-04 12:53:06,132 INFO     > Noan est connecté
+2024-01-04 12:53:06,133 DEBUG    > Requête index.html
+2024-01-04 12:56:50,737 INFO     > Lancement de l'application ! 
+2024-01-04 12:56:50,737 INFO     > Ouverture du fichier de configuration
+2024-01-04 12:56:50,738 INFO     > Création de la base de donnée
+2024-01-04 12:56:50,738 INFO     > Démarrage du serveur flask
+2024-01-04 12:57:03,419 INFO     > Noan est connecté
+2024-01-04 12:57:03,419 DEBUG    > Requête index.html
+2024-01-04 12:57:05,597 INFO     > Noan est connecté
+2024-01-04 12:57:05,598 DEBUG    > Requête newproject.html
+2024-01-04 12:57:30,309 INFO     > Fichier uploader
+2024-01-04 12:57:30,309 INFO     > Noan est connecté
+2024-01-04 12:57:30,310 DEBUG    > Requête projet.html
+2024-01-04 12:57:32,831 INFO     > Fichier chearchfile
+2024-01-04 12:57:32,831 INFO     > Noan est connecté
+2024-01-04 12:57:32,832 DEBUG    > Requête projetpres.html
+2024-01-04 12:57:34,122 DEBUG    > Requête api_like
+2024-01-04 12:57:34,123 INFO     > Noan est connecté
+2024-01-04 12:57:34,123 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:57:47,856 INFO     > Noan est connecté
+2024-01-04 12:57:47,873 INFO     > Fichier chearchfile
+2024-01-04 12:57:47,874 INFO     > Noan est connecté
+2024-01-04 12:57:47,877 DEBUG    > Requête projetpres.html
+2024-01-04 12:57:51,702 DEBUG    > Requête checkprofile
+2024-01-04 12:57:55,073 INFO     > Noan est connecté
+2024-01-04 12:57:55,074 DEBUG    > Requête otherprofile.html
+2024-01-04 12:57:56,889 INFO     > Noan est connecté
+2024-01-04 12:57:56,889 DEBUG    > Requête projet.html
+2024-01-04 12:57:57,795 INFO     > Fichier chearchfile
+2024-01-04 12:57:57,796 INFO     > Noan est connecté
+2024-01-04 12:57:57,796 DEBUG    > Requête projetpres.html
+2024-01-04 12:58:05,579 INFO     > Noan est connecté
+2024-01-04 12:58:05,595 INFO     > Fichier chearchfile
+2024-01-04 12:58:05,595 INFO     > Noan est connecté
+2024-01-04 12:58:05,598 DEBUG    > Requête projetpres.html
+2024-01-04 12:58:28,917 INFO     > Noan est connecté
+2024-01-04 12:58:28,933 INFO     > Fichier chearchfile
+2024-01-04 12:58:28,933 INFO     > Noan est connecté
+2024-01-04 12:58:28,937 DEBUG    > Requête projetpres.html
+2024-01-04 12:58:42,908 ERROR    > Erreur inconnue dans index.html
+2024-01-04 12:58:42,908 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-04 12:58:53,309 DEBUG    > Requête index.html
+2024-01-04 12:58:54,998 DEBUG    > Requête signin.html
+2024-01-04 12:58:56,691 DEBUG    > Requête signup.html
+2024-01-04 12:59:16,422 DEBUG    > Requête api_signup
+2024-01-04 12:59:16,423 WARNING  > Vérification des comptes désactivé
+2024-01-04 12:59:16,428 INFO     > Compte créé : David
+2024-01-04 12:59:16,444 DEBUG    > Requête signin.html
+2024-01-04 12:59:31,020 DEBUG    > Requête api_signin
+2024-01-04 12:59:31,021 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-04 12:59:31,040 INFO     > David est connecté
+2024-01-04 12:59:31,040 DEBUG    > Requête index.html
+2024-01-04 12:59:33,352 INFO     > David est connecté
+2024-01-04 12:59:33,353 DEBUG    > Requête editprofil.html
+2024-01-04 12:59:36,682 INFO     > Fichier uploader
+2024-01-04 12:59:36,683 INFO     > David est connecté
+2024-01-04 12:59:36,683 DEBUG    > Requête editprofil.html
+2024-01-04 12:59:46,423 INFO     > Fichier uploader
+2024-01-04 12:59:46,424 INFO     > David est connecté
+2024-01-04 12:59:46,424 DEBUG    > Requête editprofil.html
+2024-01-04 12:59:48,107 INFO     > David est connecté
+2024-01-04 12:59:48,108 DEBUG    > Requête index.html
+2024-01-04 12:59:49,520 INFO     > David est connecté
+2024-01-04 12:59:49,520 DEBUG    > Requête projet.html
+2024-01-04 12:59:50,536 INFO     > Fichier chearchfile
+2024-01-04 12:59:50,536 INFO     > David est connecté
+2024-01-04 12:59:50,537 DEBUG    > Requête projetpres.html
+2024-01-04 12:59:56,108 DEBUG    > Requête api_like
+2024-01-04 12:59:56,109 INFO     > David est connecté
+2024-01-04 12:59:56,109 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:59:56,413 DEBUG    > Requête api_like
+2024-01-04 12:59:56,414 INFO     > David est connecté
+2024-01-04 12:59:56,414 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:59:56,961 DEBUG    > Requête api_like
+2024-01-04 12:59:56,961 INFO     > David est connecté
+2024-01-04 12:59:56,962 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 12:59:58,461 INFO     > David est connecté
+2024-01-04 12:59:58,461 DEBUG    > Requête index.html
+2024-01-04 13:00:01,661 INFO     > David est connecté
+2024-01-04 13:00:01,662 DEBUG    > Requête projet.html
+2024-01-04 13:00:03,800 INFO     > Fichier chearchfile
+2024-01-04 13:00:03,801 INFO     > David est connecté
+2024-01-04 13:00:03,801 DEBUG    > Requête projetpres.html
+2024-01-04 13:00:10,972 DEBUG    > Requête checkprofile
+2024-01-04 13:00:11,666 INFO     > David est connecté
+2024-01-04 13:00:11,666 DEBUG    > Requête otherprofile.html
+2024-01-04 13:00:21,969 INFO     > David est connecté
+2024-01-04 13:00:21,969 DEBUG    > Requête index.html
+2024-01-04 13:00:35,730 INFO     > David est connecté
+2024-01-04 13:00:35,730 DEBUG    > Requête projet.html
+2024-01-04 13:00:37,245 INFO     > Fichier chearchfile
+2024-01-04 13:00:37,245 INFO     > David est connecté
+2024-01-04 13:00:37,246 DEBUG    > Requête projetpres.html
+2024-01-04 13:01:01,502 INFO     > David est connecté
+2024-01-04 13:01:01,518 INFO     > Fichier chearchfile
+2024-01-04 13:01:01,519 INFO     > David est connecté
+2024-01-04 13:01:01,522 DEBUG    > Requête projetpres.html
+2024-01-04 13:01:16,081 INFO     > David est connecté
+2024-01-04 13:01:16,096 INFO     > Fichier chearchfile
+2024-01-04 13:01:16,097 INFO     > David est connecté
+2024-01-04 13:01:16,100 DEBUG    > Requête projetpres.html
+2024-01-04 13:01:26,467 INFO     > Fichier chearchfile
+2024-01-04 13:01:26,467 INFO     > Noan est connecté
+2024-01-04 13:01:26,468 DEBUG    > Requête projetpres.html
+2024-01-04 13:01:42,592 INFO     > Noan est connecté
+2024-01-04 13:01:42,610 INFO     > Fichier chearchfile
+2024-01-04 13:01:42,611 INFO     > Noan est connecté
+2024-01-04 13:01:42,614 DEBUG    > Requête projetpres.html
+2024-01-04 13:02:27,800 DEBUG    > Requête api_like
+2024-01-04 13:02:27,800 INFO     > Noan est connecté
+2024-01-04 13:02:27,800 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 13:02:28,379 DEBUG    > Requête api_like
+2024-01-04 13:02:28,380 INFO     > Noan est connecté
+2024-01-04 13:02:28,380 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 13:02:30,320 INFO     > Noan est connecté
+2024-01-04 13:02:30,320 DEBUG    > Requête index.html
+2024-01-04 13:02:30,847 INFO     > Noan est connecté
+2024-01-04 13:02:30,848 DEBUG    > Requête projet.html
+2024-01-04 13:02:31,742 INFO     > Fichier chearchfile
+2024-01-04 13:02:31,743 INFO     > Noan est connecté
+2024-01-04 13:02:31,743 DEBUG    > Requête projetpres.html
+2024-01-04 13:02:50,923 INFO     > Noan est connecté
+2024-01-04 13:02:50,923 DEBUG    > Requête projet.html
+2024-01-04 13:03:24,496 INFO     > Fichier chearchfile
+2024-01-04 13:03:24,496 INFO     > Noan est connecté
+2024-01-04 13:03:24,497 DEBUG    > Requête projetpres.html
+2024-01-04 13:03:34,750 INFO     > Noan est connecté
+2024-01-04 13:03:34,750 DEBUG    > Requête index.html
+2024-01-04 13:03:40,269 INFO     > Noan est connecté
+2024-01-04 13:03:40,269 DEBUG    > Requête profil.html
+2024-01-04 13:03:42,623 INFO     > Noan est connecté
+2024-01-04 13:03:42,623 DEBUG    > Requête newproject.html
+2024-01-04 13:04:07,192 INFO     > Fichier uploader
+2024-01-04 13:04:07,192 INFO     > Noan est connecté
+2024-01-04 13:04:07,192 DEBUG    > Requête projet.html
+2024-01-04 13:04:10,461 INFO     > Noan est connecté
+2024-01-04 13:04:10,461 DEBUG    > Requête newproject.html
+2024-01-04 13:04:25,027 INFO     > Fichier uploader
+2024-01-04 13:04:25,027 INFO     > Noan est connecté
+2024-01-04 13:04:25,028 DEBUG    > Requête projet.html
+2024-01-04 13:04:32,244 INFO     > Noan est connecté
+2024-01-04 13:04:32,244 DEBUG    > Requête newproject.html
+2024-01-04 13:04:54,066 INFO     > Fichier uploader
+2024-01-04 13:04:54,067 INFO     > Noan est connecté
+2024-01-04 13:04:54,067 DEBUG    > Requête projet.html
+2024-01-04 13:04:59,766 INFO     > Noan est connecté
+2024-01-04 13:04:59,767 DEBUG    > Requête newproject.html
+2024-01-04 13:05:21,263 INFO     > Fichier uploader
+2024-01-04 13:05:21,263 INFO     > Noan est connecté
+2024-01-04 13:05:21,264 DEBUG    > Requête projet.html
+2024-01-04 13:05:24,740 INFO     > Noan est connecté
+2024-01-04 13:05:24,740 DEBUG    > Requête newproject.html
+2024-01-04 13:05:49,061 INFO     > Fichier uploader
+2024-01-04 13:05:49,061 INFO     > Noan est connecté
+2024-01-04 13:05:49,062 DEBUG    > Requête projet.html
+2024-01-04 13:06:15,482 INFO     > Fichier chearchfile
+2024-01-04 13:06:15,483 INFO     > Noan est connecté
+2024-01-04 13:06:15,483 DEBUG    > Requête projetpres.html
+2024-01-04 13:06:18,948 INFO     > Noan est connecté
+2024-01-04 13:06:18,948 DEBUG    > Requête newproject.html
+2024-01-04 13:06:20,495 INFO     > Noan est connecté
+2024-01-04 13:06:20,495 DEBUG    > Requête index.html
+2024-01-04 13:06:22,442 INFO     > Noan est connecté
+2024-01-04 13:06:22,442 DEBUG    > Requête projet.html
+2024-01-04 13:06:23,514 INFO     > Fichier chearchfile
+2024-01-04 13:06:23,514 INFO     > Noan est connecté
+2024-01-04 13:06:23,515 DEBUG    > Requête projetpres.html
+2024-01-04 13:06:25,455 INFO     > Noan est connecté
+2024-01-04 13:06:25,455 DEBUG    > Requête projet.html
+2024-01-04 13:06:27,778 INFO     > Fichier chearchfile
+2024-01-04 13:06:27,778 INFO     > Noan est connecté
+2024-01-04 13:06:27,778 DEBUG    > Requête projetpres.html
+2024-01-04 13:06:29,540 INFO     > Noan est connecté
+2024-01-04 13:06:29,540 DEBUG    > Requête projet.html
+2024-01-04 13:06:36,445 INFO     > Fichier chearchfile
+2024-01-04 13:06:36,446 INFO     > Noan est connecté
+2024-01-04 13:06:36,446 DEBUG    > Requête projetpres.html
+2024-01-04 13:06:39,713 INFO     > Noan est connecté
+2024-01-04 13:06:39,714 DEBUG    > Requête projet.html
+2024-01-04 13:06:41,169 INFO     > Fichier chearchfile
+2024-01-04 13:06:41,170 INFO     > Noan est connecté
+2024-01-04 13:06:41,170 DEBUG    > Requête projetpres.html
+2024-01-04 13:06:42,362 DEBUG    > Requête api_like
+2024-01-04 13:06:42,362 INFO     > Noan est connecté
+2024-01-04 13:06:42,363 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 13:06:44,317 INFO     > Noan est connecté
+2024-01-04 13:06:44,318 DEBUG    > Requête projet.html
+2024-01-04 13:06:48,850 INFO     > Noan est connecté
+2024-01-04 13:06:48,850 DEBUG    > Requête myproj.html
+2024-01-04 13:06:55,462 INFO     > Noan est connecté
+2024-01-04 13:06:55,462 DEBUG    > Requête projet.html
+2024-01-04 13:06:57,259 INFO     > Fichier chearchfile
+2024-01-04 13:06:57,260 INFO     > Noan est connecté
+2024-01-04 13:06:57,260 DEBUG    > Requête projetpres.html
+2024-01-04 13:07:04,418 DEBUG    > Requête checkprofile
+2024-01-04 13:07:06,442 INFO     > Noan est connecté
+2024-01-04 13:07:06,442 DEBUG    > Requête otherprofile.html
+2024-01-04 13:09:27,526 INFO     > Noan est connecté
+2024-01-04 13:09:27,527 DEBUG    > Requête projet.html
+2024-01-04 13:09:27,769 INFO     > Noan est connecté
+2024-01-04 13:09:27,769 DEBUG    > Requête index.html
+2024-01-04 13:09:47,558 INFO     > Noan est connecté
+2024-01-04 13:09:47,558 DEBUG    > Requête projet.html
+2024-01-04 13:10:07,371 INFO     > David est connecté
+2024-01-04 13:10:07,372 DEBUG    > Requête index.html
+2024-01-04 13:10:10,259 INFO     > David est connecté
+2024-01-04 13:10:10,260 DEBUG    > Requête editprofil.html
+2024-01-04 13:10:12,042 INFO     > David est connecté
+2024-01-04 13:10:12,042 DEBUG    > Requête projet.html
+2024-01-04 13:10:12,717 INFO     > Fichier chearchfile
+2024-01-04 13:10:12,718 INFO     > David est connecté
+2024-01-04 13:10:12,719 DEBUG    > Requête projetpres.html
+2024-01-04 13:10:15,895 INFO     > David est connecté
+2024-01-04 13:10:15,895 DEBUG    > Requête index.html
+2024-01-04 13:10:17,647 INFO     > David est connecté
+2024-01-04 13:10:17,649 INFO     > Compte déconnecter
+2024-01-04 13:10:17,661 DEBUG    > Requête index.html
+2024-01-04 13:10:18,891 DEBUG    > Requête projet.html
+2024-01-04 13:10:20,801 INFO     > Fichier chearchfile
+2024-01-04 13:10:20,802 DEBUG    > Requête projetpres.html
+2024-01-04 13:10:23,258 DEBUG    > Requête api_like
+2024-01-04 13:10:23,258 ERROR    > Utilisateur non connecter
+2024-01-04 13:10:28,367 DEBUG    > Requête index.html
+2024-01-04 13:10:30,795 DEBUG    > Requête signin.html
+2024-01-04 13:10:45,296 DEBUG    > Requête api_signin
+2024-01-04 13:10:45,297 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-04 13:10:45,315 INFO     > David est connecté
+2024-01-04 13:10:45,316 DEBUG    > Requête index.html
+2024-01-04 13:10:46,413 INFO     > David est connecté
+2024-01-04 13:10:46,414 DEBUG    > Requête projet.html
+2024-01-04 13:11:25,658 INFO     > Noan est connecté
+2024-01-04 13:11:25,659 DEBUG    > Requête newproject.html
+2024-01-04 13:11:35,876 INFO     > Noan est connecté
+2024-01-04 13:11:35,877 DEBUG    > Requête index.html
+2024-01-04 13:11:54,012 INFO     > Noan est connecté
+2024-01-04 13:11:54,013 DEBUG    > Requête projet.html
+2024-01-04 13:11:57,438 INFO     > Fichier chearchfile
+2024-01-04 13:11:57,438 INFO     > Noan est connecté
+2024-01-04 13:11:57,438 DEBUG    > Requête projetpres.html
+2024-01-04 13:12:00,909 INFO     > Noan est connecté
+2024-01-04 13:12:00,909 DEBUG    > Requête index.html
+2024-01-04 13:15:46,582 INFO     > Noan est connecté
+2024-01-04 13:15:46,582 DEBUG    > Requête projet.html
+2024-01-04 13:15:52,105 INFO     > Fichier chearchfile
+2024-01-04 13:15:52,106 INFO     > Noan est connecté
+2024-01-04 13:15:52,106 DEBUG    > Requête projetpres.html
+2024-01-04 13:15:58,909 INFO     > Noan est connecté
+2024-01-04 13:15:58,909 DEBUG    > Requête index.html
+2024-01-04 13:15:59,258 INFO     > Noan est connecté
+2024-01-04 13:15:59,258 DEBUG    > Requête projet.html
+2024-01-04 13:16:01,078 INFO     > Fichier chearchfile
+2024-01-04 13:16:01,078 INFO     > Noan est connecté
+2024-01-04 13:16:01,079 DEBUG    > Requête projetpres.html
+2024-01-04 13:16:16,331 INFO     > Noan est connecté
+2024-01-04 13:16:16,349 INFO     > Fichier chearchfile
+2024-01-04 13:16:16,349 INFO     > Noan est connecté
+2024-01-04 13:16:16,352 DEBUG    > Requête projetpres.html
+2024-01-04 16:34:31,865 INFO     > Lancement de l'application ! 
+2024-01-04 16:34:31,866 INFO     > Ouverture du fichier de configuration
+2024-01-04 16:34:31,869 INFO     > Création de la base de donnée
+2024-01-04 16:34:31,870 INFO     > Démarrage du serveur flask
+2024-01-04 16:34:42,959 DEBUG    > Requête index.html
+2024-01-04 16:34:44,625 DEBUG    > Requête signin.html
+2024-01-04 16:34:51,235 DEBUG    > Requête api_signin
+2024-01-04 16:34:51,236 DEBUG    > Mot de passe incorect
+2024-01-04 16:34:51,236 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:34:51,237 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:34:53,020 DEBUG    > Requête index.html
+2024-01-04 16:34:53,667 DEBUG    > Requête projet.html
+2024-01-04 16:34:55,394 INFO     > Fichier chearchfile
+2024-01-04 16:34:55,394 DEBUG    > Requête projetpres.html
+2024-01-04 16:34:57,487 DEBUG    > Requête api_like
+2024-01-04 16:34:57,487 ERROR    > Utilisateur non connecter
+2024-01-04 16:35:06,496 DEBUG    > Requête index.html
+2024-01-04 16:35:07,608 DEBUG    > Requête signin.html
+2024-01-04 16:35:15,323 DEBUG    > Requête api_signin
+2024-01-04 16:35:15,323 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:15,323 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:15,324 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:20,941 DEBUG    > Requête api_signin
+2024-01-04 16:35:20,941 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:20,941 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:20,941 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:21,915 DEBUG    > Requête api_signin
+2024-01-04 16:35:21,915 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:21,916 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:21,916 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:22,106 DEBUG    > Requête api_signin
+2024-01-04 16:35:22,106 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:22,106 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:22,107 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:27,062 DEBUG    > Requête api_signin
+2024-01-04 16:35:27,062 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:27,062 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:27,063 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:33,099 DEBUG    > Requête api_signin
+2024-01-04 16:35:33,099 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:33,099 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:33,100 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:39,670 DEBUG    > Requête api_signin
+2024-01-04 16:35:39,671 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:39,671 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:39,671 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:35:47,264 DEBUG    > Requête api_signin
+2024-01-04 16:35:47,264 DEBUG    > Mot de passe incorect
+2024-01-04 16:35:47,264 ERROR    > Erreur inconnue dans api_signin
+2024-01-04 16:35:47,265 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-04 16:36:00,124 DEBUG    > Requête api_signin
+2024-01-04 16:36:00,125 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-04 16:36:00,143 INFO     > David est connecté
+2024-01-04 16:36:00,144 DEBUG    > Requête index.html
+2024-01-04 16:36:03,422 INFO     > David est connecté
+2024-01-04 16:36:03,423 DEBUG    > Requête projet.html
+2024-01-04 16:36:04,289 INFO     > Fichier chearchfile
+2024-01-04 16:36:04,289 INFO     > David est connecté
+2024-01-04 16:36:04,290 DEBUG    > Requête projetpres.html
+2024-01-04 16:36:06,997 DEBUG    > Requête checkprofile
+2024-01-04 16:36:07,555 INFO     > David est connecté
+2024-01-04 16:36:07,556 DEBUG    > Requête otherprofile.html
+2024-01-04 16:36:29,975 INFO     > David est connecté
+2024-01-04 16:36:29,975 DEBUG    > Requête index.html
+2024-01-04 16:36:39,513 INFO     > David est connecté
+2024-01-04 16:36:39,514 DEBUG    > Requête projet.html
+2024-01-04 16:38:43,093 INFO     > Fichier chearchfile
+2024-01-04 16:38:43,093 INFO     > David est connecté
+2024-01-04 16:38:43,094 DEBUG    > Requête projetpres.html
+2024-01-04 16:38:45,846 DEBUG    > Requête api_like
+2024-01-04 16:38:45,847 INFO     > David est connecté
+2024-01-04 16:38:45,847 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:38:46,418 DEBUG    > Requête api_like
+2024-01-04 16:38:46,419 INFO     > David est connecté
+2024-01-04 16:38:46,419 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:38:47,299 DEBUG    > Requête api_like
+2024-01-04 16:38:47,299 INFO     > David est connecté
+2024-01-04 16:38:47,300 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:38:47,862 DEBUG    > Requête api_like
+2024-01-04 16:38:47,862 INFO     > David est connecté
+2024-01-04 16:38:47,863 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:38:48,373 DEBUG    > Requête api_like
+2024-01-04 16:38:48,374 INFO     > David est connecté
+2024-01-04 16:38:48,374 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:38:48,802 DEBUG    > Requête api_like
+2024-01-04 16:38:48,803 INFO     > David est connecté
+2024-01-04 16:38:48,803 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:42:19,326 DEBUG    > Requête api_like
+2024-01-04 16:42:19,326 INFO     > David est connecté
+2024-01-04 16:42:19,326 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:42:20,039 DEBUG    > Requête api_like
+2024-01-04 16:42:20,039 INFO     > David est connecté
+2024-01-04 16:42:20,040 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:42:20,589 DEBUG    > Requête api_like
+2024-01-04 16:42:20,589 INFO     > David est connecté
+2024-01-04 16:42:20,589 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:42:21,285 DEBUG    > Requête api_like
+2024-01-04 16:42:21,285 INFO     > David est connecté
+2024-01-04 16:42:21,286 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:56:05,773 INFO     > David est connecté
+2024-01-04 16:56:05,774 DEBUG    > Requête index.html
+2024-01-04 16:56:06,339 INFO     > David est connecté
+2024-01-04 16:56:06,340 DEBUG    > Requête projet.html
+2024-01-04 16:58:27,142 INFO     > Fichier chearchfile
+2024-01-04 16:58:27,142 INFO     > David est connecté
+2024-01-04 16:58:27,143 DEBUG    > Requête projetpres.html
+2024-01-04 16:58:28,802 DEBUG    > Requête api_like
+2024-01-04 16:58:28,802 INFO     > David est connecté
+2024-01-04 16:58:28,803 DEBUG    > Utilisateur connecter pour liker
+2024-01-04 16:58:30,234 INFO     > David est connecté
+2024-01-04 16:58:30,234 DEBUG    > Requête index.html
+2024-01-04 16:59:20,017 INFO     > David est connecté
+2024-01-04 16:59:20,017 DEBUG    > Requête index.html
+2024-01-04 16:59:29,604 INFO     > David est connecté
+2024-01-04 16:59:29,604 DEBUG    > Requête index.html
+2024-01-04 16:59:45,862 INFO     > David est connecté
+2024-01-04 16:59:45,863 DEBUG    > Requête index.html
+2024-01-04 17:00:36,158 INFO     > David est connecté
+2024-01-04 17:00:36,159 DEBUG    > Requête index.html
+2024-01-04 17:00:44,776 INFO     > David est connecté
+2024-01-04 17:00:44,777 DEBUG    > Requête index.html
+2024-01-04 17:00:56,340 INFO     > David est connecté
+2024-01-04 17:00:56,341 DEBUG    > Requête index.html
+2024-01-04 17:01:06,933 INFO     > David est connecté
+2024-01-04 17:01:06,933 DEBUG    > Requête index.html
+2024-01-04 17:01:14,951 INFO     > David est connecté
+2024-01-04 17:01:14,952 DEBUG    > Requête index.html
+2024-01-04 17:02:23,861 INFO     > David est connecté
+2024-01-04 17:02:23,861 DEBUG    > Requête editprofil.html
+2024-01-04 17:02:27,835 INFO     > David est connecté
+2024-01-04 17:02:27,836 DEBUG    > Requête myproj.html
+2024-01-04 17:02:31,756 INFO     > David est connecté
+2024-01-04 17:02:31,756 DEBUG    > Requête index.html
+2024-01-04 17:02:40,902 INFO     > David est connecté
+2024-01-04 17:02:40,903 DEBUG    > Requête editprofil.html
+2024-01-04 17:02:42,444 INFO     > David est connecté
+2024-01-04 17:02:42,445 DEBUG    > Requête newproject.html
+2024-01-04 17:02:45,028 INFO     > David est connecté
+2024-01-04 17:02:45,028 DEBUG    > Requête index.html
+2024-01-04 17:03:23,461 INFO     > David est connecté
+2024-01-04 17:03:23,461 DEBUG    > Requête projet.html
+2024-01-04 17:03:27,981 INFO     > David est connecté
+2024-01-04 17:03:27,982 DEBUG    > Requête projet.html
+2024-01-04 17:03:28,313 INFO     > David est connecté
+2024-01-04 17:03:28,313 DEBUG    > Requête index.html
+2024-01-04 17:03:38,600 INFO     > David est connecté
+2024-01-04 17:03:38,600 DEBUG    > Requête index.html
+2024-01-04 17:03:40,044 INFO     > David est connecté
+2024-01-04 17:03:40,045 DEBUG    > Requête index.html
+2024-01-04 17:03:40,377 INFO     > David est connecté
+2024-01-04 17:03:40,377 DEBUG    > Requête projet.html
+2024-01-04 17:03:40,778 INFO     > David est connecté
+2024-01-04 17:03:40,778 DEBUG    > Requête index.html
+2024-01-04 17:03:41,416 INFO     > David est connecté
+2024-01-04 17:03:41,416 DEBUG    > Requête projet.html
+2024-01-04 17:03:41,858 INFO     > David est connecté
+2024-01-04 17:03:41,859 DEBUG    > Requête index.html
+2024-01-04 17:04:54,672 INFO     > David est connecté
+2024-01-04 17:04:54,672 DEBUG    > Requête index.html
+2024-01-04 17:04:55,596 INFO     > David est connecté
+2024-01-04 17:04:55,596 DEBUG    > Requête projet.html
+2024-01-04 17:04:56,030 INFO     > David est connecté
+2024-01-04 17:04:56,031 DEBUG    > Requête index.html
+2024-01-04 17:04:56,449 INFO     > David est connecté
+2024-01-04 17:04:56,449 DEBUG    > Requête projet.html
+2024-01-04 17:05:11,333 INFO     > David est connecté
+2024-01-04 17:05:11,334 DEBUG    > Requête projet.html
+2024-01-04 17:05:12,009 INFO     > David est connecté
+2024-01-04 17:05:12,010 DEBUG    > Requête index.html
+2024-01-04 17:05:12,416 INFO     > David est connecté
+2024-01-04 17:05:12,416 DEBUG    > Requête projet.html
+2024-01-04 17:05:12,822 INFO     > David est connecté
+2024-01-04 17:05:12,822 DEBUG    > Requête perso.html
+2024-01-04 17:05:13,729 INFO     > David est connecté
+2024-01-04 17:05:13,729 DEBUG    > Requête index.html
+2024-01-04 17:05:14,134 INFO     > David est connecté
+2024-01-04 17:05:14,135 DEBUG    > Requête projet.html
+2024-01-04 17:05:20,045 INFO     > David est connecté
+2024-01-04 17:05:20,045 DEBUG    > Requête perso.html
+2024-01-04 17:05:22,250 INFO     > David est connecté
+2024-01-04 17:05:22,251 DEBUG    > Requête profil.html
+2024-01-04 17:05:23,649 INFO     > David est connecté
+2024-01-04 17:05:23,649 DEBUG    > Requête newproject.html
+2024-01-04 17:05:26,708 INFO     > David est connecté
+2024-01-04 17:05:26,709 DEBUG    > Requête editprofil.html
+2024-01-04 17:05:28,029 INFO     > David est connecté
+2024-01-04 17:05:28,029 DEBUG    > Requête myproj.html
+2024-01-04 17:05:30,258 INFO     > David est connecté
+2024-01-04 17:05:30,258 DEBUG    > Requête profil.html
+2024-01-04 17:05:31,343 INFO     > David est connecté
+2024-01-04 17:05:31,343 DEBUG    > Requête index.html
+2024-01-04 17:05:33,711 INFO     > David est connecté
+2024-01-04 17:05:33,712 DEBUG    > Requête projet.html
+2024-01-04 17:05:34,298 INFO     > David est connecté
+2024-01-04 17:05:34,298 DEBUG    > Requête index.html
+2024-01-04 17:05:34,670 INFO     > David est connecté
+2024-01-04 17:05:34,670 DEBUG    > Requête projet.html
+2024-01-04 17:05:35,001 INFO     > David est connecté
+2024-01-04 17:05:35,001 DEBUG    > Requête index.html
+2024-01-04 17:05:36,196 INFO     > David est connecté
+2024-01-04 17:05:36,197 DEBUG    > Requête projet.html
+2024-01-04 17:05:36,715 INFO     > David est connecté
+2024-01-04 17:05:36,716 DEBUG    > Requête index.html
+2024-01-04 17:05:37,239 INFO     > David est connecté
+2024-01-04 17:05:37,240 DEBUG    > Requête projet.html
+2024-01-04 17:05:44,417 INFO     > Fichier chearchfile
+2024-01-04 17:05:44,417 INFO     > David est connecté
+2024-01-04 17:05:44,418 DEBUG    > Requête projetpres.html
+2024-01-04 17:05:46,179 INFO     > David est connecté
+2024-01-04 17:05:46,179 DEBUG    > Requête projet.html
+2024-01-04 17:10:14,292 INFO     > Lancement de l'application ! 
+2024-01-04 17:10:14,293 INFO     > Ouverture du fichier de configuration
+2024-01-04 17:10:14,294 INFO     > Création de la base de donnée
+2024-01-04 17:10:14,294 INFO     > Démarrage du serveur flask
+2024-01-04 17:10:18,698 INFO     > David est connecté
+2024-01-04 17:10:18,698 DEBUG    > Requête index.html
+2024-01-04 17:10:25,434 INFO     > David est connecté
+2024-01-04 17:10:25,434 DEBUG    > Requête perso.html
+2024-01-04 17:10:40,325 INFO     > David est connecté
+2024-01-04 17:10:40,325 DEBUG    > Requête index.html
+2024-01-04 17:12:56,362 INFO     > David est connecté
+2024-01-04 17:12:57,394 INFO     > David est connecté
+2024-01-04 17:12:58,372 INFO     > David est connecté
+2024-01-04 17:12:58,679 INFO     > David est connecté
+2024-01-04 17:12:58,840 INFO     > David est connecté
+2024-01-04 17:12:59,591 INFO     > David est connecté
+2024-01-04 17:13:00,032 INFO     > David est connecté
+2024-01-04 17:13:00,372 INFO     > David est connecté
+2024-01-04 17:13:10,533 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,539 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,541 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,541 DEBUG    > Requête index.html
+2024-01-04 17:13:10,543 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,543 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,544 DEBUG    > Requête projet.html
+2024-01-04 17:13:10,546 DEBUG    > Requête projet.html
+2024-01-04 17:13:29,777 INFO     > Lancement de l'application ! 
+2024-01-04 17:13:29,778 INFO     > Ouverture du fichier de configuration
+2024-01-04 17:13:29,779 INFO     > Création de la base de donnée
+2024-01-04 17:13:29,779 INFO     > Démarrage du serveur flask
+2024-01-04 17:13:32,908 INFO     > David est connecté
+2024-01-04 17:13:32,908 DEBUG    > Requête index.html
+2024-01-04 17:13:36,067 INFO     > David est connecté
+2024-01-04 17:13:36,068 DEBUG    > Requête projet.html
+2024-01-04 17:13:36,380 INFO     > David est connecté
+2024-01-04 17:13:36,381 DEBUG    > Requête projet.html
+2024-01-04 17:13:36,945 INFO     > David est connecté
+2024-01-04 17:13:36,945 DEBUG    > Requête index.html
+2024-01-04 17:13:37,383 INFO     > David est connecté
+2024-01-04 17:13:37,384 DEBUG    > Requête projet.html
+2024-01-04 17:13:38,211 INFO     > Fichier chearchfile
+2024-01-04 17:13:38,211 INFO     > David est connecté
+2024-01-04 17:13:38,212 DEBUG    > Requête projetpres.html
+2024-01-04 17:13:39,317 INFO     > David est connecté
+2024-01-04 17:13:39,318 DEBUG    > Requête projet.html
+2024-01-04 17:13:41,722 INFO     > Fichier chearchfile
+2024-01-04 17:13:41,722 INFO     > David est connecté
+2024-01-04 17:13:41,723 DEBUG    > Requête projetpres.html
+2024-01-04 17:13:46,549 DEBUG    > Requête checkprofile
+2024-01-04 17:13:47,357 INFO     > David est connecté
+2024-01-04 17:13:47,358 DEBUG    > Requête otherprofile.html
+2024-01-04 17:13:49,353 INFO     > David est connecté
+2024-01-04 17:13:49,354 DEBUG    > Requête index.html
+2024-01-04 17:13:49,973 INFO     > David est connecté
+2024-01-04 17:13:49,974 DEBUG    > Requête projet.html
+2024-01-04 17:13:51,335 INFO     > Fichier chearchfile
+2024-01-04 17:13:51,335 INFO     > David est connecté
+2024-01-04 17:13:51,336 DEBUG    > Requête projetpres.html
+2024-01-04 17:14:20,773 DEBUG    > Requête checkprofile
+2024-01-04 17:14:21,307 INFO     > David est connecté
+2024-01-04 17:14:21,308 DEBUG    > Requête otherprofile.html
+2024-01-04 17:14:29,695 INFO     > David est connecté
+2024-01-04 17:14:29,695 DEBUG    > Requête index.html
+2024-01-04 17:14:32,990 INFO     > David est connecté
+2024-01-04 17:14:32,990 DEBUG    > Requête profil.html
+2024-01-04 17:14:39,489 INFO     > David est connecté
+2024-01-04 17:14:39,489 DEBUG    > Requête editprofil.html
+2024-01-04 17:15:06,219 INFO     > David est connecté
+2024-01-04 17:15:06,220 DEBUG    > Requête index.html
+2024-01-08 19:21:13,743 INFO     > Lancement de l'application ! 
+2024-01-08 19:21:13,743 INFO     > Ouverture du fichier de configuration
+2024-01-08 19:21:13,749 INFO     > Création de la base de donnée
+2024-01-08 19:21:13,750 INFO     > Démarrage du serveur flask
+2024-01-08 19:21:20,780 DEBUG    > Requête index.html
+2024-01-08 19:21:34,003 DEBUG    > Requête index.html
+2024-01-08 19:21:45,999 DEBUG    > Requête projet.html
+2024-01-08 19:21:48,726 DEBUG    > Requête index.html
+2024-01-08 19:21:56,891 DEBUG    > Requête projet.html
+2024-01-08 19:21:58,775 INFO     > Fichier chearchfile
+2024-01-08 19:21:58,776 DEBUG    > Requête projetpres.html
+2024-01-08 19:22:00,063 DEBUG    > Requête api_like
+2024-01-08 19:22:00,063 ERROR    > Utilisateur non connecter
+2024-01-08 19:22:02,226 DEBUG    > Requête signin.html
+2024-01-08 19:22:09,235 DEBUG    > Requête api_signin
+2024-01-08 19:22:09,236 DEBUG    > Mot de passe incorect
+2024-01-08 19:22:09,237 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:22:09,238 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:22:14,996 DEBUG    > Requête api_signin
+2024-01-08 19:22:14,996 DEBUG    > Mot de passe incorect
+2024-01-08 19:22:14,996 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:22:14,997 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:22:15,772 DEBUG    > Requête api_signin
+2024-01-08 19:22:15,772 DEBUG    > Mot de passe incorect
+2024-01-08 19:22:15,773 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:22:15,773 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:22:15,923 DEBUG    > Requête api_signin
+2024-01-08 19:22:15,924 DEBUG    > Mot de passe incorect
+2024-01-08 19:22:15,924 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:22:15,924 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:22:20,189 DEBUG    > Requête index.html
+2024-01-08 19:22:46,504 DEBUG    > Requête projet.html
+2024-01-08 19:22:47,004 DEBUG    > Requête index.html
+2024-01-08 19:22:47,446 DEBUG    > Requête projet.html
+2024-01-08 19:22:48,357 DEBUG    > Requête index.html
+2024-01-08 19:22:49,736 DEBUG    > Requête projet.html
+2024-01-08 19:22:56,543 INFO     > Fichier chearchfile
+2024-01-08 19:22:56,544 DEBUG    > Requête projetpres.html
+2024-01-08 19:22:59,484 DEBUG    > Requête api_like
+2024-01-08 19:22:59,485 ERROR    > Utilisateur non connecter
+2024-01-08 19:23:02,562 DEBUG    > Requête index.html
+2024-01-08 19:23:04,212 DEBUG    > Requête projet.html
+2024-01-08 19:23:05,092 INFO     > Fichier chearchfile
+2024-01-08 19:23:05,093 DEBUG    > Requête projetpres.html
+2024-01-08 19:23:08,514 DEBUG    > Requête checkprofile
+2024-01-08 19:23:09,290 DEBUG    > Requête otherprofile.html
+2024-01-08 19:23:13,204 DEBUG    > Requête projet.html
+2024-01-08 19:23:14,804 INFO     > Fichier chearchfile
+2024-01-08 19:23:14,805 DEBUG    > Requête projetpres.html
+2024-01-08 19:23:19,139 DEBUG    > Requête checkprofile
+2024-01-08 19:23:19,777 DEBUG    > Requête otherprofile.html
+2024-01-08 19:23:24,684 DEBUG    > Requête index.html
+2024-01-08 19:23:25,178 DEBUG    > Requête projet.html
+2024-01-08 19:23:26,420 INFO     > Fichier chearchfile
+2024-01-08 19:23:26,421 DEBUG    > Requête projetpres.html
+2024-01-08 19:23:28,962 DEBUG    > Requête projet.html
+2024-01-08 19:23:30,383 INFO     > Fichier chearchfile
+2024-01-08 19:23:30,384 DEBUG    > Requête projetpres.html
+2024-01-08 19:23:39,579 DEBUG    > Requête checkprofile
+2024-01-08 19:23:42,199 DEBUG    > Requête otherprofile.html
+2024-01-08 19:23:51,725 DEBUG    > Requête index.html
+2024-01-08 19:24:13,986 DEBUG    > Requête signin.html
+2024-01-08 19:24:25,782 DEBUG    > Requête api_signin
+2024-01-08 19:24:25,783 ERROR    > Erreur inconnue dans la fonction signin
+2024-01-08 19:24:25,783 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:24:25,783 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:24:33,079 DEBUG    > Requête api_signin
+2024-01-08 19:24:33,079 DEBUG    > Mot de passe incorect
+2024-01-08 19:24:33,080 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:24:33,080 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:24:33,573 DEBUG    > Requête api_signin
+2024-01-08 19:24:33,573 DEBUG    > Mot de passe incorect
+2024-01-08 19:24:33,573 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:24:33,574 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:24:33,722 DEBUG    > Requête api_signin
+2024-01-08 19:24:33,723 DEBUG    > Mot de passe incorect
+2024-01-08 19:24:33,723 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:24:33,724 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:27:14,293 INFO     > Lancement de l'application ! 
+2024-01-08 19:27:14,294 INFO     > Ouverture du fichier de configuration
+2024-01-08 19:27:14,295 INFO     > Création de la base de donnée
+2024-01-08 19:27:14,295 INFO     > Démarrage du serveur flask
+2024-01-08 19:27:43,167 DEBUG    > Requête signin.html
+2024-01-08 19:27:57,058 DEBUG    > Requête api_signin
+2024-01-08 19:27:57,059 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-08 19:27:57,083 INFO     > David est connecté
+2024-01-08 19:27:57,084 DEBUG    > Requête index.html
+2024-01-08 19:28:12,514 INFO     > David est connecté
+2024-01-08 19:28:12,518 INFO     > Compte déconnecter
+2024-01-08 19:28:12,531 DEBUG    > Requête index.html
+2024-01-08 19:28:14,337 DEBUG    > Requête signin.html
+2024-01-08 19:28:22,214 DEBUG    > Requête api_signin
+2024-01-08 19:28:22,214 DEBUG    > Mot de passe incorect
+2024-01-08 19:28:22,215 ERROR    > Erreur inconnue dans api_signin
+2024-01-08 19:28:22,215 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 455, in api_signin
+    return resp
+UnboundLocalError: local variable 'resp' referenced before assignment
+
+2024-01-08 19:28:26,225 DEBUG    > Requête api_signin
+2024-01-08 19:28:26,225 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-08 19:28:26,250 INFO     > David est connecté
+2024-01-08 19:28:26,251 DEBUG    > Requête index.html
+2024-01-08 19:28:30,061 INFO     > David est connecté
+2024-01-08 19:28:30,066 INFO     > Compte déconnecter
+2024-01-08 19:28:30,077 DEBUG    > Requête index.html
+2024-01-08 19:28:58,291 DEBUG    > Requête projet.html
+2024-01-08 19:28:58,861 DEBUG    > Requête index.html
+2024-01-08 19:29:00,111 DEBUG    > Requête perso.html
+2024-01-08 19:29:01,008 DEBUG    > Requête index.html
+2024-01-08 19:29:01,407 DEBUG    > Requête projet.html
+2024-01-08 19:29:02,104 DEBUG    > Requête perso.html
+2024-01-08 19:29:03,775 DEBUG    > Requête index.html
+2024-01-08 19:30:32,785 DEBUG    > Requête projet.html
+2024-01-08 19:30:34,548 INFO     > Fichier chearchfile
+2024-01-08 19:30:34,549 DEBUG    > Requête projetpres.html
+2024-01-08 19:32:25,217 DEBUG    > Requête checkprofile
+2024-01-08 19:32:25,744 DEBUG    > Requête otherprofile.html
+2024-01-08 19:32:35,844 DEBUG    > Requête index.html
+2024-01-08 19:32:36,280 DEBUG    > Requête projet.html
+2024-01-08 19:32:37,251 INFO     > Fichier chearchfile
+2024-01-08 19:32:37,252 DEBUG    > Requête projetpres.html
+2024-01-08 19:32:40,267 DEBUG    > Requête api_like
+2024-01-08 19:32:40,268 ERROR    > Utilisateur non connecter
+2024-01-08 19:32:42,520 DEBUG    > Requête api_like
+2024-01-08 19:32:42,520 ERROR    > Utilisateur non connecter
+2024-01-08 19:32:45,798 DEBUG    > Requête index.html
+2024-01-08 19:32:46,369 DEBUG    > Requête projet.html
+2024-01-08 19:32:47,114 INFO     > Fichier chearchfile
+2024-01-08 19:32:47,114 DEBUG    > Requête projetpres.html
+2024-01-08 19:32:49,207 DEBUG    > Requête projet.html
+2024-01-08 19:32:50,144 INFO     > Fichier chearchfile
+2024-01-08 19:32:50,145 DEBUG    > Requête projetpres.html
+2024-01-08 19:32:51,522 DEBUG    > Requête projet.html
+2024-01-08 19:32:53,170 INFO     > Fichier chearchfile
+2024-01-08 19:32:53,170 DEBUG    > Requête projetpres.html
+2024-01-08 19:32:54,739 DEBUG    > Requête projet.html
+2024-01-08 19:32:55,904 INFO     > Fichier chearchfile
+2024-01-08 19:32:55,906 DEBUG    > Requête projetpres.html
+2024-01-08 19:33:03,864 DEBUG    > Requête checkprofile
+2024-01-08 19:33:04,423 DEBUG    > Requête otherprofile.html
+2024-01-08 19:33:10,026 DEBUG    > Requête projet.html
+2024-01-08 19:33:13,166 INFO     > Fichier chearchfile
+2024-01-08 19:33:13,167 DEBUG    > Requête projetpres.html
+2024-01-08 19:33:15,501 DEBUG    > Requête api_like
+2024-01-08 19:33:15,501 ERROR    > Utilisateur non connecter
+2024-01-08 19:33:22,335 DEBUG    > Requête checkprofile
+2024-01-08 19:33:23,203 DEBUG    > Requête otherprofile.html
+2024-01-08 19:33:32,624 INFO     > Fichier chearchfile
+2024-01-08 19:33:32,625 DEBUG    > Requête projetpres.html
+2024-01-08 19:42:20,021 INFO     > Fichier chearchfile
+2024-01-08 19:42:20,022 DEBUG    > Requête projetpres.html
+2024-01-08 19:42:25,800 DEBUG    > Requête checkprofile
+2024-01-08 19:42:26,335 DEBUG    > Requête otherprofile.html
+2024-01-08 19:42:30,646 INFO     > Fichier chearchfile
+2024-01-08 19:42:30,647 DEBUG    > Requête projetpres.html
+2024-01-08 19:42:36,089 DEBUG    > Requête checkprofile
+2024-01-08 19:42:37,928 DEBUG    > Requête otherprofile.html
+2024-01-08 19:42:42,661 INFO     > Fichier chearchfile
+2024-01-08 19:42:42,662 DEBUG    > Requête projetpres.html
+2024-01-08 19:42:45,171 DEBUG    > Requête checkprofile
+2024-01-08 19:42:47,526 DEBUG    > Requête otherprofile.html
+2024-01-08 19:43:21,394 DEBUG    > Requête index.html
+2024-01-08 19:43:22,896 DEBUG    > Requête signin.html
+2024-01-08 19:43:24,277 DEBUG    > Requête signup.html
+2024-01-08 19:43:26,458 DEBUG    > Requête signin.html
+2024-01-08 19:43:27,476 DEBUG    > Requête signup.html
+2024-01-08 19:43:29,182 DEBUG    > Requête signin.html
+2024-01-08 19:43:29,868 DEBUG    > Requête index.html
+2024-01-08 19:43:49,585 DEBUG    > Requête index.html
+2024-01-08 19:43:53,823 DEBUG    > Requête index.html
+2024-01-08 19:46:18,665 DEBUG    > Requête projet.html
+2024-01-08 19:46:19,786 INFO     > Fichier chearchfile
+2024-01-08 19:46:19,787 DEBUG    > Requête projetpres.html
+2024-01-08 19:46:49,788 INFO     > Fichier chearchfile
+2024-01-08 19:46:49,789 DEBUG    > Requête projetpres.html
+2024-01-08 19:46:53,712 INFO     > Fichier chearchfile
+2024-01-08 19:46:53,713 DEBUG    > Requête projetpres.html
+2024-01-08 19:47:44,148 INFO     > Fichier chearchfile
+2024-01-08 19:47:44,148 DEBUG    > Requête projetpres.html
+2024-01-08 19:48:33,105 INFO     > Fichier chearchfile
+2024-01-08 19:48:33,106 DEBUG    > Requête projetpres.html
+2024-01-08 19:50:21,448 INFO     > Fichier chearchfile
+2024-01-08 19:50:21,449 DEBUG    > Requête projetpres.html
+2024-01-08 19:50:27,085 DEBUG    > Requête signin.html
+2024-01-08 19:50:39,884 DEBUG    > Requête api_signin
+2024-01-08 19:50:39,885 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-08 19:50:39,908 INFO     > David est connecté
+2024-01-08 19:50:39,908 DEBUG    > Requête index.html
+2024-01-08 19:50:42,326 INFO     > David est connecté
+2024-01-08 19:50:42,327 DEBUG    > Requête projet.html
+2024-01-08 19:50:43,089 INFO     > Fichier chearchfile
+2024-01-08 19:50:43,090 INFO     > David est connecté
+2024-01-08 19:50:43,090 DEBUG    > Requête projetpres.html
+2024-01-08 19:50:55,042 INFO     > Fichier chearchfile
+2024-01-08 19:50:55,042 INFO     > David est connecté
+2024-01-08 19:50:55,043 DEBUG    > Requête projetpres.html
+2024-01-08 19:51:03,382 INFO     > Fichier chearchfile
+2024-01-08 19:51:03,383 INFO     > David est connecté
+2024-01-08 19:51:03,383 DEBUG    > Requête projetpres.html
+2024-01-08 19:51:10,045 INFO     > David est connecté
+2024-01-08 19:51:10,061 INFO     > Fichier chearchfile
+2024-01-08 19:51:10,062 INFO     > David est connecté
+2024-01-08 19:51:10,066 DEBUG    > Requête projetpres.html
+2024-01-08 19:51:22,620 INFO     > Fichier chearchfile
+2024-01-08 19:51:22,621 INFO     > David est connecté
+2024-01-08 19:51:22,621 DEBUG    > Requête projetpres.html
+2024-01-08 19:52:12,566 INFO     > David est connecté
+2024-01-08 19:52:12,584 INFO     > Fichier chearchfile
+2024-01-08 19:52:12,585 INFO     > David est connecté
+2024-01-08 19:52:12,589 DEBUG    > Requête projetpres.html
+2024-01-08 19:52:35,469 INFO     > Fichier chearchfile
+2024-01-08 19:52:35,470 INFO     > David est connecté
+2024-01-08 19:52:35,470 DEBUG    > Requête projetpres.html
+2024-01-08 19:53:03,073 INFO     > Fichier chearchfile
+2024-01-08 19:53:03,074 INFO     > David est connecté
+2024-01-08 19:53:03,074 DEBUG    > Requête projetpres.html
+2024-01-08 19:53:18,014 INFO     > Fichier chearchfile
+2024-01-08 19:53:18,015 INFO     > David est connecté
+2024-01-08 19:53:18,015 DEBUG    > Requête projetpres.html
+2024-01-08 19:53:29,511 INFO     > Fichier chearchfile
+2024-01-08 19:53:29,511 INFO     > David est connecté
+2024-01-08 19:53:29,512 DEBUG    > Requête projetpres.html
+2024-01-08 19:53:34,758 INFO     > Fichier chearchfile
+2024-01-08 19:53:34,758 INFO     > David est connecté
+2024-01-08 19:53:34,759 DEBUG    > Requête projetpres.html
+2024-01-08 19:53:53,404 INFO     > David est connecté
+2024-01-08 19:53:53,408 INFO     > Compte déconnecter
+2024-01-08 19:53:53,422 DEBUG    > Requête index.html
+2024-01-08 19:53:54,341 DEBUG    > Requête signup.html
+2024-01-08 19:54:12,587 DEBUG    > Requête api_signup
+2024-01-08 19:54:12,588 WARNING  > Vérification des comptes désactivé
+2024-01-08 19:54:12,594 INFO     > Compte créé : leroidumonde
+2024-01-08 19:54:12,612 DEBUG    > Requête signin.html
+2024-01-08 19:54:18,457 DEBUG    > Requête api_signin
+2024-01-08 19:54:18,457 INFO     > Autentification validé pour : bernalex49@gmail.com
+2024-01-08 19:54:18,483 INFO     > leroidumonde est connecté
+2024-01-08 19:54:18,484 DEBUG    > Requête index.html
+2024-01-08 19:54:21,722 INFO     > leroidumonde est connecté
+2024-01-08 19:54:21,722 DEBUG    > Requête projet.html
+2024-01-08 19:54:22,449 INFO     > Fichier chearchfile
+2024-01-08 19:54:22,450 INFO     > leroidumonde est connecté
+2024-01-08 19:54:22,451 DEBUG    > Requête projetpres.html
+2024-01-08 19:54:26,239 INFO     > leroidumonde est connecté
+2024-01-08 19:54:26,256 INFO     > Fichier chearchfile
+2024-01-08 19:54:26,257 INFO     > leroidumonde est connecté
+2024-01-08 19:54:26,260 DEBUG    > Requête projetpres.html
+2024-01-08 19:54:33,606 DEBUG    > Requête checkprofile
+2024-01-08 19:54:34,480 INFO     > leroidumonde est connecté
+2024-01-08 19:54:34,480 DEBUG    > Requête otherprofile.html
+2024-01-08 19:54:36,259 INFO     > leroidumonde est connecté
+2024-01-08 19:54:36,259 DEBUG    > Requête index.html
+2024-01-11 15:28:09,354 INFO     > Lancement de l'application ! 
+2024-01-11 15:28:09,354 INFO     > Ouverture du fichier de configuration
+2024-01-11 15:28:09,360 INFO     > Création de la base de donnée
+2024-01-11 15:28:09,360 INFO     > Démarrage du serveur flask
+2024-01-11 15:28:20,262 DEBUG    > Requête index.html
+2024-01-12 12:12:34,832 INFO     > Lancement de l'application ! 
+2024-01-12 12:12:34,832 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:12:34,851 INFO     > Création de la base de donnée
+2024-01-12 12:12:34,851 INFO     > Démarrage du serveur flask
+2024-01-12 12:12:43,476 DEBUG    > Requête index.html
+2024-01-12 12:13:14,750 INFO     > Lancement de l'application ! 
+2024-01-12 12:13:14,750 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:13:14,750 INFO     > Création de la base de donnée
+2024-01-12 12:13:14,771 INFO     > Démarrage du serveur flask
+2024-01-12 12:13:21,490 DEBUG    > Requête index.html
+2024-01-12 12:13:22,281 DEBUG    > Requête projet.html
+2024-01-12 12:13:23,013 DEBUG    > Requête index.html
+2024-01-12 12:13:24,478 DEBUG    > Requête signup.html
+2024-01-12 12:13:35,869 DEBUG    > Requête api_signup
+2024-01-12 12:13:35,870 WARNING  > Vérification des comptes désactivé
+2024-01-12 12:13:35,878 INFO     > Compte créé : Noan
+2024-01-12 12:13:35,900 DEBUG    > Requête signin.html
+2024-01-12 12:13:43,308 DEBUG    > Requête api_signin
+2024-01-12 12:13:43,309 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-12 12:13:43,340 INFO     > Noan est connecté
+2024-01-12 12:13:43,341 DEBUG    > Requête index.html
+2024-01-12 12:13:51,392 INFO     > Lancement de l'application ! 
+2024-01-12 12:13:51,392 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:13:51,392 INFO     > Création de la base de donnée
+2024-01-12 12:13:51,392 INFO     > Démarrage du serveur flask
+2024-01-12 12:13:52,997 INFO     > Noan est connecté
+2024-01-12 12:13:52,998 DEBUG    > Requête index.html
+2024-01-12 12:13:56,922 INFO     > Noan est connecté
+2024-01-12 12:13:56,923 DEBUG    > Requête profil.html
+2024-01-12 12:14:00,268 INFO     > Noan est connecté
+2024-01-12 12:14:00,268 DEBUG    > Requête editprofil.html
+2024-01-12 12:14:03,368 INFO     > Fichier uploader
+2024-01-12 12:14:03,368 INFO     > Noan est connecté
+2024-01-12 12:14:03,368 DEBUG    > Requête editprofil.html
+2024-01-12 12:14:10,232 INFO     > Fichier uploader
+2024-01-12 12:14:10,232 INFO     > Noan est connecté
+2024-01-12 12:14:10,232 DEBUG    > Requête editprofil.html
+2024-01-12 12:14:14,813 INFO     > Noan est connecté
+2024-01-12 12:14:14,814 DEBUG    > Requête index.html
+2024-01-12 12:14:15,228 INFO     > Noan est connecté
+2024-01-12 12:14:15,228 DEBUG    > Requête projet.html
+2024-01-12 12:14:16,637 INFO     > Noan est connecté
+2024-01-12 12:14:16,638 DEBUG    > Requête index.html
+2024-01-12 12:15:14,515 INFO     > Noan est connecté
+2024-01-12 12:15:14,515 DEBUG    > Requête projet.html
+2024-01-12 12:16:14,489 INFO     > Noan est connecté
+2024-01-12 12:16:14,490 DEBUG    > Requête newproject.html
+2024-01-12 12:17:37,460 INFO     > Fichier uploader
+2024-01-12 12:17:37,460 INFO     > Noan est connecté
+2024-01-12 12:17:37,461 DEBUG    > Requête projet.html
+2024-01-12 12:17:39,069 INFO     > Noan est connecté
+2024-01-12 12:17:39,069 DEBUG    > Requête index.html
+2024-01-12 12:17:39,636 INFO     > Noan est connecté
+2024-01-12 12:17:39,636 DEBUG    > Requête projet.html
+2024-01-12 12:17:43,700 INFO     > Noan est connecté
+2024-01-12 12:17:43,700 DEBUG    > Requête newproject.html
+2024-01-12 12:18:15,138 INFO     > Fichier uploader
+2024-01-12 12:18:15,139 INFO     > Noan est connecté
+2024-01-12 12:18:15,139 DEBUG    > Requête projet.html
+2024-01-12 12:19:49,383 INFO     > Noan est connecté
+2024-01-12 12:19:49,383 DEBUG    > Requête newproject.html
+2024-01-12 12:20:36,303 INFO     > Lancement de l'application ! 
+2024-01-12 12:20:36,303 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:20:36,304 INFO     > Création de la base de donnée
+2024-01-12 12:20:36,304 INFO     > Démarrage du serveur flask
+2024-01-12 12:21:09,811 INFO     > Fichier uploader
+2024-01-12 12:21:09,811 INFO     > Noan est connecté
+2024-01-12 12:21:09,811 DEBUG    > Requête projet.html
+2024-01-12 12:21:13,121 INFO     > Noan est connecté
+2024-01-12 12:21:13,122 DEBUG    > Requête newproject.html
+2024-01-12 12:21:44,581 INFO     > Fichier uploader
+2024-01-12 12:21:44,581 INFO     > Noan est connecté
+2024-01-12 12:21:44,582 DEBUG    > Requête projet.html
+2024-01-12 12:22:26,856 INFO     > Noan est connecté
+2024-01-12 12:22:26,856 DEBUG    > Requête profil.html
+2024-01-12 12:22:28,097 INFO     > Noan est connecté
+2024-01-12 12:22:28,098 DEBUG    > Requête newproject.html
+2024-01-12 12:23:03,535 INFO     > Fichier uploader
+2024-01-12 12:23:03,535 INFO     > Noan est connecté
+2024-01-12 12:23:03,535 DEBUG    > Requête projet.html
+2024-01-12 12:23:06,199 INFO     > Noan est connecté
+2024-01-12 12:23:06,199 DEBUG    > Requête newproject.html
+2024-01-12 12:25:38,635 INFO     > Lancement de l'application ! 
+2024-01-12 12:25:38,635 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:25:38,636 INFO     > Création de la base de donnée
+2024-01-12 12:25:38,636 INFO     > Démarrage du serveur flask
+2024-01-12 12:26:18,199 INFO     > Fichier uploader
+2024-01-12 12:26:18,199 INFO     > Noan est connecté
+2024-01-12 12:26:18,199 DEBUG    > Requête projet.html
+2024-01-12 12:26:21,121 INFO     > Noan est connecté
+2024-01-12 12:26:21,121 DEBUG    > Requête newproject.html
+2024-01-12 12:27:25,540 INFO     > Fichier uploader
+2024-01-12 12:27:25,540 INFO     > Noan est connecté
+2024-01-12 12:27:25,541 DEBUG    > Requête projet.html
+2024-01-12 12:28:16,646 INFO     > Noan est connecté
+2024-01-12 12:28:16,646 DEBUG    > Requête newproject.html
+2024-01-12 12:28:22,872 INFO     > Lancement de l'application ! 
+2024-01-12 12:28:22,872 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:28:22,873 INFO     > Création de la base de donnée
+2024-01-12 12:28:22,873 INFO     > Démarrage du serveur flask
+2024-01-12 12:28:59,875 INFO     > Fichier uploader
+2024-01-12 12:28:59,876 INFO     > Noan est connecté
+2024-01-12 12:28:59,877 DEBUG    > Requête projet.html
+2024-01-12 12:29:06,702 INFO     > Noan est connecté
+2024-01-12 12:29:06,702 DEBUG    > Requête newproject.html
+2024-01-12 12:29:32,540 INFO     > Fichier uploader
+2024-01-12 12:29:32,540 INFO     > Noan est connecté
+2024-01-12 12:29:32,541 DEBUG    > Requête projet.html
+2024-01-12 12:29:37,555 INFO     > Noan est connecté
+2024-01-12 12:29:37,555 DEBUG    > Requête newproject.html
+2024-01-12 12:30:03,493 INFO     > Fichier uploader
+2024-01-12 12:30:03,493 INFO     > Noan est connecté
+2024-01-12 12:30:03,494 DEBUG    > Requête projet.html
+2024-01-12 12:30:12,735 INFO     > Noan est connecté
+2024-01-12 12:30:12,736 DEBUG    > Requête newproject.html
+2024-01-12 12:30:45,978 INFO     > Fichier uploader
+2024-01-12 12:30:45,978 INFO     > Noan est connecté
+2024-01-12 12:30:45,979 DEBUG    > Requête projet.html
+2024-01-12 12:30:58,472 INFO     > Noan est connecté
+2024-01-12 12:30:58,472 DEBUG    > Requête newproject.html
+2024-01-12 12:31:57,048 INFO     > Fichier uploader
+2024-01-12 12:31:57,049 INFO     > Noan est connecté
+2024-01-12 12:31:57,050 DEBUG    > Requête projet.html
+2024-01-12 12:31:58,240 INFO     > Fichier chearchfile
+2024-01-12 12:31:58,240 INFO     > Noan est connecté
+2024-01-12 12:31:58,241 DEBUG    > Requête projetpres.html
+2024-01-12 12:31:58,273 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-12 12:31:58,281 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 323, in projetpres
+    return render_template('projetpres.html', render=render)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Noan Programmation\learn\Mon site\python\templates\projetpres.html", line 79, in template
+    <h2 id='pres-title-project' class="pres-title-project">{{render['project'][2]}|replace('£','"')}</h2>
+jinja2.exceptions.TemplateSyntaxError: unexpected '}'
+
+2024-01-12 12:32:01,713 INFO     > Noan est connecté
+2024-01-12 12:32:01,713 DEBUG    > Requête newproject.html
+2024-01-12 12:32:03,423 INFO     > Noan est connecté
+2024-01-12 12:32:03,423 DEBUG    > Requête index.html
+2024-01-12 12:32:03,764 INFO     > Noan est connecté
+2024-01-12 12:32:03,764 DEBUG    > Requête projet.html
+2024-01-12 12:32:04,402 INFO     > Fichier chearchfile
+2024-01-12 12:32:04,402 INFO     > Noan est connecté
+2024-01-12 12:32:04,403 DEBUG    > Requête projetpres.html
+2024-01-12 12:32:04,404 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-12 12:32:04,405 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 323, in projetpres
+    return render_template('projetpres.html', render=render)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\door7\AppData\Roaming\Python\Python310\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Noan Programmation\learn\Mon site\python\templates\projetpres.html", line 79, in template
+    <h2 id='pres-title-project' class="pres-title-project">{{render['project'][2]}|replace('£','"')}</h2>
+jinja2.exceptions.TemplateSyntaxError: unexpected '}'
+
+2024-01-12 12:32:34,126 INFO     > Fichier chearchfile
+2024-01-12 12:32:34,127 INFO     > Noan est connecté
+2024-01-12 12:32:34,128 DEBUG    > Requête projetpres.html
+2024-01-12 12:33:07,929 INFO     > Lancement de l'application ! 
+2024-01-12 12:33:07,929 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:33:07,930 INFO     > Création de la base de donnée
+2024-01-12 12:33:07,943 INFO     > Démarrage du serveur flask
+2024-01-12 12:33:14,433 ERROR    > Erreur inconnue dans index.html
+2024-01-12 12:33:14,434 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-12 12:33:15,692 ERROR    > Erreur inconnue dans index.html
+2024-01-12 12:33:15,693 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-12 12:33:16,169 ERROR    > Erreur inconnue dans index.html
+2024-01-12 12:33:16,169 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 63, in index
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-12 12:33:26,586 DEBUG    > Requête index.html
+2024-01-12 12:33:28,068 DEBUG    > Requête signup.html
+2024-01-12 12:33:38,523 DEBUG    > Requête api_signup
+2024-01-12 12:33:38,523 WARNING  > Vérification des comptes désactivé
+2024-01-12 12:33:38,529 INFO     > Compte créé : Noan
+2024-01-12 12:33:38,544 DEBUG    > Requête signin.html
+2024-01-12 12:33:45,876 DEBUG    > Requête api_signin
+2024-01-12 12:33:45,877 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-12 12:33:45,899 INFO     > Noan est connecté
+2024-01-12 12:33:45,899 DEBUG    > Requête index.html
+2024-01-12 12:34:20,081 INFO     > Lancement de l'application ! 
+2024-01-12 12:34:20,081 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:34:20,082 INFO     > Création de la base de donnée
+2024-01-12 12:34:20,082 INFO     > Démarrage du serveur flask
+2024-01-12 12:34:26,531 INFO     > Noan est connecté
+2024-01-12 12:34:26,532 DEBUG    > Requête index.html
+2024-01-12 12:34:28,056 INFO     > Noan est connecté
+2024-01-12 12:34:28,056 DEBUG    > Requête newproject.html
+2024-01-12 12:34:51,542 INFO     > Fichier uploader
+2024-01-12 12:34:51,542 INFO     > Noan est connecté
+2024-01-12 12:34:51,542 DEBUG    > Requête projet.html
+2024-01-12 12:34:53,718 INFO     > Noan est connecté
+2024-01-12 12:34:53,718 DEBUG    > Requête newproject.html
+2024-01-12 12:35:11,633 INFO     > Fichier uploader
+2024-01-12 12:35:11,633 INFO     > Noan est connecté
+2024-01-12 12:35:11,634 DEBUG    > Requête projet.html
+2024-01-12 12:35:17,023 INFO     > Noan est connecté
+2024-01-12 12:35:17,023 DEBUG    > Requête newproject.html
+2024-01-12 12:36:42,165 INFO     > Lancement de l'application ! 
+2024-01-12 12:36:42,166 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:36:42,167 INFO     > Création de la base de donnée
+2024-01-12 12:36:42,167 INFO     > Démarrage du serveur flask
+2024-01-12 12:36:43,216 INFO     > Noan est connecté
+2024-01-12 12:36:43,217 DEBUG    > Requête newproject.html
+2024-01-12 12:37:14,885 INFO     > Fichier uploader
+2024-01-12 12:37:14,885 INFO     > Noan est connecté
+2024-01-12 12:37:14,886 DEBUG    > Requête projet.html
+2024-01-12 12:37:16,081 INFO     > Fichier chearchfile
+2024-01-12 12:37:16,082 INFO     > Noan est connecté
+2024-01-12 12:37:16,082 DEBUG    > Requête projetpres.html
+2024-01-12 12:37:35,320 DEBUG    > Requête api_like
+2024-01-12 12:37:35,321 INFO     > Noan est connecté
+2024-01-12 12:37:35,321 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 12:37:36,543 DEBUG    > Requête api_like
+2024-01-12 12:37:36,544 INFO     > Noan est connecté
+2024-01-12 12:37:36,544 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 12:37:37,672 DEBUG    > Requête api_like
+2024-01-12 12:37:37,672 INFO     > Noan est connecté
+2024-01-12 12:37:37,673 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 12:37:38,315 DEBUG    > Requête api_like
+2024-01-12 12:37:38,315 INFO     > Noan est connecté
+2024-01-12 12:37:38,316 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 12:38:02,105 INFO     > Noan est connecté
+2024-01-12 12:38:02,121 INFO     > Fichier chearchfile
+2024-01-12 12:38:02,122 INFO     > Noan est connecté
+2024-01-12 12:38:02,124 DEBUG    > Requête projetpres.html
+2024-01-12 12:38:37,696 INFO     > Noan est connecté
+2024-01-12 12:38:37,713 INFO     > Fichier chearchfile
+2024-01-12 12:38:37,713 INFO     > Noan est connecté
+2024-01-12 12:38:37,713 DEBUG    > Requête projetpres.html
+2024-01-12 12:38:52,653 DEBUG    > Requête checkprofile
+2024-01-12 12:38:54,910 INFO     > Noan est connecté
+2024-01-12 12:38:54,910 DEBUG    > Requête otherprofile.html
+2024-01-12 12:38:59,644 INFO     > Fichier chearchfile
+2024-01-12 12:38:59,644 INFO     > Noan est connecté
+2024-01-12 12:38:59,645 DEBUG    > Requête projetpres.html
+2024-01-12 12:39:26,025 INFO     > Lancement de l'application ! 
+2024-01-12 12:39:26,025 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:39:26,027 INFO     > Création de la base de donnée
+2024-01-12 12:39:26,039 INFO     > Démarrage du serveur flask
+2024-01-12 12:39:36,652 INFO     > Fichier chearchfile
+2024-01-12 12:39:36,652 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-12 12:39:36,653 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 318, in projetpres
+    render = {"login":isConnect,"project":pres[0],"like":False,"nbrlike":pres[0][8],"commentaire":commentaire,"responce":responce}
+IndexError: list index out of range
+
+2024-01-12 12:39:37,746 INFO     > Fichier chearchfile
+2024-01-12 12:39:37,747 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-12 12:39:37,747 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 318, in projetpres
+    render = {"login":isConnect,"project":pres[0],"like":False,"nbrlike":pres[0][8],"commentaire":commentaire,"responce":responce}
+IndexError: list index out of range
+
+2024-01-12 12:39:38,877 INFO     > Fichier chearchfile
+2024-01-12 12:39:38,878 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-12 12:39:38,878 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 318, in projetpres
+    render = {"login":isConnect,"project":pres[0],"like":False,"nbrlike":pres[0][8],"commentaire":commentaire,"responce":responce}
+IndexError: list index out of range
+
+2024-01-12 12:39:46,608 DEBUG    > Requête index.html
+2024-01-12 12:39:47,908 DEBUG    > Requête signup.html
+2024-01-12 12:39:58,280 DEBUG    > Requête api_signup
+2024-01-12 12:39:58,281 WARNING  > Vérification des comptes désactivé
+2024-01-12 12:39:58,286 INFO     > Compte créé : Noan
+2024-01-12 12:39:58,302 DEBUG    > Requête signin.html
+2024-01-12 12:40:04,602 DEBUG    > Requête api_signin
+2024-01-12 12:40:04,603 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-12 12:40:04,624 INFO     > Noan est connecté
+2024-01-12 12:40:04,624 DEBUG    > Requête index.html
+2024-01-12 12:40:08,773 INFO     > Lancement de l'application ! 
+2024-01-12 12:40:08,773 INFO     > Ouverture du fichier de configuration
+2024-01-12 12:40:08,774 INFO     > Création de la base de donnée
+2024-01-12 12:40:08,774 INFO     > Démarrage du serveur flask
+2024-01-12 12:40:11,939 INFO     > Noan est connecté
+2024-01-12 12:40:11,940 DEBUG    > Requête profil.html
+2024-01-12 12:40:13,699 INFO     > Noan est connecté
+2024-01-12 12:40:13,699 DEBUG    > Requête newproject.html
+2024-01-12 12:40:50,544 INFO     > Fichier uploader
+2024-01-12 12:40:50,544 INFO     > Noan est connecté
+2024-01-12 12:40:50,545 DEBUG    > Requête projet.html
+2024-01-12 12:40:52,064 INFO     > Fichier chearchfile
+2024-01-12 12:40:52,065 INFO     > Noan est connecté
+2024-01-12 12:40:52,065 DEBUG    > Requête projetpres.html
+2024-01-12 12:41:27,168 INFO     > Fichier chearchfile
+2024-01-12 12:41:27,168 INFO     > Noan est connecté
+2024-01-12 12:41:27,169 DEBUG    > Requête projetpres.html
+2024-01-12 12:41:40,902 INFO     > Noan est connecté
+2024-01-12 12:41:40,903 DEBUG    > Requête index.html
+2024-01-12 12:41:41,398 INFO     > Noan est connecté
+2024-01-12 12:41:41,398 DEBUG    > Requête projet.html
+2024-01-12 12:41:42,738 INFO     > Noan est connecté
+2024-01-12 12:41:42,738 DEBUG    > Requête index.html
+2024-01-12 12:41:45,174 INFO     > Noan est connecté
+2024-01-12 12:41:45,175 DEBUG    > Requête projet.html
+2024-01-12 12:41:57,239 INFO     > Fichier chearchfile
+2024-01-12 12:41:57,240 INFO     > Noan est connecté
+2024-01-12 12:41:57,240 DEBUG    > Requête projetpres.html
+2024-01-12 12:41:58,993 INFO     > Noan est connecté
+2024-01-12 12:41:58,994 DEBUG    > Requête projet.html
+2024-01-12 12:42:02,732 INFO     > Fichier chearchfile
+2024-01-12 12:42:02,733 INFO     > Noan est connecté
+2024-01-12 12:42:02,733 DEBUG    > Requête projetpres.html
+2024-01-12 12:42:05,100 INFO     > Noan est connecté
+2024-01-12 12:42:05,101 DEBUG    > Requête projet.html
+2024-01-12 12:42:07,527 INFO     > Noan est connecté
+2024-01-12 12:42:07,528 DEBUG    > Requête newproject.html
+2024-01-12 12:43:56,315 INFO     > Fichier uploader
+2024-01-12 12:43:56,316 INFO     > Noan est connecté
+2024-01-12 12:43:56,316 DEBUG    > Requête projet.html
+2024-01-12 12:43:58,950 INFO     > Noan est connecté
+2024-01-12 12:43:58,950 DEBUG    > Requête newproject.html
+2024-01-12 12:46:30,199 INFO     > Fichier uploader
+2024-01-12 12:46:30,199 INFO     > Noan est connecté
+2024-01-12 12:46:30,200 DEBUG    > Requête projet.html
+2024-01-12 12:46:32,658 INFO     > Fichier chearchfile
+2024-01-12 12:46:32,658 INFO     > Noan est connecté
+2024-01-12 12:46:32,659 DEBUG    > Requête projetpres.html
+2024-01-12 12:46:37,344 INFO     > Noan est connecté
+2024-01-12 12:46:37,345 DEBUG    > Requête newproject.html
+2024-01-12 12:46:38,836 INFO     > Noan est connecté
+2024-01-12 12:46:38,836 DEBUG    > Requête index.html
+2024-01-12 12:46:39,236 INFO     > Noan est connecté
+2024-01-12 12:46:39,236 DEBUG    > Requête projet.html
+2024-01-12 12:46:42,148 INFO     > Fichier chearchfile
+2024-01-12 12:46:42,148 INFO     > Noan est connecté
+2024-01-12 12:46:42,149 DEBUG    > Requête projetpres.html
+2024-01-12 12:47:30,722 INFO     > Noan est connecté
+2024-01-12 12:47:30,722 DEBUG    > Requête index.html
+2024-01-12 12:47:31,760 INFO     > Noan est connecté
+2024-01-12 12:47:31,760 DEBUG    > Requête projet.html
+2024-01-12 12:47:33,031 INFO     > Fichier chearchfile
+2024-01-12 12:47:33,031 INFO     > Noan est connecté
+2024-01-12 12:47:33,032 DEBUG    > Requête projetpres.html
+2024-01-12 12:47:34,312 INFO     > Noan est connecté
+2024-01-12 12:47:34,313 DEBUG    > Requête index.html
+2024-01-12 12:47:34,727 INFO     > Noan est connecté
+2024-01-12 12:47:34,728 DEBUG    > Requête projet.html
+2024-01-12 12:47:53,710 INFO     > Noan est connecté
+2024-01-12 12:47:53,710 DEBUG    > Requête newproject.html
+2024-01-12 12:49:22,241 INFO     > Fichier uploader
+2024-01-12 12:49:22,241 INFO     > Noan est connecté
+2024-01-12 12:49:22,242 DEBUG    > Requête projet.html
+2024-01-12 12:49:25,426 INFO     > Fichier chearchfile
+2024-01-12 12:49:25,426 INFO     > Noan est connecté
+2024-01-12 12:49:25,427 DEBUG    > Requête projetpres.html
+2024-01-12 12:50:02,888 INFO     > Fichier chearchfile
+2024-01-12 12:50:02,889 INFO     > Noan est connecté
+2024-01-12 12:50:02,889 DEBUG    > Requête projetpres.html
+2024-01-12 12:50:04,866 INFO     > Noan est connecté
+2024-01-12 12:50:04,867 DEBUG    > Requête projet.html
+2024-01-12 12:50:05,803 INFO     > Fichier chearchfile
+2024-01-12 12:50:05,803 INFO     > Noan est connecté
+2024-01-12 12:50:05,803 DEBUG    > Requête projetpres.html
+2024-01-12 12:50:07,777 INFO     > Noan est connecté
+2024-01-12 12:50:07,778 DEBUG    > Requête index.html
+2024-01-12 12:50:09,041 INFO     > Noan est connecté
+2024-01-12 12:50:09,041 DEBUG    > Requête projet.html
+2024-01-12 12:50:10,103 INFO     > Fichier chearchfile
+2024-01-12 12:50:10,103 INFO     > Noan est connecté
+2024-01-12 12:50:10,104 DEBUG    > Requête projetpres.html
+2024-01-12 12:50:28,849 INFO     > Noan est connecté
+2024-01-12 12:50:28,850 DEBUG    > Requête projet.html
+2024-01-12 12:50:31,906 INFO     > Noan est connecté
+2024-01-12 12:50:31,906 DEBUG    > Requête index.html
+2024-01-12 12:50:45,856 INFO     > Noan est connecté
+2024-01-12 12:50:45,857 DEBUG    > Requête projet.html
+2024-01-12 12:51:42,988 INFO     > Noan est connecté
+2024-01-12 12:51:42,988 DEBUG    > Requête newproject.html
+2024-01-12 17:54:11,342 INFO     > Lancement de l'application ! 
+2024-01-12 17:54:11,343 INFO     > Ouverture du fichier de configuration
+2024-01-12 17:54:11,346 INFO     > Création de la base de donnée
+2024-01-12 17:54:11,346 INFO     > Démarrage du serveur flask
+2024-01-12 17:54:27,599 DEBUG    > Requête index.html
+2024-01-12 17:54:29,450 DEBUG    > Requête projet.html
+2024-01-12 17:54:33,521 DEBUG    > Requête signin.html
+2024-01-12 17:56:29,660 DEBUG    > Requête api_signin
+2024-01-12 17:56:29,662 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-12 17:56:29,683 INFO     > Noan est connecté
+2024-01-12 17:56:29,684 DEBUG    > Requête index.html
+2024-01-12 17:56:32,954 INFO     > Noan est connecté
+2024-01-12 17:56:32,954 DEBUG    > Requête profil.html
+2024-01-12 17:56:34,851 INFO     > Noan est connecté
+2024-01-12 17:56:34,852 DEBUG    > Requête editprofil.html
+2024-01-12 17:56:39,185 INFO     > Fichier uploader
+2024-01-12 17:56:39,186 INFO     > Noan est connecté
+2024-01-12 17:56:39,186 DEBUG    > Requête editprofil.html
+2024-01-12 17:56:41,193 INFO     > Noan est connecté
+2024-01-12 17:56:41,193 DEBUG    > Requête newproject.html
+2024-01-12 17:59:31,935 INFO     > Fichier uploader
+2024-01-12 17:59:31,935 INFO     > Noan est connecté
+2024-01-12 17:59:31,936 DEBUG    > Requête projet.html
+2024-01-12 17:59:36,245 INFO     > Fichier chearchfile
+2024-01-12 17:59:36,245 INFO     > Noan est connecté
+2024-01-12 17:59:36,245 DEBUG    > Requête projetpres.html
+2024-01-12 17:59:49,290 INFO     > Noan est connecté
+2024-01-12 17:59:49,290 DEBUG    > Requête newproject.html
+2024-01-12 17:59:51,002 INFO     > Noan est connecté
+2024-01-12 17:59:51,004 DEBUG    > Requête projet.html
+2024-01-12 17:59:52,379 INFO     > Fichier chearchfile
+2024-01-12 17:59:52,380 INFO     > Noan est connecté
+2024-01-12 17:59:52,381 DEBUG    > Requête projetpres.html
+2024-01-12 17:59:53,250 INFO     > Noan est connecté
+2024-01-12 17:59:53,251 DEBUG    > Requête projet.html
+2024-01-12 17:59:54,417 INFO     > Fichier chearchfile
+2024-01-12 17:59:54,417 INFO     > Noan est connecté
+2024-01-12 17:59:54,418 DEBUG    > Requête projetpres.html
+2024-01-12 17:59:59,832 DEBUG    > Requête api_like
+2024-01-12 17:59:59,832 INFO     > Noan est connecté
+2024-01-12 17:59:59,833 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:00:00,402 DEBUG    > Requête api_like
+2024-01-12 18:00:00,403 INFO     > Noan est connecté
+2024-01-12 18:00:00,403 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:00:03,765 INFO     > Noan est connecté
+2024-01-12 18:00:03,766 DEBUG    > Requête projet.html
+2024-01-12 18:00:10,173 INFO     > Fichier chearchfile
+2024-01-12 18:00:10,173 INFO     > Noan est connecté
+2024-01-12 18:00:10,174 DEBUG    > Requête projetpres.html
+2024-01-12 18:00:22,368 INFO     > Noan est connecté
+2024-01-12 18:00:22,369 DEBUG    > Requête projet.html
+2024-01-12 18:00:23,969 INFO     > Fichier chearchfile
+2024-01-12 18:00:23,969 INFO     > Noan est connecté
+2024-01-12 18:00:23,970 DEBUG    > Requête projetpres.html
+2024-01-12 18:00:26,562 INFO     > Noan est connecté
+2024-01-12 18:00:26,563 DEBUG    > Requête projet.html
+2024-01-12 18:00:28,880 INFO     > Fichier chearchfile
+2024-01-12 18:00:28,881 INFO     > Noan est connecté
+2024-01-12 18:00:28,881 DEBUG    > Requête projetpres.html
+2024-01-12 18:00:37,560 INFO     > Noan est connecté
+2024-01-12 18:00:37,560 DEBUG    > Requête projet.html
+2024-01-12 18:00:41,239 INFO     > Fichier chearchfile
+2024-01-12 18:00:41,239 INFO     > Noan est connecté
+2024-01-12 18:00:41,240 DEBUG    > Requête projetpres.html
+2024-01-12 18:02:19,944 INFO     > Noan est connecté
+2024-01-12 18:02:19,946 DEBUG    > Requête projet.html
+2024-01-12 18:02:24,671 INFO     > Noan est connecté
+2024-01-12 18:02:24,672 DEBUG    > Requête newproject.html
+2024-01-12 18:05:57,740 INFO     > Fichier uploader
+2024-01-12 18:05:57,740 INFO     > Noan est connecté
+2024-01-12 18:05:57,741 DEBUG    > Requête projet.html
+2024-01-12 18:06:01,165 INFO     > Fichier chearchfile
+2024-01-12 18:06:01,166 INFO     > Noan est connecté
+2024-01-12 18:06:01,166 DEBUG    > Requête projetpres.html
+2024-01-12 18:06:19,280 INFO     > Noan est connecté
+2024-01-12 18:06:19,281 DEBUG    > Requête projet.html
+2024-01-12 18:06:25,462 INFO     > Fichier chearchfile
+2024-01-12 18:06:25,463 INFO     > Noan est connecté
+2024-01-12 18:06:25,463 DEBUG    > Requête projetpres.html
+2024-01-12 18:06:27,181 INFO     > Noan est connecté
+2024-01-12 18:06:27,182 DEBUG    > Requête projet.html
+2024-01-12 18:06:29,758 INFO     > Fichier chearchfile
+2024-01-12 18:06:29,759 INFO     > Noan est connecté
+2024-01-12 18:06:29,759 DEBUG    > Requête projetpres.html
+2024-01-12 18:06:31,298 INFO     > Noan est connecté
+2024-01-12 18:06:31,299 DEBUG    > Requête projet.html
+2024-01-12 18:06:32,195 INFO     > Fichier chearchfile
+2024-01-12 18:06:32,195 INFO     > Noan est connecté
+2024-01-12 18:06:32,196 DEBUG    > Requête projetpres.html
+2024-01-12 18:06:34,487 INFO     > Noan est connecté
+2024-01-12 18:06:34,488 DEBUG    > Requête projet.html
+2024-01-12 18:07:02,975 INFO     > Noan est connecté
+2024-01-12 18:07:02,976 DEBUG    > Requête newproject.html
+2024-01-12 18:11:04,969 INFO     > Fichier uploader
+2024-01-12 18:11:04,969 INFO     > Noan est connecté
+2024-01-12 18:11:04,970 DEBUG    > Requête projet.html
+2024-01-12 18:11:08,466 INFO     > Noan est connecté
+2024-01-12 18:11:08,466 DEBUG    > Requête newproject.html
+2024-01-12 18:11:50,620 INFO     > Fichier uploader
+2024-01-12 18:11:50,621 INFO     > Noan est connecté
+2024-01-12 18:11:50,622 DEBUG    > Requête projet.html
+2024-01-12 18:11:53,514 INFO     > Fichier chearchfile
+2024-01-12 18:11:53,515 INFO     > Noan est connecté
+2024-01-12 18:11:53,515 DEBUG    > Requête projetpres.html
+2024-01-12 18:11:56,690 DEBUG    > Requête api_like
+2024-01-12 18:11:56,691 INFO     > Noan est connecté
+2024-01-12 18:11:56,691 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:11:57,932 DEBUG    > Requête api_like
+2024-01-12 18:11:57,933 INFO     > Noan est connecté
+2024-01-12 18:11:57,934 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:12:02,443 INFO     > Noan est connecté
+2024-01-12 18:12:02,444 DEBUG    > Requête index.html
+2024-01-12 18:12:02,866 INFO     > Noan est connecté
+2024-01-12 18:12:02,867 DEBUG    > Requête projet.html
+2024-01-12 18:12:06,520 INFO     > Noan est connecté
+2024-01-12 18:12:06,520 DEBUG    > Requête newproject.html
+2024-01-12 18:14:49,961 INFO     > Noan est connecté
+2024-01-12 18:14:49,962 DEBUG    > Requête newproject.html
+2024-01-12 18:14:50,835 INFO     > Noan est connecté
+2024-01-12 18:14:50,835 DEBUG    > Requête index.html
+2024-01-12 18:15:07,107 DEBUG    > Requête index.html
+2024-01-12 18:15:08,475 DEBUG    > Requête signin.html
+2024-01-12 18:15:39,088 INFO     > Fichier uploader
+2024-01-12 18:15:39,088 INFO     > Noan est connecté
+2024-01-12 18:15:39,089 DEBUG    > Requête projet.html
+2024-01-12 18:15:40,898 INFO     > Fichier chearchfile
+2024-01-12 18:15:40,898 INFO     > Noan est connecté
+2024-01-12 18:15:40,899 DEBUG    > Requête projetpres.html
+2024-01-12 18:15:56,447 INFO     > Noan est connecté
+2024-01-12 18:15:56,447 DEBUG    > Requête index.html
+2024-01-12 18:16:02,302 INFO     > Noan est connecté
+2024-01-12 18:16:02,304 DEBUG    > Requête projet.html
+2024-01-12 18:20:42,230 INFO     > Noan est connecté
+2024-01-12 18:20:42,231 DEBUG    > Requête newproject.html
+2024-01-12 18:24:00,465 INFO     > Fichier uploader
+2024-01-12 18:24:00,465 INFO     > Noan est connecté
+2024-01-12 18:24:00,466 DEBUG    > Requête projet.html
+2024-01-12 18:24:02,477 INFO     > Fichier chearchfile
+2024-01-12 18:24:02,478 INFO     > Noan est connecté
+2024-01-12 18:24:02,478 DEBUG    > Requête projetpres.html
+2024-01-12 18:24:14,916 INFO     > Noan est connecté
+2024-01-12 18:24:14,917 DEBUG    > Requête index.html
+2024-01-12 18:24:16,444 INFO     > Noan est connecté
+2024-01-12 18:24:16,446 DEBUG    > Requête projet.html
+2024-01-12 18:29:54,265 INFO     > Lancement de l'application ! 
+2024-01-12 18:29:54,266 INFO     > Ouverture du fichier de configuration
+2024-01-12 18:29:54,267 INFO     > Création de la base de donnée
+2024-01-12 18:29:54,267 INFO     > Démarrage du serveur flask
+2024-01-12 18:29:57,575 ERROR    > Erreur inconnue dans projet.html
+2024-01-12 18:29:57,576 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 161, in projet
+    cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+IndexError: list index out of range
+
+2024-01-12 18:30:07,031 DEBUG    > Requête projet.html
+2024-01-12 18:30:11,120 DEBUG    > Requête signin.html
+2024-01-12 18:30:19,222 DEBUG    > Requête api_signin
+2024-01-12 18:30:19,223 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-12 18:30:19,243 INFO     > Noan est connecté
+2024-01-12 18:30:19,244 DEBUG    > Requête index.html
+2024-01-12 18:30:21,629 INFO     > Noan est connecté
+2024-01-12 18:30:21,629 DEBUG    > Requête newproject.html
+2024-01-12 18:31:07,606 INFO     > Fichier uploader
+2024-01-12 18:31:07,607 INFO     > Noan est connecté
+2024-01-12 18:31:07,608 DEBUG    > Requête projet.html
+2024-01-12 18:31:09,449 INFO     > Fichier chearchfile
+2024-01-12 18:31:09,450 INFO     > Noan est connecté
+2024-01-12 18:31:09,450 DEBUG    > Requête projetpres.html
+2024-01-12 18:31:21,890 INFO     > Noan est connecté
+2024-01-12 18:31:21,891 DEBUG    > Requête index.html
+2024-01-12 18:31:23,098 INFO     > Noan est connecté
+2024-01-12 18:31:23,099 DEBUG    > Requête projet.html
+2024-01-12 18:31:51,982 INFO     > Fichier chearchfile
+2024-01-12 18:31:51,982 INFO     > Noan est connecté
+2024-01-12 18:31:51,983 DEBUG    > Requête projetpres.html
+2024-01-12 18:31:55,124 INFO     > Noan est connecté
+2024-01-12 18:31:55,125 DEBUG    > Requête projet.html
+2024-01-12 18:31:56,430 INFO     > Fichier chearchfile
+2024-01-12 18:31:56,430 INFO     > Noan est connecté
+2024-01-12 18:31:56,430 DEBUG    > Requête projetpres.html
+2024-01-12 18:32:01,464 INFO     > Noan est connecté
+2024-01-12 18:32:01,465 DEBUG    > Requête projet.html
+2024-01-12 18:32:08,204 INFO     > Noan est connecté
+2024-01-12 18:32:08,204 DEBUG    > Requête index.html
+2024-01-12 18:32:11,528 INFO     > Noan est connecté
+2024-01-12 18:32:11,530 DEBUG    > Requête projet.html
+2024-01-12 18:32:17,039 INFO     > Fichier chearchfile
+2024-01-12 18:32:17,039 INFO     > Noan est connecté
+2024-01-12 18:32:17,039 DEBUG    > Requête projetpres.html
+2024-01-12 18:32:30,434 INFO     > Noan est connecté
+2024-01-12 18:32:30,435 DEBUG    > Requête projet.html
+2024-01-12 18:32:34,273 INFO     > Fichier chearchfile
+2024-01-12 18:32:34,273 INFO     > Noan est connecté
+2024-01-12 18:32:34,274 DEBUG    > Requête projetpres.html
+2024-01-12 18:32:40,720 INFO     > Noan est connecté
+2024-01-12 18:32:40,721 DEBUG    > Requête projet.html
+2024-01-12 18:32:43,205 INFO     > Fichier chearchfile
+2024-01-12 18:32:43,206 INFO     > Noan est connecté
+2024-01-12 18:32:43,206 DEBUG    > Requête projetpres.html
+2024-01-12 18:33:08,243 INFO     > Noan est connecté
+2024-01-12 18:33:08,244 DEBUG    > Requête projet.html
+2024-01-12 18:33:10,271 INFO     > Fichier chearchfile
+2024-01-12 18:33:10,272 INFO     > Noan est connecté
+2024-01-12 18:33:10,272 DEBUG    > Requête projetpres.html
+2024-01-12 18:33:18,113 INFO     > Noan est connecté
+2024-01-12 18:33:18,114 DEBUG    > Requête projet.html
+2024-01-12 18:33:19,322 INFO     > Fichier chearchfile
+2024-01-12 18:33:19,323 INFO     > Noan est connecté
+2024-01-12 18:33:19,323 DEBUG    > Requête projetpres.html
+2024-01-12 18:33:28,362 INFO     > Noan est connecté
+2024-01-12 18:33:28,363 DEBUG    > Requête index.html
+2024-01-12 18:33:37,611 INFO     > Noan est connecté
+2024-01-12 18:33:37,612 DEBUG    > Requête projet.html
+2024-01-12 18:33:39,947 INFO     > Fichier chearchfile
+2024-01-12 18:33:39,947 INFO     > Noan est connecté
+2024-01-12 18:33:39,948 DEBUG    > Requête projetpres.html
+2024-01-12 18:33:43,446 INFO     > Noan est connecté
+2024-01-12 18:33:43,463 INFO     > Fichier chearchfile
+2024-01-12 18:33:43,464 INFO     > Noan est connecté
+2024-01-12 18:33:43,468 DEBUG    > Requête projetpres.html
+2024-01-12 18:33:46,135 DEBUG    > Requête checkprofile
+2024-01-12 18:33:46,858 INFO     > Noan est connecté
+2024-01-12 18:33:46,858 DEBUG    > Requête otherprofile.html
+2024-01-12 18:33:57,716 INFO     > Noan est connecté
+2024-01-12 18:33:57,716 DEBUG    > Requête index.html
+2024-01-12 18:33:59,289 INFO     > Noan est connecté
+2024-01-12 18:33:59,291 DEBUG    > Requête projet.html
+2024-01-12 18:34:15,557 INFO     > Fichier chearchfile
+2024-01-12 18:34:15,557 INFO     > Noan est connecté
+2024-01-12 18:34:15,557 DEBUG    > Requête projetpres.html
+2024-01-12 18:34:43,014 DEBUG    > Requête api_like
+2024-01-12 18:34:43,014 INFO     > Noan est connecté
+2024-01-12 18:34:43,015 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:34:46,015 DEBUG    > Requête api_like
+2024-01-12 18:34:46,015 INFO     > Noan est connecté
+2024-01-12 18:34:46,016 DEBUG    > Utilisateur connecter pour liker
+2024-01-12 18:34:47,688 INFO     > Noan est connecté
+2024-01-12 18:34:47,689 DEBUG    > Requête projet.html
+2024-01-12 18:34:54,372 INFO     > Fichier chearchfile
+2024-01-12 18:34:54,373 INFO     > Noan est connecté
+2024-01-12 18:34:54,373 DEBUG    > Requête projetpres.html
+2024-01-12 18:34:59,073 INFO     > Noan est connecté
+2024-01-12 18:34:59,074 DEBUG    > Requête projet.html
+2024-01-12 18:59:57,487 INFO     > Noan est connecté
+2024-01-12 18:59:57,487 DEBUG    > Requête index.html
+2024-01-12 18:59:58,111 INFO     > Noan est connecté
+2024-01-12 18:59:58,113 DEBUG    > Requête projet.html
+2024-01-12 19:00:02,655 INFO     > Noan est connecté
+2024-01-12 19:00:02,656 DEBUG    > Requête index.html
+2024-01-12 19:00:02,934 INFO     > Noan est connecté
+2024-01-12 19:00:02,934 DEBUG    > Requête index.html
+2024-01-12 19:06:05,192 INFO     > Lancement de l'application ! 
+2024-01-12 19:06:05,192 INFO     > Ouverture du fichier de configuration
+2024-01-12 19:06:05,193 INFO     > Création de la base de donnée
+2024-01-12 19:06:05,194 INFO     > Démarrage du serveur flask
+2024-01-12 19:06:22,002 INFO     > Noan est connecté
+2024-01-12 19:06:22,003 DEBUG    > Requête index.html
+2024-01-12 19:06:23,937 INFO     > Noan est connecté
+2024-01-12 19:06:23,938 DEBUG    > Requête projet.html
+2024-01-12 19:06:25,786 INFO     > Noan est connecté
+2024-01-12 19:06:25,787 DEBUG    > Requête index.html
+2024-01-12 19:06:29,493 INFO     > Noan est connecté
+2024-01-12 19:06:29,497 INFO     > Compte déconnecter
+2024-01-12 19:06:29,510 DEBUG    > Requête index.html
+2024-01-12 19:06:30,771 DEBUG    > Requête signin.html
+2024-01-12 19:06:39,103 DEBUG    > Requête signup.html
+2024-01-12 19:06:50,136 DEBUG    > Requête api_signup
+2024-01-12 19:06:50,136 WARNING  > Vérification des comptes désactivé
+2024-01-12 19:06:50,142 INFO     > Compte créé : David
+2024-01-12 19:06:50,158 DEBUG    > Requête signin.html
+2024-01-12 19:06:54,685 DEBUG    > Requête api_signin
+2024-01-12 19:06:54,685 INFO     > Autentification validé pour : door7302@gmail.com
+2024-01-12 19:06:54,707 INFO     > David est connecté
+2024-01-12 19:06:54,707 DEBUG    > Requête index.html
+2024-01-12 19:07:06,864 INFO     > David est connecté
+2024-01-12 19:07:06,866 DEBUG    > Requête projet.html
+2024-01-12 19:07:11,095 INFO     > David est connecté
+2024-01-12 19:07:11,095 DEBUG    > Requête index.html
+2024-01-12 19:07:27,315 INFO     > David est connecté
+2024-01-12 19:07:27,315 DEBUG    > Requête newproject.html
+2024-01-12 19:07:27,316 INFO     > David est connecté
+2024-01-12 19:07:27,316 DEBUG    > Requête index.html
+2024-01-12 19:07:32,443 INFO     > David est connecté
+2024-01-12 19:07:32,445 DEBUG    > Requête projet.html
+2024-01-12 19:07:32,874 INFO     > David est connecté
+2024-01-12 19:07:32,875 DEBUG    > Requête index.html
+2024-01-12 19:07:33,421 INFO     > David est connecté
+2024-01-12 19:07:33,423 DEBUG    > Requête projet.html
+2024-01-12 19:07:33,808 INFO     > David est connecté
+2024-01-12 19:07:33,808 DEBUG    > Requête index.html
+2024-01-12 19:08:11,535 INFO     > David est connecté
+2024-01-12 19:08:11,537 DEBUG    > Requête projet.html
+2024-01-12 19:08:13,577 INFO     > David est connecté
+2024-01-12 19:08:13,577 DEBUG    > Requête index.html
+2024-01-12 19:08:14,465 INFO     > David est connecté
+2024-01-12 19:08:14,467 DEBUG    > Requête projet.html
+2024-01-12 19:08:15,044 INFO     > David est connecté
+2024-01-12 19:08:15,044 DEBUG    > Requête index.html
+2024-01-12 19:08:15,548 INFO     > David est connecté
+2024-01-12 19:08:15,549 DEBUG    > Requête projet.html
+2024-01-12 19:08:16,231 INFO     > David est connecté
+2024-01-12 19:08:16,232 DEBUG    > Requête index.html
+2024-01-12 19:08:18,387 INFO     > David est connecté
+2024-01-12 19:08:18,390 INFO     > Compte déconnecter
+2024-01-12 19:08:18,407 DEBUG    > Requête index.html
+2024-01-12 19:08:19,640 DEBUG    > Requête projet.html
+2024-01-12 19:08:20,925 INFO     > Fichier chearchfile
+2024-01-12 19:08:20,925 DEBUG    > Requête projetpres.html
+2024-01-12 19:08:23,030 DEBUG    > Requête projet.html
+2024-01-12 19:08:24,188 INFO     > Fichier chearchfile
+2024-01-12 19:08:24,188 DEBUG    > Requête projetpres.html
+2024-01-12 19:08:25,368 DEBUG    > Requête api_like
+2024-01-12 19:08:25,368 ERROR    > Utilisateur non connecter
+2024-01-12 19:08:27,653 DEBUG    > Requête index.html
+2024-01-12 19:10:55,993 DEBUG    > Requête projet.html
+2024-01-12 19:10:55,997 DEBUG    > Requête index.html
+2024-01-12 19:10:59,218 INFO     > Lancement de l'application ! 
+2024-01-12 19:10:59,218 INFO     > Ouverture du fichier de configuration
+2024-01-12 19:10:59,219 INFO     > Création de la base de donnée
+2024-01-12 19:10:59,219 INFO     > Démarrage du serveur flask
+2024-01-12 19:11:00,664 DEBUG    > Requête index.html
+2024-01-12 19:11:01,287 DEBUG    > Requête projet.html
+2024-01-12 19:11:02,923 INFO     > Fichier chearchfile
+2024-01-12 19:11:02,924 DEBUG    > Requête projetpres.html
+2024-01-12 19:11:04,254 DEBUG    > Requête index.html
+2024-01-12 19:11:04,803 DEBUG    > Requête projet.html
+2024-01-12 19:11:05,335 DEBUG    > Requête index.html
+2024-01-12 19:11:05,763 DEBUG    > Requête projet.html
+2024-01-12 19:11:06,139 DEBUG    > Requête index.html
+2024-01-12 19:11:06,503 DEBUG    > Requête projet.html
+2024-01-12 19:11:07,315 DEBUG    > Requête projet.html
+2024-01-12 19:11:08,327 DEBUG    > Requête projet.html
+2024-01-12 19:11:08,691 DEBUG    > Requête index.html
+2024-01-12 19:11:22,176 DEBUG    > Requête newproject.html
+2024-01-12 19:11:22,176 DEBUG    > Requête index.html
+2024-01-12 19:11:25,775 DEBUG    > Requête projet.html
+2024-01-12 19:11:26,636 DEBUG    > Requête index.html
+2024-01-12 19:11:27,109 DEBUG    > Requête projet.html
+2024-01-12 19:11:28,934 DEBUG    > Requête index.html
+2024-01-12 19:11:30,211 DEBUG    > Requête projet.html
+2024-01-12 19:11:31,158 DEBUG    > Requête index.html
+2024-01-12 19:11:31,648 DEBUG    > Requête projet.html
+2024-01-12 19:11:32,361 DEBUG    > Requête index.html
+2024-01-12 19:12:00,988 DEBUG    > Requête projet.html
+2024-01-12 19:12:15,495 INFO     > Fichier chearchfile
+2024-01-12 19:12:15,496 DEBUG    > Requête projetpres.html
+2024-01-12 19:12:17,238 DEBUG    > Requête api_like
+2024-01-12 19:12:17,238 ERROR    > Utilisateur non connecter
+2024-01-12 19:12:19,617 DEBUG    > Requête api_like
+2024-01-12 19:12:19,617 ERROR    > Utilisateur non connecter
+2024-01-12 19:12:22,673 DEBUG    > Requête index.html
+2024-01-12 19:12:30,249 DEBUG    > Requête projet.html
+2024-01-12 19:12:30,845 DEBUG    > Requête index.html
+2024-01-12 19:12:31,232 DEBUG    > Requête projet.html
+2024-01-12 19:12:31,671 DEBUG    > Requête index.html
+2024-01-12 19:12:32,181 DEBUG    > Requête projet.html

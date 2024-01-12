@@ -31,19 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="projet.html">Projet</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Jeux</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plus
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Librairie</a>
-                    <a class="dropdown-item" href="#">Vos code</a>
-                    <a class="dropdown-item" href="#">Aide</a>
-                    </div>
-                </li>
+                
                 </ul>
                 {% if not render['login']%}
                 <ul class="nav bs"  >
@@ -56,14 +44,16 @@
                       <img src={{render['img']}} alt="mdo" width="50" height="50" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu   text-small">
-                        <li><a class="dropdown-item" href="profil.html">{{render['pseudo']}}</a></li>
+                        <li><a class="dropdown-item white-color" href="profil.html">{{render['pseudo']}}</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="newproject.html">New project...</a></li>
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="editprofil.html"> Edit profile</a></li>
-                        <li><a class="dropdown-item" href="myproj.html">Mes Projet</a></li>
+                        {% if render['status'] == 'admin' %}
+                        <li><a class="dropdown-item white-color" href="newproject.html">New project...</a></li>
+                        {% endif %}
+                        <li><a class="dropdown-item white-color" href="#">Settings</a></li>
+                        <li><a class="dropdown-item white-color" href="editprofil.html"> Edit profile</a></li>
+                        <li><a class="dropdown-item white-color" href="myproj.html">Mes Projet</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#" onclick="sign_out()">Sign out</a></li>
+                        <li><a class="dropdown-item white-color" href="#" onclick="sign_out()">Sign out</a></li>
                       </ul>
                   </div>
                   {%endif%}

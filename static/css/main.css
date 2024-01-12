@@ -293,7 +293,7 @@ form[id=project-create-form] {
     border-radius: 50px;
     display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 50%;
   max-height: auto;
 }
 
@@ -550,6 +550,8 @@ input::file-selector-button {
     background-color:rgba(0, 107, 57, 0.5);
 }
 
+
+
 .request:hover {
     margin-top: 1em;
     width: 300px;
@@ -584,6 +586,10 @@ input::file-selector-button {
     color: rgb(255, 121, 121);
     margin: auto;
     
+}
+
+.test {
+    background-color: #fd0000;
 }
 
 #errormessageb {

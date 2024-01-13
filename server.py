@@ -193,6 +193,7 @@ def myproj():
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         res,err = mydb.read_row("users",f"user = '{cook}'")
+        ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
         projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
         fproj = []
         for i,v in enumerate(projres):
@@ -202,7 +203,7 @@ def myproj():
                 fproj.append(v)
         #print(projres)
         #print("login : ",isConnect)
-        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{res[0][7]}","projet":fproj,"status":res[0][7]}
+        render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","projet":fproj,"status":res[0][7]}
         #print("render : ",render)
         if debug:
             logger.log("Requête myproj.html", "DEBUG")
@@ -278,7 +279,7 @@ def otherprofile():
         if debug:
             logger.log("Requête otherprofile.html", "DEBUG")
         if isConnect:
-           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","otherimg": f"./static/data/{oires[0][3]}","otherbio":oires[0][2],"othername":oires[0][1]}
+           render = {"login":isConnect,"pseudo":cook,"img": f"./static/data/{ires[0][3]}","otherimg": f"./static/data/{oires[0][3]}","otherbio":oires[0][2],"othername":oires[0][0],"otheremail":oires[0][1]}
         else:
             render = {"login":isConnect,"otherimg": f"./static/data/{oires[0][3]}","otherbio":oires[0][2],"othername":oires[0][0],"otheremail":oires[0][1]}
 

@@ -25,7 +25,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg" class="nav">
       <a class="navbar-brand" href="perso.html">
         <img src="static/img/logo.png" width="60" height="60" alt="">
       </a>
@@ -64,7 +64,6 @@
             {% if render['status'] == 'admin' %}
           <li><a class="dropdown-item white-color" href="newproject.html">New project...</a></li>
           {% endif %}
-            <li><a class="dropdown-item white-color" href="#">Settings</a></li>
             <li><a class="dropdown-item white-color" href="editprofil.html"> Edit profile</a></li>
             <li><a class="dropdown-item white-color" href="myproj.html">Mes Projet</a></li>
             <li>
@@ -149,12 +148,12 @@
               });
             </script>
 
-
+            
           </div>
-          <p class="text-comment">{{i[3]|replace("¤","'")}}</p>
+         
           <br />
         </div>
-        
+        <p class="text-comment">{{i[3]|replace("¤","'")}}</p>
         {% set count = {'value':0} %}
         {% for tuple_item in render['responce'] %}
             {% if i[0] == tuple_item[5] %}
@@ -226,11 +225,11 @@
 
 
           </div>
-          <p class="rep-text-comment">{{v[3]|replace("¤","'")}}</p>
+         
 
           <br />
         </div>
-
+        <p class="rep-text-comment">{{v[3]|replace("¤","'")}}</p>
         
       {%endif%}
       {%endfor%}

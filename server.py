@@ -14,6 +14,7 @@ import threading
 import json
 import hashlib
 
+
 ROOT_PATH = path.dirname(path.abspath(__file__)).strip() + "/"
 
 CONFIG = {}
@@ -58,9 +59,7 @@ def index():
     try:
         listproj = recup_project(3)
         #print(listproj)       
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
 
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
@@ -83,9 +82,7 @@ def index():
 @APP_FLASK.route('/perso.html', methods=['GET'])
 def perso():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -108,9 +105,8 @@ def perso():
 @APP_FLASK.route('/newproject.html', methods=['GET'])
 def new_project():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -160,9 +156,7 @@ def signup():
 @APP_FLASK.route('/projet.html', methods=['GET'])
 def projet():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         projres ,preojerr = mydb.read_rows('project',["id","owner","name","title","text","date","img","link","like"])
@@ -187,9 +181,8 @@ def projet():
 @APP_FLASK.route('/myproj.html', methods=['GET'])
 def myproj():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         res,err = mydb.read_row("users",f"user = '{cook}'")
@@ -221,9 +214,8 @@ def myproj():
 @APP_FLASK.route('/profil.html', methods=['GET'])
 def profil():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -245,9 +237,8 @@ def profil():
 @APP_FLASK.route('/editprofil.html', methods=['GET'])
 def editprofil():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         #print("login : ",isConnect)
@@ -269,9 +260,8 @@ def editprofil():
 @APP_FLASK.route('/otherprofile.html', methods=['GET'])
 def otherprofile():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print('ici')
         ires,ierr = mydb.read_row("userinfo",f"name = '{cook}'")
         oires,oierr = mydb.read_row("userinfo",f"name = '{nameProfile}'")
@@ -295,9 +285,8 @@ def otherprofile():
 @APP_FLASK.route('/projetpres.html', methods=['GET'])
 def projetpres(nameProject):
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         recup_pp(nameProject)
@@ -364,9 +353,8 @@ def api_like():
     try:
         if debug:
             logger.log("Requête api_like", "DEBUG")
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         liker = False
         if isConnect:
@@ -469,9 +457,8 @@ def api_signin():
 def api_comment():
     try:
 
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         isConnect = sign.is_connected(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         if isConnect:
             payload = request.json
@@ -489,9 +476,8 @@ def api_comment():
 @APP_FLASK.route('/api/deleteMessage', methods=['POST'])
 def api_delete_message():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         payload = request.json
         res,err = mydb.delete_row('commentaire',('id',payload['id']))
         res,err = mydb.delete_row('commentaire',('status',payload['id']))
@@ -507,9 +493,8 @@ def api_delete_message():
 @APP_FLASK.route('/api/bio', methods=['POST'])
 def api_bio():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         #print("cook :",cook)
         payload = request.json
         res,err = mydb.update_row("userinfo",f"name = '{cook}'",f"bio = '{payload['bio']}'")
@@ -525,9 +510,8 @@ def api_bio():
 def upload_file():
     try:
  
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         res,err = mydb.read_row("userinfo",f"name = '{cook}'")
 
         f = request.files['file']
@@ -549,9 +533,8 @@ def upload_file():
 def upload_file_proj():
     try:
         #print("enter")
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         res,err = mydb.read_row("users",f"user = '{cook}'")
         res,err = mydb.read_row("project",f"owner = '{cook}'")
         res,err = mydb.max_index()
@@ -582,9 +565,8 @@ def upload_file_proj():
 @APP_FLASK.route('/api/signout', methods = ['POST'])
 def api_signout():
     try:
-        cook = request.cookies.get('USER_ID',"")
-        if cook:
-            cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+        cook = recup_cook()
+
         payload = request.json
         sign.sign_out(logger=logger,mydb=mydb,pseudo=cook,debug=debug)
         logger.log(payload["message"],"INFO")
@@ -647,6 +629,12 @@ def recup_pp(proj):
       res,err = mydb.read_row("userinfo",f"name = '{i[1]}'")
       res,err = mydb.update_row("commentaire",f"user = '{i[1]}'",f"img = './static/data/{res[0][3]}'")  
     cres, cerr = mydb.read_row("commentaire",f"project = '{proj}'")
+
+def recup_cook():
+    cook = request.cookies.get('USER_ID',"")
+    if cook and mydb.read_row("users",f"hashcook = '{cook}'") != []:
+        cook = mydb.read_row("users",f"hashcook = '{cook}'")[0][0][1]
+    return cook
    
 
 ###############################################

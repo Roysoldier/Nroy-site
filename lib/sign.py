@@ -4,6 +4,7 @@ import time
 import json
 
 
+
 def signup(logger=None,mydb=None,payload=None,debug=False,bypass=False,verif=False,lock=None,path=None):
     try:
         if not verif:

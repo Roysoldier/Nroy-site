@@ -23707,3 +23707,170 @@ NameError: name 'nameProfile' is not defined
 2024-01-13 17:02:54,200 DEBUG    > Requête profil.html
 2024-01-13 17:02:56,060 INFO     > TestLongPseu est connecté
 2024-01-13 17:02:56,061 DEBUG    > Requête index.html
+2024-01-13 17:20:03,206 INFO     > TestLongPseu est connecté
+2024-01-13 17:20:03,207 DEBUG    > Requête projet.html
+2024-01-13 17:20:03,800 INFO     > TestLongPseu est connecté
+2024-01-13 17:20:03,800 DEBUG    > Requête index.html
+2024-01-13 17:20:04,339 INFO     > TestLongPseu est connecté
+2024-01-13 17:20:04,339 DEBUG    > Requête projet.html
+2024-01-13 17:20:08,150 INFO     > TestLongPseu est connecté
+2024-01-13 17:20:08,150 DEBUG    > Requête index.html
+2024-01-13 17:20:08,828 INFO     > TestLongPseu est connecté
+2024-01-13 17:20:08,829 DEBUG    > Requête projet.html
+2024-01-13 17:46:36,066 INFO     > TestLongPseu est connecté
+2024-01-13 17:46:36,066 DEBUG    > Requête index.html
+2024-01-13 17:46:36,801 INFO     > TestLongPseu est connecté
+2024-01-13 17:46:36,802 DEBUG    > Requête projet.html
+2024-01-13 17:46:37,437 INFO     > TestLongPseu est connecté
+2024-01-13 17:46:37,437 DEBUG    > Requête index.html
+2024-01-13 17:51:12,260 INFO     > Lancement de l'application ! 
+2024-01-13 17:51:12,260 INFO     > Ouverture du fichier de configuration
+2024-01-13 17:51:12,261 INFO     > Création de la base de donnée
+2024-01-13 17:51:12,262 INFO     > Démarrage du serveur flask
+2024-01-13 17:51:13,930 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:13,930 DEBUG    > Requête index.html
+2024-01-13 17:51:14,770 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:14,770 DEBUG    > Requête projet.html
+2024-01-13 17:51:15,133 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:15,134 DEBUG    > Requête index.html
+2024-01-13 17:51:15,566 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:15,567 DEBUG    > Requête projet.html
+2024-01-13 17:51:15,938 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:15,938 DEBUG    > Requête index.html
+2024-01-13 17:51:16,269 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:16,270 DEBUG    > Requête projet.html
+2024-01-13 17:51:16,732 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:16,733 DEBUG    > Requête index.html
+2024-01-13 17:51:17,110 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:17,110 DEBUG    > Requête projet.html
+2024-01-13 17:51:17,451 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:17,452 DEBUG    > Requête index.html
+2024-01-13 17:51:19,267 INFO     > TestLongPseu est connecté
+2024-01-13 17:51:19,272 INFO     > Compte déconnecter
+2024-01-13 17:51:19,286 DEBUG    > Requête index.html
+2024-01-13 17:51:20,642 DEBUG    > Requête signin.html
+2024-01-13 17:51:34,963 DEBUG    > Requête api_signin
+2024-01-13 17:51:34,964 INFO     > Autentification validé pour : roynoan@gmail.com
+2024-01-13 17:51:34,988 INFO     > Noan est connecté
+2024-01-13 17:51:34,988 DEBUG    > Requête index.html
+2024-01-13 17:58:00,932 INFO     > Lancement de l'application ! 
+2024-01-13 17:58:00,932 INFO     > Ouverture du fichier de configuration
+2024-01-13 17:58:00,933 INFO     > Création de la base de donnée
+2024-01-13 17:58:00,933 INFO     > Démarrage du serveur flask
+2024-01-13 17:58:08,280 INFO     > Noan est connecté
+2024-01-13 17:58:08,281 DEBUG    > Requête index.html
+2024-01-13 17:58:09,140 INFO     > Noan est connecté
+2024-01-13 17:58:09,140 DEBUG    > Requête projet.html
+2024-01-13 17:58:10,219 INFO     > Fichier chearchfile
+2024-01-13 17:58:10,219 INFO     > Noan est connecté
+2024-01-13 17:58:10,220 DEBUG    > Requête projetpres.html
+2024-01-13 17:58:17,740 INFO     > Noan est connecté
+2024-01-13 17:58:17,755 INFO     > Fichier chearchfile
+2024-01-13 17:58:17,756 INFO     > Noan est connecté
+2024-01-13 17:58:17,761 DEBUG    > Requête projetpres.html
+2024-01-13 17:58:24,663 INFO     > Lancement de l'application ! 
+2024-01-13 17:58:24,663 INFO     > Ouverture du fichier de configuration
+2024-01-13 17:58:24,664 INFO     > Création de la base de donnée
+2024-01-13 17:58:24,664 INFO     > Démarrage du serveur flask
+2024-01-13 17:58:27,844 INFO     > Fichier chearchfile
+2024-01-13 17:58:27,845 INFO     > Noan est connecté
+2024-01-13 17:58:27,846 DEBUG    > Requête projetpres.html
+2024-01-13 17:58:41,709 INFO     > Lancement de l'application ! 
+2024-01-13 17:58:41,710 INFO     > Ouverture du fichier de configuration
+2024-01-13 17:58:41,711 INFO     > Création de la base de donnée
+2024-01-13 17:58:41,711 INFO     > Démarrage du serveur flask
+2024-01-13 17:58:44,201 INFO     > Fichier chearchfile
+2024-01-13 17:58:44,202 INFO     > Noan est connecté
+2024-01-13 17:58:44,207 DEBUG    > Requête projetpres.html
+2024-01-13 17:59:52,562 INFO     > Lancement de l'application ! 
+2024-01-13 17:59:52,563 INFO     > Ouverture du fichier de configuration
+2024-01-13 17:59:52,564 INFO     > Création de la base de donnée
+2024-01-13 17:59:52,564 INFO     > Démarrage du serveur flask
+2024-01-13 17:59:54,570 INFO     > Fichier chearchfile
+2024-01-13 17:59:54,571 INFO     > Noan est connecté
+2024-01-13 17:59:54,577 DEBUG    > Requête projetpres.html
+2024-01-13 18:00:34,344 INFO     > Lancement de l'application ! 
+2024-01-13 18:00:34,344 INFO     > Ouverture du fichier de configuration
+2024-01-13 18:00:34,345 INFO     > Création de la base de donnée
+2024-01-13 18:00:34,346 INFO     > Démarrage du serveur flask
+2024-01-13 18:00:36,486 INFO     > Fichier chearchfile
+2024-01-13 18:00:36,486 INFO     > Noan est connecté
+2024-01-13 18:00:36,487 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-13 18:00:36,487 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 300, in projetpres
+    i[3] = L
+TypeError: 'tuple' object does not support item assignment
+
+2024-01-13 18:17:07,787 INFO     > Fichier chearchfile
+2024-01-13 18:17:07,788 INFO     > Noan est connecté
+2024-01-13 18:17:07,789 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-13 18:17:07,801 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 300, in projetpres
+    responce.append(i)
+TypeError: 'tuple' object does not support item assignment
+
+2024-01-13 18:17:21,519 INFO     > Noan est connecté
+2024-01-13 18:17:21,520 DEBUG    > Requête projet.html
+2024-01-13 18:17:22,556 INFO     > Fichier chearchfile
+2024-01-13 18:17:22,557 INFO     > Noan est connecté
+2024-01-13 18:17:22,557 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-13 18:17:22,558 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 300, in projetpres
+    responce.append(i)
+TypeError: 'tuple' object does not support item assignment
+
+2024-01-13 18:17:23,867 INFO     > Noan est connecté
+2024-01-13 18:17:23,867 DEBUG    > Requête projet.html
+2024-01-13 18:17:24,107 INFO     > Noan est connecté
+2024-01-13 18:17:24,108 DEBUG    > Requête index.html
+2024-01-13 18:17:25,047 INFO     > Noan est connecté
+2024-01-13 18:17:25,047 DEBUG    > Requête projet.html
+2024-01-13 18:17:25,611 INFO     > Noan est connecté
+2024-01-13 18:17:25,611 DEBUG    > Requête index.html
+2024-01-13 18:17:26,012 INFO     > Noan est connecté
+2024-01-13 18:17:26,013 DEBUG    > Requête projet.html
+2024-01-13 18:17:27,878 INFO     > Fichier chearchfile
+2024-01-13 18:17:27,879 INFO     > Noan est connecté
+2024-01-13 18:17:27,879 DEBUG    > Requête projetpres.html
+2024-01-13 18:17:30,013 INFO     > Noan est connecté
+2024-01-13 18:17:30,013 DEBUG    > Requête projet.html
+2024-01-13 18:17:31,337 INFO     > Fichier chearchfile
+2024-01-13 18:17:31,337 INFO     > Noan est connecté
+2024-01-13 18:17:31,338 ERROR    > Erreur inconnue dans projetpres.html
+2024-01-13 18:17:31,339 DEBUG    > Traceback (most recent call last):
+  File "D:\Noan Programmation\learn\Mon site\python\server.py", line 300, in projetpres
+    responce.append(i)
+TypeError: 'tuple' object does not support item assignment
+
+2024-01-13 18:17:50,205 INFO     > Noan est connecté
+2024-01-13 18:17:50,205 DEBUG    > Requête projet.html
+2024-01-13 18:17:51,262 INFO     > Fichier chearchfile
+2024-01-13 18:17:51,263 INFO     > Noan est connecté
+2024-01-13 18:17:51,263 DEBUG    > Requête projetpres.html
+2024-01-13 18:18:04,778 INFO     > Lancement de l'application ! 
+2024-01-13 18:18:04,778 INFO     > Ouverture du fichier de configuration
+2024-01-13 18:18:04,779 INFO     > Création de la base de donnée
+2024-01-13 18:18:04,779 INFO     > Démarrage du serveur flask
+2024-01-13 18:18:06,072 INFO     > Noan est connecté
+2024-01-13 18:18:06,073 DEBUG    > Requête projet.html
+2024-01-13 18:18:07,087 INFO     > Fichier chearchfile
+2024-01-13 18:18:07,088 INFO     > Noan est connecté
+2024-01-13 18:18:07,088 DEBUG    > Requête projetpres.html
+2024-01-13 18:18:09,904 INFO     > Noan est connecté
+2024-01-13 18:18:09,905 DEBUG    > Requête projet.html
+2024-01-13 18:18:11,467 INFO     > Noan est connecté
+2024-01-13 18:18:11,467 DEBUG    > Requête projet.html
+2024-01-13 18:18:13,400 INFO     > Fichier chearchfile
+2024-01-13 18:18:13,401 INFO     > Noan est connecté
+2024-01-13 18:18:13,401 DEBUG    > Requête projetpres.html
+2024-01-13 23:06:29,179 INFO     > Noan est connecté
+2024-01-13 23:06:29,180 DEBUG    > Requête index.html
+2024-01-13 23:06:30,167 INFO     > Noan est connecté
+2024-01-13 23:06:30,167 DEBUG    > Requête projet.html
+2024-01-13 23:10:02,821 INFO     > Fichier chearchfile
+2024-01-13 23:10:02,822 INFO     > Noan est connecté
+2024-01-13 23:10:02,823 DEBUG    > Requête projetpres.html
+2024-01-13 23:10:04,287 INFO     > Noan est connecté
+2024-01-13 23:10:04,288 DEBUG    > Requête index.html
+2024-01-13 23:10:07,898 INFO     > Noan est connecté
+2024-01-13 23:10:07,899 DEBUG    > Requête projet.html
